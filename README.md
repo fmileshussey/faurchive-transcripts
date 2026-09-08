@@ -27,14 +27,13 @@ output is **not** here — it stays in the pipeline repo.
 
 ## Branches
 
-*(planned — not yet in effect; migration detail in the pipeline repo's
-`data/pipeline/deploy/TRANSCRIPTS-BRANCHING.md`)*
+- **`staging`** — where pipeline output (`batch.ts`) and applied corrections
+  land. The dev Meili indexes off this; **do not deploy from it.**
+- **`main`** — promoted state; `deploy.sh` builds the index shipped to
+  kinnereth from here. Promote with `git checkout main && git merge --ff-only
+  staging` (or a PR). Tagged `live-YYYY-MM-DD` on each deploy for rollback.
 
-- **`staging`** — where pipeline output and applied corrections land. Local
-  indexing / dev search run off this.
-- **`master`** — promoted state; `deploy.sh` builds the index shipped to
-  kinnereth from here. Promote with `git merge --ff-only staging` (or a PR).
-  Tagged `live-YYYY-MM-DD` on each deploy for rollback.
+Detail: the pipeline repo's `data/pipeline/deploy/TRANSCRIPTS-BRANCHING.md`.
 
 ## Corrections
 
@@ -55,13 +54,14 @@ To apply one:
 4. Re-index, from the pipeline repo:
    `bun run index-vtt.ts <the .vtt> --source <Category/Subject/slug>`
    then `bun run explore.ts` to refresh `explore.json` / `catalog.json`.
-5. It reaches faurchive.com when `staging` is promoted to `master` and deployed.
+5. It reaches faurchive.com when `staging` is promoted to `main` and deployed.
 
 Mishearings that recur across many lectures belong in the pipeline's
 `correct.ts` / `terms.json`, not patched file-by-file here.
 
 ## Regenerating
 
-`transcripts/` is reproducible: it's `data/pipeline/corrected/` after a full
-`batch.ts` run. This repo is the source of truth for *hand-applied* corrections
-on top of that.
+`transcripts/` is what the pipeline's `batch.ts --index` writes here directly
+(one commit per run, on `staging`). A full rebuild is
+`cd data/pipeline && bun run index-all.ts` (from the audio corpus). This repo is
+the source of truth for *hand-applied* corrections on top of that.
