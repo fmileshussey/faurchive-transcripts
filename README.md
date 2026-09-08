@@ -25,6 +25,17 @@ of the pipeline's correction pass (`correct.ts`): transliteration folded to the
 `terms.json` headwords, known mishearings fixed, timestamps preserved. Raw ASR
 output is **not** here — it stays in the pipeline repo.
 
+## Branches
+
+*(planned — not yet in effect; migration detail in the pipeline repo's
+`data/pipeline/deploy/TRANSCRIPTS-BRANCHING.md`)*
+
+- **`staging`** — where pipeline output and applied corrections land. Local
+  indexing / dev search run off this.
+- **`master`** — promoted state; `deploy.sh` builds the index shipped to
+  kinnereth from here. Promote with `git merge --ff-only staging` (or a PR).
+  Tagged `live-YYYY-MM-DD` on each deploy for rollback.
+
 ## Corrections
 
 The "suggest a correction" control on faurchive.com posts to the backend, which
@@ -40,10 +51,11 @@ To apply one:
    transliteration: `q` not `k`, `Tora` not `Torah`, `Ribbi` not `Rabbi`,
    `Shelomo` not `Shlomo`, hyphenated `ha-` (`Bet ha-Midrash`, `Shir ha-Shirim`).
 2. Metadata → edit the entry in `catalog.json`.
-3. Commit referencing the issue (`Fixes #NN`).
+3. Commit to `staging` referencing the issue (`Fixes #NN`).
 4. Re-index, from the pipeline repo:
    `bun run index-vtt.ts <the .vtt> --source <Category/Subject/slug>`
    then `bun run explore.ts` to refresh `explore.json` / `catalog.json`.
+5. It reaches faurchive.com when `staging` is promoted to `master` and deployed.
 
 Mishearings that recur across many lectures belong in the pipeline's
 `correct.ts` / `terms.json`, not patched file-by-file here.
