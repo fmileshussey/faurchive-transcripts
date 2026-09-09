@@ -1159,7 +1159,10 @@
         "chachomim",
         "hakhamim",
         "hachamim",
-        "hakamim"
+        "hakamim",
+        "hakamin",
+        "chachamin",
+        "hakhamin"
       ],
       "en": [
         "the Sages",
@@ -2945,6 +2948,175 @@
       ],
       "he": [
         "שלמה"
+      ]
+    },
+    {
+      "canonical": "Mashiah",
+      "type": "concept",
+      "translit": [
+        "mashiach",
+        "moshiach",
+        "mashiyach",
+        "moshiyach",
+        "moshiakh"
+      ],
+      "en": [
+        "Messiah",
+        "the anointed one",
+        "the anointed"
+      ],
+      "he": [
+        "משיח"
+      ]
+    },
+    {
+      "canonical": "ha-Mashiah",
+      "type": "concept",
+      "translit": [
+        "hamashiach",
+        "ha mashiach",
+        "hamashiyach",
+        "ha-mashiyach"
+      ],
+      "en": [
+        "the Messiah",
+        "the messianic age"
+      ],
+      "he": [
+        "המשיח"
+      ]
+    },
+    {
+      "canonical": "Melekh",
+      "type": "concept",
+      "translit": [
+        "melech"
+      ],
+      "en": [
+        "king"
+      ],
+      "he": [
+        "מלך"
+      ]
+    },
+    {
+      "canonical": "Ehad",
+      "type": "concept",
+      "translit": [
+        "echad"
+      ],
+      "en": [
+        "one"
+      ],
+      "he": [
+        "אחד"
+      ]
+    },
+    {
+      "canonical": "Hokhma",
+      "type": "concept",
+      "translit": [
+        "chokhmah",
+        "chochmah",
+        "chochma",
+        "hochma",
+        "hokhmah"
+      ],
+      "en": [
+        "wisdom"
+      ],
+      "he": [
+        "חכמה"
+      ]
+    },
+    {
+      "canonical": "Shomron",
+      "type": "place",
+      "translit": [
+        "shomeron",
+        "samaria"
+      ],
+      "en": [
+        "Samaria"
+      ],
+      "he": [
+        "שומרון"
+      ]
+    },
+    {
+      "canonical": "Hazaqa",
+      "type": "concept",
+      "translit": [
+        "hazaka",
+        "chazaka",
+        "hazakah",
+        "chazakah"
+      ],
+      "en": [
+        "legal presumption",
+        "established status"
+      ],
+      "he": [
+        "חזקה"
+      ]
+    },
+    {
+      "canonical": "Hashem",
+      "type": "concept",
+      "translit": [
+        "ha-shem",
+        "ha shem"
+      ],
+      "en": [
+        "the Name",
+        "God"
+      ],
+      "he": [
+        "השם"
+      ]
+    },
+    {
+      "canonical": "Shekhina",
+      "type": "concept",
+      "translit": [
+        "shechina",
+        "shekhinah",
+        "shechinah",
+        "schechina"
+      ],
+      "en": [
+        "the Divine Presence",
+        "the Shekhina"
+      ],
+      "he": [
+        "שכינה"
+      ]
+    },
+    {
+      "canonical": "Mishkan",
+      "type": "concept",
+      "translit": [
+        "mishkon"
+      ],
+      "en": [
+        "the Tabernacle"
+      ],
+      "he": [
+        "משכן"
+      ]
+    },
+    {
+      "canonical": "olam",
+      "type": "concept",
+      "translit": [
+        "alam"
+      ],
+      "en": [
+        "world",
+        "eternity"
+      ],
+      "he": [
+        "עולם"
       ]
     }
   ]
