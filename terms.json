@@ -1680,8 +1680,7 @@
         "keruvim",
         "kruvim",
         "cherubim",
-        "cherubs",
-        "keruv"
+        "cherubs"
       ],
       "en": [
         "the cherubim",
@@ -2850,9 +2849,7 @@
       "canonical": "Qadosh",
       "type": "concept",
       "translit": [
-        "kadosh",
-        "hakadosh",
-        "ha-kadosh"
+        "kadosh"
       ],
       "en": [
         "holy",
