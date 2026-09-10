@@ -1396,12 +1396,18 @@
       ]
     },
     {
-      "canonical": "Yehuda Halevi",
+      "canonical": "Yehuda ha-Levi",
       "type": "sage",
       "translit": [
         "yehuda halevi",
+        "yehuda halevy",
         "judah halevi",
-        "yehudah halevy"
+        "yehudah halevy",
+        "yehuda alevi",
+        "yehudah alevi",
+        "judah alevi",
+        "yudalevi",
+        "yehudalevi"
       ],
       "en": [
         "Judah Halevi",
@@ -2562,6 +2568,24 @@
       ],
       "he": [
         "יום טוב"
+      ]
+    },
+    {
+      "canonical": "Yamim Tobim",
+      "type": "practice",
+      "translit": [
+        "yom tovim",
+        "yamim tovim",
+        "yom tobim",
+        "yamim tovin",
+        "yamim tobin"
+      ],
+      "en": [
+        "festival days",
+        "the festivals"
+      ],
+      "he": [
+        "ימים טובים"
       ]
     },
     {
