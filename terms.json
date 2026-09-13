@@ -453,6 +453,20 @@
       ]
     },
     {
+      "canonical": "ohel mo'ed",
+      "type": "place",
+      "translit": [
+        "oil moed",
+        "oil mo'ed"
+      ],
+      "en": [
+        "tent of meeting"
+      ],
+      "he": [
+        "אהל מועד"
+      ]
+    },
+    {
       "canonical": "Bet ha-Kenesset",
       "type": "place",
       "translit": [
@@ -687,8 +701,7 @@
         "teshuva",
         "teshuvah",
         "tshuva",
-        "tshuvo",
-        "repentance"
+        "tshuvo"
       ],
       "en": [
         "repentance",
@@ -2492,19 +2505,29 @@
       ]
     },
     {
-      "canonical": "Yom ha-Kippurim",
+      "canonical": "Yom Kippur",
       "type": "holiday",
       "translit": [
-        "yom kippur",
         "yom kipper",
         "yoym kipur"
       ],
+      "en": [
+        "day of atonement"
+      ],
+      "he": [
+        "יום כיפור"
+      ]
+    },
+    {
+      "canonical": "Yom ha-Kippurim",
+      "type": "holiday",
+      "translit": [],
       "en": [
         "Yom Kippur",
         "day of atonement"
       ],
       "he": [
-        "יום כיפור"
+        "יום הכיפורים"
       ]
     },
     {
