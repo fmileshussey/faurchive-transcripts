@@ -3162,6 +3162,34 @@
       "he": [
         "עולם"
       ]
+    },
+    {
+      "canonical": "Tekiat Shofar",
+      "type": "practice",
+      "translit": [
+        "tekiah hachufar",
+        "kiach afar"
+      ],
+      "en": [
+        "shofar blowing",
+        "blowing of the shofar"
+      ],
+      "he": [
+        "תקיעת שופר"
+      ]
+    },
+    {
+      "canonical": "Sefer ha-Madda",
+      "type": "text",
+      "translit": [
+        "sefer hamata"
+      ],
+      "en": [
+        "Book of Knowledge"
+      ],
+      "he": [
+        "ספר המדע"
+      ]
     }
   ]
 }
