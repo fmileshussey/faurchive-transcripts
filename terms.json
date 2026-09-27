@@ -1129,7 +1129,6 @@
       "canonical": "Ribbi",
       "type": "concept",
       "translit": [
-        "rabbi",
         "rebbe",
         "reb",
         "ribi"
@@ -1332,8 +1331,6 @@
       "canonical": "Ribbi 'Aqiba",
       "type": "sage",
       "translit": [
-        "rabbi akiva",
-        "rabbi akiba",
         "rebbe akiva"
       ],
       "en": [
@@ -1347,8 +1344,6 @@
       "canonical": "Ribbi Yohanan",
       "type": "sage",
       "translit": [
-        "rabbi yochanan",
-        "rabbi yohanan",
         "rebbe yochonon"
       ],
       "en": [
