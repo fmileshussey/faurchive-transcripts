@@ -603,8 +603,7 @@
         "mitzvah",
         "mitsva",
         "mitzvos",
-        "mitzvot",
-        "commandment"
+        "mitzvot"
       ],
       "en": [
         "commandment",
@@ -621,8 +620,7 @@
         "bracha",
         "beracha",
         "brocho",
-        "berakhah",
-        "blessing"
+        "berakhah"
       ],
       "en": [
         "blessing",
@@ -639,8 +637,7 @@
         "tefillah",
         "tefila",
         "tfilla",
-        "tefiloh",
-        "prayer"
+        "tefiloh"
       ],
       "en": [
         "prayer"
@@ -907,8 +904,7 @@
       "canonical": "targum",
       "type": "text",
       "translit": [
-        "targum",
-        "aramaic translation"
+        "targum"
       ],
       "en": [
         "Aramaic translation"
@@ -1638,8 +1634,7 @@
       "type": "figure",
       "translit": [
         "shlomo hamelech",
-        "shelomo hamelekh",
-        "king solomon"
+        "shelomo hamelekh"
       ],
       "en": [
         "King Solomon"
@@ -3076,8 +3071,7 @@
       "canonical": "Shomron",
       "type": "place",
       "translit": [
-        "shomeron",
-        "samaria"
+        "shomeron"
       ],
       "en": [
         "Samaria"
