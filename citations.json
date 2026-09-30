@@ -15,6 +15,12 @@
       "note": "recites the verse \"vayehi erev vayehi boker\""
     },
     {
+      "cueId": "cue0062348",
+      "kind": "pasuq",
+      "ref": "Bereshit 3:12",
+      "note": "Adam's recitation: 'ha-isha asher natata 'imadi hi natena li min ha-'etz va-okhel'"
+    },
+    {
       "cueId": "cue0062442",
       "kind": "mishna",
       "ref": "Rosh ha-Shana 1:2",
