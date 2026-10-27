@@ -1,6 +1,8 @@
 {
   "Gemara/General/gemara-7-15-09": "fail",
   "Gemara/Megillah/masekhet-megilla-10b-11-15-94": "flag",
+  "Machshava/Kuzari/kuzari-8-30-09": "flag",
+  "Machshava/Kuzari/kuzari-8-9-09": "flag",
   "Machshava/Rosh Hashana/rosh-hashana-yom-kippur-9-12-96": "flag",
   "Machshava/Tefillah/amida-barekhenu-to-bone-yerushalaim": "fail",
   "Machshava/Tefillah/amida-teqa-beshofar-gadol": "fail",
@@ -12,5 +14,6 @@
   "Parsha/Bereishit/bereshit-ch-4-ch-5-ch-6": "fail",
   "Parsha/Bereishit/bereshit-perek-alef-v6-20-1977": "fail",
   "Parsha/Eikev/839362": "flag",
-  "Parsha/Mishpatim/pact-of-israel-yitro-mishpatim-ny-1978": "flag"
+  "Parsha/Mishpatim/pact-of-israel-yitro-mishpatim-ny-1978": "flag",
+  "Personalities/Rambam/perush-hamishnayot-7-28-09": "flag"
 }
