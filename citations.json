@@ -3,7 +3,7 @@
     {
       "cueId": "cue0104883",
       "kind": "miqra",
-      "ref": "Bereshit 1:1",
+      "ref": "Bĕrēʾshith 1:1",
       "note": "Recites the opening words 'Bereshit bara Elohim' of Genesis 1:1 and discusses its translation."
     }
   ],
@@ -11,7 +11,7 @@
     {
       "cueId": "cue0029219",
       "kind": "miqra",
-      "ref": "Shemot 19:11",
+      "ref": "Shĕmoth 19:11",
       "note": "Alludes to God descending on Mount Sinai 'le'einei kol ha'am' before all Israel, referencing the Sinai revelation narrative (cf. Shemot 19:11, 20:15)"
     }
   ],
@@ -19,31 +19,31 @@
     {
       "cueId": "cue0062309",
       "kind": "miqra",
-      "ref": "Bereishit 1:5",
+      "ref": "Bĕrēʾshith 1:5",
       "note": "recites the verse \"vayehi erev vayehi boker\""
     },
     {
       "cueId": "cue0062348",
       "kind": "miqra",
-      "ref": "Bereshit 3:12",
+      "ref": "Bĕrēʾshith 3:12",
       "note": "Adam's recitation: 'ha-isha asher natata 'imadi hi natena li min ha-'etz va-okhel'"
     },
     {
       "cueId": "cue0062421",
       "kind": "mishna",
-      "ref": "Yoma 3:8",
+      "ref": "Yomāʾ 3:8",
       "note": "Viddui formula \"Hatati, 'aviti, pashati\" (I have sinned, I have done iniquity, I have transgressed) recited plain."
     },
     {
       "cueId": "cue0062442",
       "kind": "mishna",
-      "ref": "Rosh ha-Shana 1:2",
+      "ref": "Roʾsh hashānā 1:2",
       "note": "He explicitly names 'the Mishna' as introducing an upcoming metaphor; context after describes the shepherd/sheep inventory metaphor found in Mishna Rosh ha-Shana 1:2 (Bene Maron)."
     },
     {
       "cueId": "cue0062461",
       "kind": "mishna",
-      "ref": "Rosh ha-Shana 1:2",
+      "ref": "Roʾsh hashānā 1:2",
       "note": "Quotes the Mishna's phrase 'kol ba'ei olam overin lefanav kivnei maron' with translation."
     }
   ]
