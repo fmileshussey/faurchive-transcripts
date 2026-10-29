@@ -507,7 +507,8 @@
       "type": "place",
       "translit": [
         "sepharad",
-        "Sefarad"
+        "Sefarad",
+        "sephard"
       ],
       "en": [
         "Spain",
@@ -3439,11 +3440,11 @@
       "canonical": "Boreʾ",
       "type": "concept",
       "translit": [
-        "borei",
-        "bore"
+        "borei"
       ],
       "en": [
-        "Creator"
+        "Creator",
+        "bore"
       ],
       "he": [
         "בורא"
@@ -3547,6 +3548,309 @@
       ],
       "he": [
         "בית דין"
+      ]
+    },
+    {
+      "canonical": "malʾakhim",
+      "type": "concept",
+      "translit": [
+        "malachim",
+        "malakhim",
+        "mal'achim"
+      ],
+      "en": [
+        "angels"
+      ],
+      "he": [
+        "מלאכים"
+      ]
+    },
+    {
+      "canonical": "ṭaʿana",
+      "type": "concept",
+      "translit": [
+        "ta'ana",
+        "taana",
+        "taanah"
+      ],
+      "en": [
+        "claim"
+      ],
+      "he": [
+        "טענה"
+      ]
+    },
+    {
+      "canonical": "Naḥman",
+      "type": "sage",
+      "translit": [
+        "nahman",
+        "nachman"
+      ],
+      "en": [],
+      "he": [
+        "נחמן"
+      ]
+    },
+    {
+      "canonical": "ʾatta",
+      "type": "concept",
+      "translit": [
+        "atah",
+        "ata"
+      ],
+      "en": [
+        "you"
+      ],
+      "he": [
+        "אתה"
+      ]
+    },
+    {
+      "canonical": "Daʿat",
+      "type": "concept",
+      "translit": [
+        "da'at",
+        "daat"
+      ],
+      "en": [
+        "knowledge"
+      ],
+      "he": [
+        "דעת"
+      ]
+    },
+    {
+      "canonical": "maʿaśer",
+      "type": "practice",
+      "translit": [
+        "maaser",
+        "ma'aser"
+      ],
+      "en": [
+        "tithe"
+      ],
+      "he": [
+        "מעשר"
+      ]
+    },
+    {
+      "canonical": "shamayim",
+      "type": "concept",
+      "translit": [
+        "shamaim",
+        "shamayim"
+      ],
+      "en": [
+        "heavens"
+      ],
+      "he": [
+        "שמים"
+      ]
+    },
+    {
+      "canonical": "Lamekh",
+      "type": "figure",
+      "translit": [
+        "lamech"
+      ],
+      "en": [
+        "Lamech"
+      ],
+      "he": [
+        "למך"
+      ]
+    },
+    {
+      "canonical": "Ḥayyim",
+      "type": "concept",
+      "translit": [
+        "hayim",
+        "chayim"
+      ],
+      "en": [
+        "life"
+      ],
+      "he": [
+        "חיים"
+      ]
+    },
+    {
+      "canonical": "leʾmor",
+      "type": "concept",
+      "translit": [
+        "lemor"
+      ],
+      "en": [
+        "to say"
+      ],
+      "he": [
+        "לאמר"
+      ]
+    },
+    {
+      "canonical": "qaṭan",
+      "type": "concept",
+      "translit": [
+        "katan"
+      ],
+      "en": [
+        "small"
+      ],
+      "he": [
+        "קטן"
+      ]
+    },
+    {
+      "canonical": "mila",
+      "type": "practice",
+      "translit": [
+        "milah"
+      ],
+      "en": [
+        "circumcision"
+      ],
+      "he": [
+        "מילה"
+      ]
+    },
+    {
+      "canonical": "ʾElohekha",
+      "type": "concept",
+      "translit": [
+        "elohecha",
+        "elohekha"
+      ],
+      "en": [
+        "your God"
+      ],
+      "he": [
+        "אלהיך"
+      ]
+    },
+    {
+      "canonical": "ṣaddiq",
+      "type": "concept",
+      "translit": [
+        "tzaddik",
+        "tsaddik",
+        "saddik"
+      ],
+      "en": [
+        "righteous"
+      ],
+      "he": [
+        "צדיק"
+      ]
+    },
+    {
+      "canonical": "Yirmiya",
+      "type": "figure",
+      "translit": [
+        "yermiyah",
+        "yirmiyahu",
+        "jeremiah"
+      ],
+      "en": [
+        "Jeremiah"
+      ],
+      "he": [
+        "ירמיה"
+      ]
+    },
+    {
+      "canonical": "Tannaʾ",
+      "type": "sage",
+      "translit": [
+        "tanah",
+        "tana"
+      ],
+      "en": [
+        "Tanna"
+      ],
+      "he": [
+        "תנא"
+      ]
+    },
+    {
+      "canonical": "Sepher Tora",
+      "type": "text",
+      "translit": [
+        "sephard tora",
+        "sefer tora",
+        "sepher torah"
+      ],
+      "en": [
+        "Torah scroll"
+      ],
+      "he": [
+        "ספר תורה"
+      ]
+    },
+    {
+      "canonical": "yamin",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "right side"
+      ],
+      "he": [
+        "ימין"
+      ]
+    },
+    {
+      "canonical": "talmid",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "student"
+      ],
+      "he": [
+        "תלמיד"
+      ]
+    },
+    {
+      "canonical": "panim",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "face"
+      ],
+      "he": [
+        "פנים"
+      ]
+    },
+    {
+      "canonical": "zetim",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "olives"
+      ],
+      "he": [
+        "זיתים"
+      ]
+    },
+    {
+      "canonical": "mishum",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "because"
+      ],
+      "he": [
+        "משום"
+      ]
+    },
+    {
+      "canonical": "tanur",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "oven"
+      ],
+      "he": [
+        "תנור"
       ]
     }
   ]
