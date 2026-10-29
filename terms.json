@@ -3852,6 +3852,35 @@
       "he": [
         "תנור"
       ]
+    },
+    {
+      "canonical": "ʾasher",
+      "type": "concept",
+      "translit": [
+        "asher"
+      ],
+      "en": [
+        "which",
+        "who"
+      ],
+      "he": [
+        "אשר"
+      ]
+    },
+    {
+      "canonical": "ʾishsha",
+      "type": "concept",
+      "translit": [
+        "isha",
+        "ishah"
+      ],
+      "en": [
+        "woman",
+        "wife"
+      ],
+      "he": [
+        "אשה"
+      ]
     }
   ]
 }
