@@ -60,13 +60,13 @@
       "translit": [
         "halacha",
         "halakhah",
-        "halocho",
-        "halakhic",
-        "halachic"
+        "halocho"
       ],
       "en": [
         "Jewish law",
-        "the law"
+        "the law",
+        "halakhic",
+        "halachic"
       ],
       "he": [
         "הלכה"
@@ -77,13 +77,13 @@
       "type": "concept",
       "translit": [
         "aggadah",
-        "agada",
-        "haggada",
-        "aggadic"
+        "agada"
       ],
       "en": [
         "homily",
-        "narrative teaching"
+        "narrative teaching",
+        "haggada",
+        "aggadic"
       ],
       "he": [
         "אגדה"
@@ -93,13 +93,13 @@
       "canonical": "midrash",
       "type": "text",
       "translit": [
-        "midrashim",
-        "medrash",
-        "midrashic"
+        "medrash"
       ],
       "en": [
         "exegetical teaching",
-        "homily"
+        "homily",
+        "midrashim",
+        "midrashic"
       ],
       "he": [
         "מדרש"
@@ -130,12 +130,12 @@
         "kabbala",
         "kabbalah",
         "cabala",
-        "qabbalah",
-        "kabbalistic"
+        "qabbalah"
       ],
       "en": [
         "Jewish mysticism",
-        "mysticism"
+        "mysticism",
+        "kabbalistic"
       ],
       "he": [
         "קבלה"
@@ -145,11 +145,11 @@
       "canonical": "Zohar",
       "type": "text",
       "translit": [
-        "zoharic",
         "sohar"
       ],
       "en": [
-        "the Zohar"
+        "the Zohar",
+        "zoharic"
       ],
       "he": [
         "זוהר"
@@ -215,12 +215,12 @@
       "type": "concept",
       "translit": [
         "drasha",
-        "drosho",
-        "derashot"
+        "drosho"
       ],
       "en": [
         "homily",
-        "sermon"
+        "sermon",
+        "derashot"
       ],
       "he": [
         "דרשה"
@@ -337,11 +337,11 @@
       "type": "concept",
       "translit": [
         "sugia",
-        "sugyot",
         "sugiya"
       ],
       "en": [
-        "talmudic passage"
+        "talmudic passage",
+        "sugyot"
       ],
       "he": [
         "סוגיה"
@@ -385,13 +385,13 @@
       "translit": [
         "parsha",
         "parshah",
-        "parashah",
-        "sedra",
-        "sidra"
+        "parashah"
       ],
       "en": [
         "weekly Torah portion",
-        "weekly portion"
+        "weekly portion",
+        "sedra",
+        "sidra"
       ],
       "he": [
         "פרשה"
@@ -444,14 +444,14 @@
       "type": "place",
       "translit": [
         "beit hamidrash",
-        "beis hamidrash",
-        "study hall"
+        "beis hamidrash"
       ],
       "en": [
         "the study hall",
         "house of study",
         "yeshiva",
-        "academy"
+        "academy",
+        "study hall"
       ],
       "he": [
         "בית המדרש"
@@ -490,14 +490,14 @@
       "canonical": "Sefarad",
       "type": "place",
       "translit": [
-        "sepharad",
-        "espana",
-        "al-andalus",
-        "andalus"
+        "sepharad"
       ],
       "en": [
         "Spain",
-        "Iberia"
+        "Iberia",
+        "espana",
+        "al-andalus",
+        "andalus"
       ],
       "he": [
         "ספרד"
@@ -509,13 +509,13 @@
       "translit": [
         "sephardi",
         "sfardi",
-        "sfaradi",
-        "sephardic",
-        "sfardic"
+        "sfaradi"
       ],
       "en": [
         "Sephardic",
-        "spanish jewish"
+        "spanish jewish",
+        "sephardic",
+        "sfardic"
       ],
       "he": [
         "ספרדי"
@@ -525,14 +525,14 @@
       "canonical": "Ashkenaz",
       "type": "place",
       "translit": [
-        "ashkenazi",
-        "ashkenazic",
-        "ashkenazim"
+        "ashkenazi"
       ],
       "en": [
         "Franco-German Jewry",
         "german jewish",
-        "germany"
+        "germany",
+        "ashkenazic",
+        "ashkenazim"
       ],
       "he": [
         "אשכנז"
@@ -606,13 +606,13 @@
       "translit": [
         "mitzva",
         "mitzvah",
-        "mitsva",
-        "mitzvos",
-        "mitzvot"
+        "mitsva"
       ],
       "en": [
         "commandment",
-        "precept"
+        "precept",
+        "mitzvos",
+        "mitzvot"
       ],
       "he": [
         "מצוה"
@@ -656,12 +656,12 @@
       "type": "practice",
       "translit": [
         "amida",
-        "amidah",
-        "shemoneh esreh"
+        "amidah"
       ],
       "en": [
         "the Amida",
-        "the standing prayer"
+        "the standing prayer",
+        "shemoneh esreh"
       ],
       "he": [
         "עמידה"
@@ -670,11 +670,10 @@
     {
       "canonical": "Shema'",
       "type": "practice",
-      "translit": [
-        "shema yisrael"
-      ],
+      "translit": [],
       "en": [
-        "the Shema"
+        "the Shema",
+        "shema yisrael"
       ],
       "he": [
         "שמע"
@@ -686,11 +685,11 @@
       "translit": [
         "shabbos",
         "shabbes",
-        "shabat",
-        "sabbath"
+        "shabat"
       ],
       "en": [
-        "the Sabbath"
+        "the Sabbath",
+        "sabbath"
       ],
       "he": [
         "שבת"
@@ -776,12 +775,12 @@
       "canonical": "din",
       "type": "concept",
       "translit": [
-        "din",
-        "strict justice"
+        "din"
       ],
       "en": [
         "judgement",
-        "strict law"
+        "strict law",
+        "strict justice"
       ],
       "he": [
         "דין"
@@ -864,12 +863,12 @@
       "canonical": "nefesh",
       "type": "concept",
       "translit": [
-        "nefesh",
-        "life-force"
+        "nefesh"
       ],
       "en": [
         "soul",
-        "self"
+        "self",
+        "life-force"
       ],
       "he": [
         "נפש"
@@ -936,13 +935,13 @@
       "canonical": "Ladino",
       "type": "concept",
       "translit": [
-        "ladino",
+        "ladino"
+      ],
+      "en": [
+        "Ladino",
         "judeo-spanish",
         "judezmo",
         "spanyol"
-      ],
-      "en": [
-        "Ladino"
       ],
       "he": [
         "לאדינו"
@@ -952,13 +951,13 @@
       "canonical": "Mishna",
       "type": "text",
       "translit": [
-        "mishnah",
-        "mishnayot",
-        "mishnayos"
+        "mishnah"
       ],
       "en": [
         "the Mishnah",
-        "mishnaic"
+        "mishnaic",
+        "mishnayot",
+        "mishnayos"
       ],
       "he": [
         "משנה"
@@ -984,12 +983,12 @@
       "canonical": "Talmud",
       "type": "text",
       "translit": [
-        "talmud",
-        "shas"
+        "talmud"
       ],
       "en": [
         "the Talmud",
-        "talmudic"
+        "talmudic",
+        "shas"
       ],
       "he": [
         "תלמוד"
@@ -1013,11 +1012,11 @@
       "canonical": "Sifra",
       "type": "text",
       "translit": [
-        "sifra",
-        "torat kohanim"
+        "sifra"
       ],
       "en": [
-        "the Sifra"
+        "the Sifra",
+        "torat kohanim"
       ],
       "he": [
         "ספרא"
@@ -1073,12 +1072,12 @@
       "type": "text",
       "translit": [
         "mishneh torah",
-        "mishne torah",
-        "yad hachazaka"
+        "mishne torah"
       ],
       "en": [
         "Maimonides' code",
-        "the code"
+        "the code",
+        "yad hachazaka"
       ],
       "he": [
         "משנה תורה"
@@ -1089,13 +1088,13 @@
       "type": "text",
       "translit": [
         "moreh nevuchim",
-        "moreh nebuchim",
-        "guide for the perplexed"
+        "moreh nebuchim"
       ],
       "en": [
         "the Guide of the Perplexed",
         "guide of the perplexed",
-        "the guide"
+        "the guide",
+        "guide for the perplexed"
       ],
       "he": [
         "מורה נבוכים"
@@ -1410,17 +1409,17 @@
       "translit": [
         "yehuda halevi",
         "yehuda halevy",
-        "judah halevi",
         "yehudah halevy",
         "yehuda alevi",
         "yehudah alevi",
-        "judah alevi",
         "yudalevi",
         "yehudalevi"
       ],
       "en": [
         "Judah Halevi",
-        "rihal"
+        "rihal",
+        "judah halevi",
+        "judah alevi"
       ],
       "he": [
         "יהודה הלוי"
@@ -1477,8 +1476,6 @@
       "translit": [
         "yosef karo",
         "yosef caro",
-        "joseph caro",
-        "joseph karo",
         "yoseph qaro"
       ],
       "en": [
@@ -1486,7 +1483,8 @@
         "joseph caro",
         "maran",
         "hakham yosef qaro",
-        "the bet yosef"
+        "the bet yosef",
+        "joseph karo"
       ],
       "he": [
         "יוסף קארו"
@@ -1557,11 +1555,11 @@
       "type": "figure",
       "translit": [
         "avraham avinu",
-        "abraham avinu",
-        "abraham our father"
+        "abraham avinu"
       ],
       "en": [
-        "Abraham"
+        "Abraham",
+        "abraham our father"
       ],
       "he": [
         "אברהם אבינו"
@@ -1587,11 +1585,11 @@
       "type": "figure",
       "translit": [
         "yaakov",
-        "yaacov",
-        "yankev"
+        "yaacov"
       ],
       "en": [
-        "Jacob"
+        "Jacob",
+        "yankev"
       ],
       "he": [
         "יעקב"
@@ -1603,11 +1601,11 @@
       "translit": [
         "yosef hatzaddik",
         "yosef hasadik",
-        "yosef hasaddik",
-        "yosef the righteous"
+        "yosef hasaddik"
       ],
       "en": [
-        "Joseph"
+        "Joseph",
+        "yosef the righteous"
       ],
       "he": [
         "יוסף"
@@ -1676,11 +1674,11 @@
       "canonical": "Haman ha-rasha'",
       "type": "figure",
       "translit": [
-        "horeman",
         "haman harasha"
       ],
       "en": [
-        "Haman"
+        "Haman",
+        "horeman"
       ],
       "he": [
         "המן הרשע"
@@ -1691,13 +1689,13 @@
       "type": "concept",
       "translit": [
         "keruvim",
-        "kruvim",
-        "cherubim",
-        "cherubs"
+        "kruvim"
       ],
       "en": [
         "the cherubim",
-        "angels"
+        "angels",
+        "cherubim",
+        "cherubs"
       ],
       "he": [
         "כרובים"
@@ -2005,12 +2003,12 @@
       "type": "tractate",
       "translit": [
         "avot",
-        "avos",
-        "pirkei avot"
+        "avos"
       ],
       "en": [
         "tractate Abot",
-        "ethics of the fathers"
+        "ethics of the fathers",
+        "pirkei avot"
       ],
       "he": [
         "אבות"
@@ -2051,12 +2049,12 @@
       "type": "parsha",
       "translit": [
         "bereishit",
-        "breishis",
-        "in the beginning"
+        "breishis"
       ],
       "en": [
         "Genesis / parashat Bereshit",
-        "genesis"
+        "genesis",
+        "in the beginning"
       ],
       "he": [
         "בראשית"
@@ -2485,13 +2483,13 @@
       "type": "holiday",
       "translit": [
         "sukkot",
-        "sukkos",
-        "succos"
+        "sukkos"
       ],
       "en": [
         "Sukkot",
         "tabernacles",
-        "feast of booths"
+        "feast of booths",
+        "succos"
       ],
       "he": [
         "סוכות"
@@ -2560,11 +2558,11 @@
       "translit": [
         "tisha bav",
         "tisha b'av",
-        "tishe bov",
-        "ninth of av"
+        "tishe bov"
       ],
       "en": [
-        "the Ninth of Ab"
+        "the Ninth of Ab",
+        "ninth of av"
       ],
       "he": [
         "תשעה באב"
@@ -2574,13 +2572,13 @@
       "canonical": "Yom Tob",
       "type": "practice",
       "translit": [
-        "yom tov",
-        "yontif",
-        "yontef"
+        "yom tov"
       ],
       "en": [
         "a festival day",
-        "festival"
+        "festival",
+        "yontif",
+        "yontef"
       ],
       "he": [
         "יום טוב"
@@ -2592,13 +2590,13 @@
       "translit": [
         "yom tovim",
         "yamim tovim",
-        "yom tobim",
-        "yamim tovin",
-        "yamim tobin"
+        "yom tobim"
       ],
       "en": [
         "festival days",
-        "the festivals"
+        "the festivals",
+        "yamim tovin",
+        "yamim tobin"
       ],
       "he": [
         "ימים טובים"
@@ -2609,13 +2607,13 @@
       "type": "concept",
       "translit": [
         "moed",
-        "moadim",
-        "moadei",
-        "moadim uzmanim"
+        "moadei"
       ],
       "en": [
         "appointed time",
-        "festival"
+        "festival",
+        "moadim",
+        "moadim uzmanim"
       ],
       "he": [
         "מועד"
@@ -2688,17 +2686,17 @@
       "type": "text",
       "translit": [
         "tanach",
-        "tenach",
-        "mikra",
-        "mikrah",
-        "miqra"
+        "tenach"
       ],
       "en": [
         "the Hebrew Bible",
         "Scripture",
         "hebrew bible",
         "the bible",
-        "bible"
+        "bible",
+        "mikra",
+        "mikrah",
+        "miqra"
       ],
       "he": [
         "תנ\"ך",
@@ -2741,11 +2739,11 @@
       "canonical": "Amos",
       "type": "text",
       "translit": [
-        "amos",
-        "sefer amos"
+        "amos"
       ],
       "en": [
-        "Amos"
+        "Amos",
+        "sefer amos"
       ],
       "he": [
         "עמוס"
