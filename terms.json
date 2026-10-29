@@ -7,7 +7,8 @@
       "translit": [
         "torah",
         "toirah",
-        "toyre"
+        "toyre",
+        "taurah"
       ],
       "en": [
         "the Torah",
@@ -403,7 +404,11 @@
         "beit hamikdash",
         "beis hamikdash",
         "beit hamikdosh",
-        "beth hamikdash"
+        "beth hamikdash",
+        "betamikdash",
+        "betamigdash",
+        "bitamikdash",
+        "bitamigdash"
       ],
       "en": [
         "the Temple",
@@ -2210,7 +2215,6 @@
       "type": "parsha",
       "translit": [
         "vayechi",
-        "vayehi",
         "vaychi"
       ],
       "en": [
