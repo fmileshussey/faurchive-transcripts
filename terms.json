@@ -524,15 +524,14 @@
     {
       "canonical": "Ashkenaz",
       "type": "place",
-      "translit": [
-        "ashkenazi"
-      ],
+      "translit": [],
       "en": [
         "Franco-German Jewry",
         "german jewish",
         "germany",
         "ashkenazic",
-        "ashkenazim"
+        "ashkenazim",
+        "ashkenazi"
       ],
       "he": [
         "אשכנז"
