@@ -695,7 +695,8 @@
       "canonical": "Shemaʿ",
       "type": "practice",
       "translit": [
-        "Shema'"
+        "Shema'",
+        "shema"
       ],
       "en": [
         "the Shema",
@@ -1195,7 +1196,8 @@
         "chochom",
         "hakham",
         "hacham",
-        "Hakham"
+        "Hakham",
+        "hakam"
       ],
       "en": [
         "sage",
@@ -3323,6 +3325,228 @@
       ],
       "he": [
         "רמב\"ן"
+      ]
+    },
+    {
+      "canonical": "Raḇ",
+      "type": "figure",
+      "translit": [
+        "rav",
+        "rab"
+      ],
+      "en": [
+        "Rav"
+      ],
+      "he": [
+        "רב"
+      ]
+    },
+    {
+      "canonical": "ʾAdonai",
+      "type": "concept",
+      "translit": [
+        "adonai",
+        "adonay"
+      ],
+      "en": [
+        "the Lord"
+      ],
+      "he": [
+        "אדני"
+      ]
+    },
+    {
+      "canonical": "ʾAdam",
+      "type": "figure",
+      "translit": [
+        "adam"
+      ],
+      "en": [
+        "Adam"
+      ],
+      "he": [
+        "אדם"
+      ]
+    },
+    {
+      "canonical": "ʾElohim",
+      "type": "concept",
+      "translit": [
+        "elohim"
+      ],
+      "en": [
+        "God"
+      ],
+      "he": [
+        "אלהים"
+      ]
+    },
+    {
+      "canonical": "ʾamar",
+      "type": "concept",
+      "translit": [
+        "amar"
+      ],
+      "en": [
+        "he said"
+      ],
+      "he": [
+        "אמר"
+      ]
+    },
+    {
+      "canonical": "Yoḥanan",
+      "type": "sage",
+      "translit": [
+        "yohanan",
+        "yochanan"
+      ],
+      "en": [],
+      "he": [
+        "יוחנן"
+      ]
+    },
+    {
+      "canonical": "barukh",
+      "type": "concept",
+      "translit": [
+        "baruch",
+        "barukh"
+      ],
+      "en": [
+        "blessed"
+      ],
+      "he": [
+        "ברוך"
+      ]
+    },
+    {
+      "canonical": "Sepharadim",
+      "type": "place",
+      "translit": [
+        "sephardim",
+        "sefardim",
+        "sepharadim"
+      ],
+      "en": [
+        "Sephardim"
+      ],
+      "he": [
+        "ספרדים"
+      ]
+    },
+    {
+      "canonical": "Boreʾ",
+      "type": "concept",
+      "translit": [
+        "borei",
+        "bore"
+      ],
+      "en": [
+        "Creator"
+      ],
+      "he": [
+        "בורא"
+      ]
+    },
+    {
+      "canonical": "sepher",
+      "type": "text",
+      "translit": [
+        "sefer"
+      ],
+      "en": [
+        "book"
+      ],
+      "he": [
+        "ספר"
+      ]
+    },
+    {
+      "canonical": "baʿal",
+      "type": "concept",
+      "translit": [
+        "baal",
+        "ba'al"
+      ],
+      "en": [
+        "master"
+      ],
+      "he": [
+        "בעל"
+      ]
+    },
+    {
+      "canonical": "ʾereṣ",
+      "type": "place",
+      "translit": [
+        "erez",
+        "eres",
+        "eretz"
+      ],
+      "en": [
+        "land"
+      ],
+      "he": [
+        "ארץ"
+      ]
+    },
+    {
+      "canonical": "Śara",
+      "type": "figure",
+      "translit": [
+        "sara",
+        "sarah"
+      ],
+      "en": [
+        "Sarah"
+      ],
+      "he": [
+        "שרה"
+      ]
+    },
+    {
+      "canonical": "ʾEliyahu",
+      "type": "figure",
+      "translit": [
+        "eliyahu",
+        "eliahu"
+      ],
+      "en": [
+        "Elijah"
+      ],
+      "he": [
+        "אליהו"
+      ]
+    },
+    {
+      "canonical": "yeshiḇa",
+      "type": "concept",
+      "translit": [
+        "yeshiva",
+        "yeshivah"
+      ],
+      "en": [
+        "academy"
+      ],
+      "he": [
+        "ישיבה"
+      ]
+    },
+    {
+      "canonical": "Bet Din",
+      "type": "concept",
+      "translit": [
+        "bedin",
+        "bet din",
+        "beth din",
+        "beit din"
+      ],
+      "en": [
+        "court"
+      ],
+      "he": [
+        "בית דין"
       ]
     }
   ]
