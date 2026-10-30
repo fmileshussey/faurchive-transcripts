@@ -2022,7 +2022,7 @@
     },
     {
       "canonical": "Sepharadim",
-      "type": "place",
+      "type": "people",
       "translit": [
         "sephardim",
         "sefardim",
@@ -3371,7 +3371,7 @@
       "he": [
         "אשכנזים"
       ],
-      "type": "place"
+      "type": "people"
     },
     {
       "canonical": "ʾasmakhtaʾ",
