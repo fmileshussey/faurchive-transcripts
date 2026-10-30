@@ -2,360 +2,142 @@
   "_note": "canonical = the Sephardic / Faur scholarly transliteration (q for kuf, s for tsade, t for tav, b for vet-rafe, kh for kaf-rafe, h for het, qamats=a). translit[] = alternative SPELLINGS of the same word (Israeli/Ashkenazi/Whisper) — these are folded to `canonical` in the transcript AND bridged in search. en[] = English glosses AND other names/aliases for the same referent (e.g. Maran, RASAG, Maimonides, a full name, a book title) — bridged in SEARCH ONLY, never rewritten into the transcript. he[] = Hebrew script (search only; first entry is primary). Consumed by: correction (translit only), Meilisearch synonyms (all), the Explore Terms tab, and the ASR initial prompt.",
   "terms": [
     {
-      "canonical": "Tora",
-      "type": "text",
+      "canonical": "Balaq",
+      "type": "parsha",
       "translit": [
-        "torah",
-        "toirah",
-        "toyre",
-        "taurah"
+        "balak",
+        "bolok"
       ],
       "en": [
-        "the Torah",
-        "Pentateuch",
-        "the Law",
-        "law"
+        "parashat Balaq",
+        "balaam"
       ],
       "he": [
-        "תורה"
+        "בלק"
       ]
     },
     {
-      "canonical": "Tora shebbikhtab",
+      "canonical": "barukh",
       "type": "concept",
       "translit": [
-        "torah shebichtav",
-        "torah shebiksav",
-        "Tora she-bi-khtab"
+        "baruch",
+        "barukh"
       ],
       "en": [
-        "the Written Torah",
-        "written torah",
-        "written law"
+        "blessed"
       ],
       "he": [
-        "תורה שבכתב"
+        "ברוך"
       ]
     },
     {
-      "canonical": "Tora shebbeʿal pe",
+      "canonical": "baʿal",
       "type": "concept",
       "translit": [
-        "torah shebeal peh",
-        "torah shebaal peh",
-        "torah shebal pe",
-        "Tora she-be-'al pe"
+        "baal",
+        "ba'al"
       ],
       "en": [
-        "the Oral Torah",
-        "the Oral Law",
-        "oral torah",
-        "oral law"
+        "master"
       ],
       "he": [
-        "תורה שבעל פה"
+        "בעל"
       ]
     },
     {
-      "canonical": "halakha",
-      "type": "concept",
+      "canonical": "Baḇaʾ Batraʾ",
+      "type": "tractate",
       "translit": [
-        "halacha",
-        "halakhah",
-        "halocho"
+        "bava batra",
+        "baba basra",
+        "bava basra",
+        "Baba Batra"
       ],
       "en": [
-        "Jewish law",
-        "the law",
-        "halakhic",
-        "halachic"
+        "tractate Baba Batra"
       ],
       "he": [
-        "הלכה"
+        "בבא בתרא"
       ]
     },
     {
-      "canonical": "ʾaggada",
-      "type": "concept",
+      "canonical": "Baḇaʾ Meṣiʿaʾ",
+      "type": "tractate",
       "translit": [
-        "aggadah",
-        "agada",
-        "aggada"
+        "bava metzia",
+        "baba metzia",
+        "bava metsia",
+        "Baba Mesi'a"
       ],
       "en": [
-        "homily",
-        "narrative teaching",
-        "haggada",
-        "aggadic"
+        "tractate Baba Mesia"
       ],
       "he": [
-        "אגדה"
+        "בבא מציעא"
       ]
     },
     {
-      "canonical": "midrash",
-      "type": "text",
+      "canonical": "Baḇaʾ Qammaʾ",
+      "type": "tractate",
       "translit": [
-        "medrash"
+        "bava kamma",
+        "baba kama",
+        "bava kama",
+        "Baba Qamma"
       ],
       "en": [
-        "exegetical teaching",
-        "homily",
-        "midrashim",
-        "midrashic"
+        "tractate Baba Qamma"
       ],
       "he": [
-        "מדרש"
+        "בבא קמא"
       ]
     },
     {
-      "canonical": "mesora",
-      "type": "concept",
+      "canonical": "Baḇel",
+      "type": "place",
       "translit": [
-        "masora",
-        "masorah",
-        "mesorah",
-        "massora"
+        "bavel",
+        "babel",
+        "Bavel"
       ],
       "en": [
-        "the received tradition",
-        "transmission",
-        "the tradition"
+        "Babylonia",
+        "babylon"
       ],
       "he": [
-        "מסורה"
+        "בבל"
       ]
     },
     {
-      "canonical": "qabbala",
-      "type": "concept",
+      "canonical": "Bemidbar",
+      "type": "parsha",
       "translit": [
-        "kabbala",
-        "kabbalah",
-        "cabala",
-        "qabbalah"
+        "bamidbar",
+        "bemidbar",
+        "bamidbor"
       ],
       "en": [
-        "Jewish mysticism",
-        "mysticism",
-        "kabbalistic"
+        "Numbers / parashat Bemidbar",
+        "numbers"
       ],
       "he": [
-        "קבלה"
+        "במדבר"
       ]
     },
     {
-      "canonical": "Zohar",
-      "type": "text",
+      "canonical": "Bene Qoraḥ",
+      "type": "figure",
       "translit": [
-        "sohar"
+        "bnei korach",
+        "Bene Qorah"
       ],
       "en": [
-        "the Zohar",
-        "zoharic"
+        "the sons of Korah",
+        "sons of korach",
+        "korahites"
       ],
       "he": [
-        "זוהר"
-      ]
-    },
-    {
-      "canonical": "peshaṭ",
-      "type": "concept",
-      "translit": [
-        "pshat",
-        "peshát",
-        "peshat"
-      ],
-      "en": [
-        "plain meaning"
-      ],
-      "he": [
-        "פשט"
-      ]
-    },
-    {
-      "canonical": "derash",
-      "type": "concept",
-      "translit": [
-        "drash",
-        "derush"
-      ],
-      "en": [
-        "homiletic reading"
-      ],
-      "he": [
-        "דרש"
-      ]
-    },
-    {
-      "canonical": "remez",
-      "type": "concept",
-      "translit": [
-        "remez",
-        "remes"
-      ],
-      "en": [
-        "allusion"
-      ],
-      "he": [
-        "רמז"
-      ]
-    },
-    {
-      "canonical": "sod",
-      "type": "concept",
-      "translit": [
-        "sod"
-      ],
-      "en": [
-        "esoteric meaning"
-      ],
-      "he": [
-        "סוד"
-      ]
-    },
-    {
-      "canonical": "derasha",
-      "type": "concept",
-      "translit": [
-        "drasha",
-        "drosho"
-      ],
-      "en": [
-        "homily",
-        "sermon",
-        "derashot"
-      ],
-      "he": [
-        "דרשה"
-      ]
-    },
-    {
-      "canonical": "petiḥa",
-      "type": "concept",
-      "translit": [
-        "petihah",
-        "peticha",
-        "pesicha",
-        "petiha"
-      ],
-      "en": [
-        "proem",
-        "opening"
-      ],
-      "he": [
-        "פתיחה"
-      ]
-    },
-    {
-      "canonical": "seḇaraʾ",
-      "type": "concept",
-      "translit": [
-        "svara",
-        "sevora",
-        "sebara",
-        "sevara"
-      ],
-      "en": [
-        "reasoning",
-        "logic"
-      ],
-      "he": [
-        "סברה"
-      ]
-    },
-    {
-      "canonical": "gezera shava",
-      "type": "concept",
-      "translit": [
-        "gezerah shavah",
-        "gzeira shava"
-      ],
-      "en": [
-        "verbal analogy"
-      ],
-      "he": [
-        "גזרה שווה"
-      ]
-    },
-    {
-      "canonical": "qal vaḥomer",
-      "type": "concept",
-      "translit": [
-        "kal vachomer",
-        "kal vahomer",
-        "kol vochoymer",
-        "qal va-homer"
-      ],
-      "en": [
-        "a fortiori argument",
-        "a fortiori"
-      ],
-      "he": [
-        "קל וחומר"
-      ]
-    },
-    {
-      "canonical": "ʾasmakhtaʾ",
-      "type": "concept",
-      "translit": [
-        "asmachta",
-        "asmakhtah",
-        "asmakhta"
-      ],
-      "en": [
-        "scriptural support"
-      ],
-      "he": [
-        "אסמכתא"
-      ]
-    },
-    {
-      "canonical": "halakha leMoshe missinai",
-      "type": "concept",
-      "translit": [
-        "halacha lemoshe misinai",
-        "halakha lemoshe mesinai",
-        "halakha le-Moshe mi-Sinai"
-      ],
-      "en": [
-        "law given to Moses at Sinai"
-      ],
-      "he": [
-        "הלכה למשה מסיני"
-      ]
-    },
-    {
-      "canonical": "maḥloqet",
-      "type": "concept",
-      "translit": [
-        "machloket",
-        "machlokes",
-        "mahloket",
-        "mahloqet"
-      ],
-      "en": [
-        "dispute",
-        "controversy"
-      ],
-      "he": [
-        "מחלוקת"
-      ]
-    },
-    {
-      "canonical": "sugyaʾ",
-      "type": "concept",
-      "translit": [
-        "sugia",
-        "sugiya",
-        "sugya"
-      ],
-      "en": [
-        "talmudic passage",
-        "sugyot"
-      ],
-      "he": [
-        "סוגיה"
+        "בני קרח"
       ]
     },
     {
@@ -376,37 +158,117 @@
       ]
     },
     {
-      "canonical": "pasuq",
-      "type": "concept",
+      "canonical": "berakha",
+      "type": "practice",
       "translit": [
-        "pasuk",
-        "posuk",
-        "possuk"
+        "bracha",
+        "beracha",
+        "brocho",
+        "berakhah"
       ],
       "en": [
-        "scriptural verse",
-        "verse"
+        "blessing",
+        "benediction"
       ],
       "he": [
-        "פסוק"
+        "ברכה"
       ]
     },
     {
-      "canonical": "parasha",
-      "type": "concept",
+      "canonical": "Berakhot",
+      "type": "tractate",
       "translit": [
-        "parsha",
-        "parshah",
-        "parashah"
+        "berachot",
+        "brachos",
+        "brochos"
       ],
       "en": [
-        "weekly Torah portion",
-        "weekly portion",
-        "sedra",
-        "sidra"
+        "tractate Berakhot"
       ],
       "he": [
-        "פרשה"
+        "ברכות"
+      ]
+    },
+    {
+      "canonical": "Bereʾshit",
+      "type": "parsha",
+      "translit": [
+        "bereishit",
+        "breishis",
+        "Bereshit"
+      ],
+      "en": [
+        "Genesis / parashat Bereshit",
+        "genesis",
+        "in the beginning"
+      ],
+      "he": [
+        "בראשית"
+      ]
+    },
+    {
+      "canonical": "berit",
+      "type": "concept",
+      "translit": [
+        "brit",
+        "bris"
+      ],
+      "en": [
+        "covenant"
+      ],
+      "he": [
+        "ברית"
+      ]
+    },
+    {
+      "canonical": "Bet Din",
+      "type": "concept",
+      "translit": [
+        "bedin",
+        "bet din",
+        "beth din",
+        "beit din"
+      ],
+      "en": [
+        "court"
+      ],
+      "he": [
+        "בית דין"
+      ]
+    },
+    {
+      "canonical": "Bet hakkenesset",
+      "type": "place",
+      "translit": [
+        "beit haknesset",
+        "beis haknesses",
+        "Bet ha-Kenesset"
+      ],
+      "en": [
+        "synagogue",
+        "shul"
+      ],
+      "he": [
+        "בית הכנסת"
+      ]
+    },
+    {
+      "canonical": "Bet hammidrash",
+      "type": "place",
+      "translit": [
+        "beit hamidrash",
+        "beis hamidrash",
+        "Bet ha-Midrash"
+      ],
+      "en": [
+        "the study hall",
+        "house of study",
+        "yeshiva",
+        "academy",
+        "study hall"
+      ],
+      "he": [
+        "בית המדרש"
       ]
     },
     {
@@ -434,1220 +296,33 @@
       ]
     },
     {
-      "canonical": "miqdash",
-      "type": "place",
+      "canonical": "Beṣa",
+      "type": "tractate",
       "translit": [
-        "mikdash",
-        "mikdosh",
-        "miqdosh"
+        "beitza",
+        "beitzah",
+        "beisa",
+        "Besa"
       ],
       "en": [
-        "the Sanctuary",
-        "the Temple",
-        "sanctuary",
-        "temple",
-        "the mikdash"
+        "tractate Besa"
       ],
       "he": [
-        "מקדש"
+        "ביצה"
       ]
     },
     {
-      "canonical": "Bet hammidrash",
-      "type": "place",
-      "translit": [
-        "beit hamidrash",
-        "beis hamidrash",
-        "Bet ha-Midrash"
-      ],
-      "en": [
-        "the study hall",
-        "house of study",
-        "yeshiva",
-        "academy",
-        "study hall"
-      ],
-      "he": [
-        "בית המדרש"
-      ]
-    },
-    {
-      "canonical": "ʾohel moʿed",
-      "type": "place",
-      "translit": [
-        "oil moed",
-        "oil mo'ed",
-        "ohel mo'ed"
-      ],
-      "en": [
-        "tent of meeting"
-      ],
-      "he": [
-        "אהל מועד"
-      ]
-    },
-    {
-      "canonical": "Bet hakkenesset",
-      "type": "place",
-      "translit": [
-        "beit haknesset",
-        "beis haknesses",
-        "Bet ha-Kenesset"
-      ],
-      "en": [
-        "synagogue",
-        "shul"
-      ],
-      "he": [
-        "בית הכנסת"
-      ]
-    },
-    {
-      "canonical": "Sepharad",
-      "type": "place",
-      "translit": [
-        "sepharad",
-        "Sefarad",
-        "sephard"
-      ],
-      "en": [
-        "Spain",
-        "Iberia",
-        "espana",
-        "al-andalus",
-        "andalus"
-      ],
-      "he": [
-        "ספרד"
-      ]
-    },
-    {
-      "canonical": "Sepharadi",
+      "canonical": "Boreʾ",
       "type": "concept",
       "translit": [
-        "sephardi",
-        "sfardi",
-        "sfaradi"
+        "borei"
       ],
       "en": [
-        "Sephardic",
-        "spanish jewish",
-        "sephardic",
-        "sfardic"
+        "Creator",
+        "bore"
       ],
       "he": [
-        "ספרדי"
-      ]
-    },
-    {
-      "canonical": "ʾAshkenaz",
-      "type": "place",
-      "translit": [
-        "Ashkenaz"
-      ],
-      "en": [
-        "Franco-German Jewry",
-        "german jewish",
-        "germany",
-        "ashkenazic",
-        "ashkenazim",
-        "ashkenazi"
-      ],
-      "he": [
-        "אשכנז"
-      ]
-    },
-    {
-      "canonical": "ʾEreṣ Yiśraʾel",
-      "type": "place",
-      "translit": [
-        "eretz yisrael",
-        "eretz yisroel",
-        "erets yisrael",
-        "Eres Yisrael"
-      ],
-      "en": [
-        "the Land of Israel",
-        "land of israel"
-      ],
-      "he": [
-        "ארץ ישראל"
-      ]
-    },
-    {
-      "canonical": "Baḇel",
-      "type": "place",
-      "translit": [
-        "bavel",
-        "babel",
-        "Bavel"
-      ],
-      "en": [
-        "Babylonia",
-        "babylon"
-      ],
-      "he": [
-        "בבל"
-      ]
-    },
-    {
-      "canonical": "Yerushalayim",
-      "type": "place",
-      "translit": [
-        "yerushalaim",
-        "yerusholayim"
-      ],
-      "en": [
-        "Jerusalem"
-      ],
-      "he": [
-        "ירושלים"
-      ]
-    },
-    {
-      "canonical": "ʿAm Yiśraʾel",
-      "type": "concept",
-      "translit": [
-        "am yisrael",
-        "am yisroel",
-        "klal yisrael",
-        "'Am Yisrael"
-      ],
-      "en": [
-        "the people of Israel",
-        "the jewish people",
-        "jewry"
-      ],
-      "he": [
-        "עם ישראל"
-      ]
-    },
-    {
-      "canonical": "miṣva",
-      "type": "practice",
-      "translit": [
-        "mitzva",
-        "mitzvah",
-        "mitsva",
-        "misva"
-      ],
-      "en": [
-        "commandment",
-        "precept",
-        "mitzvos",
-        "mitzvot"
-      ],
-      "he": [
-        "מצוה"
-      ]
-    },
-    {
-      "canonical": "berakha",
-      "type": "practice",
-      "translit": [
-        "bracha",
-        "beracha",
-        "brocho",
-        "berakhah"
-      ],
-      "en": [
-        "blessing",
-        "benediction"
-      ],
-      "he": [
-        "ברכה"
-      ]
-    },
-    {
-      "canonical": "tephilla",
-      "type": "practice",
-      "translit": [
-        "tefillah",
-        "tefila",
-        "tfilla",
-        "tefiloh",
-        "tefilla"
-      ],
-      "en": [
-        "prayer"
-      ],
-      "he": [
-        "תפילה"
-      ]
-    },
-    {
-      "canonical": "ʿAmida",
-      "type": "practice",
-      "translit": [
-        "amida",
-        "amidah",
-        "'Amida"
-      ],
-      "en": [
-        "the Amida",
-        "the standing prayer",
-        "shemoneh esreh"
-      ],
-      "he": [
-        "עמידה"
-      ]
-    },
-    {
-      "canonical": "Shemaʿ",
-      "type": "practice",
-      "translit": [
-        "Shema'",
-        "shema"
-      ],
-      "en": [
-        "the Shema",
-        "shema yisrael"
-      ],
-      "he": [
-        "שמע"
-      ]
-    },
-    {
-      "canonical": "Shabbat",
-      "type": "practice",
-      "translit": [
-        "shabbos",
-        "shabbes",
-        "shabat"
-      ],
-      "en": [
-        "the Sabbath",
-        "sabbath"
-      ],
-      "he": [
-        "שבת"
-      ]
-    },
-    {
-      "canonical": "teshuḇa",
-      "type": "concept",
-      "translit": [
-        "teshuva",
-        "teshuvah",
-        "tshuva",
-        "tshuvo",
-        "teshuba"
-      ],
-      "en": [
-        "repentance",
-        "return"
-      ],
-      "he": [
-        "תשובה"
-      ]
-    },
-    {
-      "canonical": "qahal",
-      "type": "concept",
-      "translit": [
-        "kahal",
-        "kohol"
-      ],
-      "en": [
-        "the community",
-        "congregation",
-        "community"
-      ],
-      "he": [
-        "קהל"
-      ]
-    },
-    {
-      "canonical": "berit",
-      "type": "concept",
-      "translit": [
-        "brit",
-        "bris"
-      ],
-      "en": [
-        "covenant"
-      ],
-      "he": [
-        "ברית"
-      ]
-    },
-    {
-      "canonical": "ʾemuna",
-      "type": "concept",
-      "translit": [
-        "emunah",
-        "emuno",
-        "emuna"
-      ],
-      "en": [
-        "faith",
-        "belief"
-      ],
-      "he": [
-        "אמונה"
-      ]
-    },
-    {
-      "canonical": "ḥesed",
-      "type": "concept",
-      "translit": [
-        "chesed",
-        "chessed",
-        "hesed"
-      ],
-      "en": [
-        "loving-kindness"
-      ],
-      "he": [
-        "חסד"
-      ]
-    },
-    {
-      "canonical": "din",
-      "type": "concept",
-      "translit": [
-        "din"
-      ],
-      "en": [
-        "judgement",
-        "strict law",
-        "strict justice"
-      ],
-      "he": [
-        "דין"
-      ]
-    },
-    {
-      "canonical": "kaḇod",
-      "type": "concept",
-      "translit": [
-        "kavod",
-        "koved",
-        "kabod"
-      ],
-      "en": [
-        "glory",
-        "honour",
-        "honor"
-      ],
-      "he": [
-        "כבוד"
-      ]
-    },
-    {
-      "canonical": "galut",
-      "type": "concept",
-      "translit": [
-        "galus",
-        "golus"
-      ],
-      "en": [
-        "exile",
-        "diaspora"
-      ],
-      "he": [
-        "גלות"
-      ]
-    },
-    {
-      "canonical": "geʾula",
-      "type": "concept",
-      "translit": [
-        "geula",
-        "geulah",
-        "geuloh",
-        "ge'ula"
-      ],
-      "en": [
-        "redemption"
-      ],
-      "he": [
-        "גאולה"
-      ]
-    },
-    {
-      "canonical": "nes",
-      "type": "concept",
-      "translit": [
-        "ness"
-      ],
-      "en": [
-        "miracle"
-      ],
-      "he": [
-        "נס"
-      ]
-    },
-    {
-      "canonical": "neshama",
-      "type": "concept",
-      "translit": [
-        "neshamah",
-        "neshomo"
-      ],
-      "en": [
-        "soul"
-      ],
-      "he": [
-        "נשמה"
-      ]
-    },
-    {
-      "canonical": "nephesh",
-      "type": "concept",
-      "translit": [
-        "nefesh"
-      ],
-      "en": [
-        "soul",
-        "self",
-        "life-force"
-      ],
-      "he": [
-        "נפש"
-      ]
-    },
-    {
-      "canonical": "śekhel",
-      "type": "concept",
-      "translit": [
-        "sechel",
-        "seichel",
-        "sekhel"
-      ],
-      "en": [
-        "intellect",
-        "reason"
-      ],
-      "he": [
-        "שכל"
-      ]
-    },
-    {
-      "canonical": "lashon haqqodesh",
-      "type": "concept",
-      "translit": [
-        "lashon hakodesh",
-        "loshon hakoydesh",
-        "lashon ha-qodesh"
-      ],
-      "en": [
-        "the Hebrew language",
-        "the holy tongue"
-      ],
-      "he": [
-        "לשון הקודש"
-      ]
-    },
-    {
-      "canonical": "targum",
-      "type": "text",
-      "translit": [
-        "targum"
-      ],
-      "en": [
-        "Aramaic translation"
-      ],
-      "he": [
-        "תרגום"
-      ]
-    },
-    {
-      "canonical": "ʾOnqelos",
-      "type": "text",
-      "translit": [
-        "unkelus",
-        "unkelos",
-        "Onqelos"
-      ],
-      "en": [
-        "Onkelos"
-      ],
-      "he": [
-        "אונקלוס"
-      ]
-    },
-    {
-      "canonical": "Ladino",
-      "type": "concept",
-      "translit": [
-        "ladino"
-      ],
-      "en": [
-        "Ladino",
-        "judeo-spanish",
-        "judezmo",
-        "spanyol"
-      ],
-      "he": [
-        "לאדינו"
-      ]
-    },
-    {
-      "canonical": "Mishna",
-      "type": "text",
-      "translit": [
-        "mishnah"
-      ],
-      "en": [
-        "the Mishnah",
-        "mishnaic",
-        "mishnayot",
-        "mishnayos"
-      ],
-      "he": [
-        "משנה"
-      ]
-    },
-    {
-      "canonical": "Gemaraʾ",
-      "type": "text",
-      "translit": [
-        "gemarah",
-        "gemora",
-        "gemoro",
-        "gmara",
-        "Gemara"
-      ],
-      "en": [
-        "the Gemara"
-      ],
-      "he": [
-        "גמרא"
-      ]
-    },
-    {
-      "canonical": "Talmud",
-      "type": "text",
-      "translit": [
-        "talmud"
-      ],
-      "en": [
-        "the Talmud",
-        "talmudic",
-        "shas"
-      ],
-      "he": [
-        "תלמוד"
-      ]
-    },
-    {
-      "canonical": "Tosephtaʾ",
-      "type": "text",
-      "translit": [
-        "tosefta",
-        "tosephta",
-        "Tosefta"
-      ],
-      "en": [
-        "the Tosefta"
-      ],
-      "he": [
-        "תוספתא"
-      ]
-    },
-    {
-      "canonical": "Siphraʾ",
-      "type": "text",
-      "translit": [
-        "sifra",
-        "Sifra"
-      ],
-      "en": [
-        "the Sifra",
-        "torat kohanim"
-      ],
-      "he": [
-        "ספרא"
-      ]
-    },
-    {
-      "canonical": "Siphre",
-      "type": "text",
-      "translit": [
-        "sifre",
-        "sifrei",
-        "Sifre"
-      ],
-      "en": [
-        "the Sifre"
-      ],
-      "he": [
-        "ספרי"
-      ]
-    },
-    {
-      "canonical": "Rashi",
-      "type": "sage",
-      "translit": [
-        "rashi",
-        "rashy"
-      ],
-      "en": [
-        "Rashi"
-      ],
-      "he": [
-        "רש\"י"
-      ]
-    },
-    {
-      "canonical": "Tosaphot",
-      "type": "text",
-      "translit": [
-        "tosafot",
-        "tosfot",
-        "tosafos",
-        "tosfos",
-        "Tosafot"
-      ],
-      "en": [
-        "the Tosafot",
-        "the tosafists"
-      ],
-      "he": [
-        "תוספות"
-      ]
-    },
-    {
-      "canonical": "Mishne Tora",
-      "type": "text",
-      "translit": [
-        "mishneh torah",
-        "mishne torah"
-      ],
-      "en": [
-        "Maimonides' code",
-        "the code",
-        "yad hachazaka"
-      ],
-      "he": [
-        "משנה תורה"
-      ]
-    },
-    {
-      "canonical": "Moreh Neḇukhim",
-      "type": "text",
-      "translit": [
-        "moreh nevuchim",
-        "moreh nebuchim",
-        "Moreh Nebukhim"
-      ],
-      "en": [
-        "the Guide of the Perplexed",
-        "guide of the perplexed",
-        "the guide",
-        "guide for the perplexed"
-      ],
-      "he": [
-        "מורה נבוכים"
-      ]
-    },
-    {
-      "canonical": "Shulḥan ʿArukh",
-      "type": "text",
-      "translit": [
-        "shulchan aruch",
-        "shulchan arukh",
-        "shulhan aruch",
-        "Shulhan 'Arukh"
-      ],
-      "en": [
-        "the Shulhan Arukh",
-        "the set table"
-      ],
-      "he": [
-        "שולחן ערוך"
-      ]
-    },
-    {
-      "canonical": "Kuzari",
-      "type": "text",
-      "translit": [
-        "kuzari"
-      ],
-      "en": [
-        "the Kuzari"
-      ],
-      "he": [
-        "הכוזרי"
-      ]
-    },
-    {
-      "canonical": "Ribbi",
-      "type": "concept",
-      "translit": [
-        "rebbe",
-        "reb",
-        "ribi"
-      ],
-      "en": [
-        "Rabbi",
-        "master"
-      ],
-      "he": [
-        "ריבי",
-        "רבי"
-      ]
-    },
-    {
-      "canonical": "Ḥakham",
-      "type": "concept",
-      "translit": [
-        "chacham",
-        "chochom",
-        "hakham",
-        "hacham",
-        "Hakham",
-        "hakam"
-      ],
-      "en": [
-        "sage",
-        "Sephardic rabbi"
-      ],
-      "he": [
-        "חכם"
-      ]
-    },
-    {
-      "canonical": "Ḥakhamim",
-      "type": "concept",
-      "translit": [
-        "chachamim",
-        "chachomim",
-        "hakhamim",
-        "hachamim",
-        "hakamim",
-        "hakamin",
-        "chachamin",
-        "hakhamin",
-        "Hakhamim"
-      ],
-      "en": [
-        "the Sages",
-        "sages"
-      ],
-      "he": [
-        "חכמים"
-      ]
-    },
-    {
-      "canonical": "Rambam",
-      "type": "sage",
-      "translit": [
-        "rambam"
-      ],
-      "en": [
-        "Maimonides",
-        "moses maimonides",
-        "the rambam"
-      ],
-      "he": [
-        "רמב\"ם"
-      ]
-    },
-    {
-      "canonical": "Ramban",
-      "type": "sage",
-      "translit": [
-        "ramban"
-      ],
-      "en": [
-        "Nahmanides",
-        "nachmanides"
-      ],
-      "he": [
-        "רמב\"ן"
-      ]
-    },
-    {
-      "canonical": "Rif",
-      "type": "sage",
-      "translit": [
-        "rif"
-      ],
-      "en": [
-        "Alfasi",
-        "isaac alfasi"
-      ],
-      "he": [
-        "רי\"ף"
-      ]
-    },
-    {
-      "canonical": "Rosh",
-      "type": "sage",
-      "translit": [],
-      "en": [
-        "Asher ben Yehiel",
-        "asheri",
-        "rabbenu asher"
-      ],
-      "he": [
-        "רא\"ש"
-      ]
-    },
-    {
-      "canonical": "Rabbenu Tam",
-      "type": "sage",
-      "translit": [
-        "rabbeinu tam",
-        "rabenu tam"
-      ],
-      "en": [
-        "Rabbenu Tam",
-        "jacob ben meir"
-      ],
-      "he": [
-        "רבנו תם"
-      ]
-    },
-    {
-      "canonical": "Meiri",
-      "type": "sage",
-      "translit": [
-        "meiri",
-        "hameiri"
-      ],
-      "en": [
-        "the Meiri",
-        "menachem meiri"
-      ],
-      "he": [
-        "המאירי"
-      ]
-    },
-    {
-      "canonical": "ʾAbbaye",
-      "type": "sage",
-      "translit": [
-        "abaye",
-        "abbay",
-        "abbaye",
-        "Abbaye"
-      ],
-      "en": [],
-      "he": [
-        "אביי"
-      ]
-    },
-    {
-      "canonical": "Raḇaʾ",
-      "type": "sage",
-      "translit": [
-        "rava",
-        "raba",
-        "Rava"
-      ],
-      "en": [],
-      "he": [
-        "רבא"
-      ]
-    },
-    {
-      "canonical": "Raḇ ʾAshi",
-      "type": "sage",
-      "translit": [
-        "rav ashi",
-        "rav ashe",
-        "Rav Ashi"
-      ],
-      "en": [],
-      "he": [
-        "רב אשי"
-      ]
-    },
-    {
-      "canonical": "Ribbi ʿAqiḇa",
-      "type": "sage",
-      "translit": [
-        "rebbe akiva",
-        "Ribbi 'Aqiba"
-      ],
-      "en": [
-        "Rabbi Akiva"
-      ],
-      "he": [
-        "רבי עקיבא"
-      ]
-    },
-    {
-      "canonical": "Ribbi Yoḥanan",
-      "type": "sage",
-      "translit": [
-        "rebbe yochonon",
-        "Ribbi Yohanan"
-      ],
-      "en": [
-        "Rabbi Yohanan"
-      ],
-      "he": [
-        "רבי יוחנן"
-      ]
-    },
-    {
-      "canonical": "Resh Laqish",
-      "type": "sage",
-      "translit": [
-        "resh lakish",
-        "reish lakish"
-      ],
-      "en": [
-        "Resh Laqish",
-        "shimon ben lakish"
-      ],
-      "he": [
-        "ריש לקיש"
-      ]
-    },
-    {
-      "canonical": "Shemuʾel",
-      "type": "sage",
-      "translit": [
-        "shmuel",
-        "shmiel",
-        "Shemuel"
-      ],
-      "en": [
-        "samuel"
-      ],
-      "he": [
-        "שמואל"
-      ]
-    },
-    {
-      "canonical": "Seʿadya Gaʾon",
-      "type": "sage",
-      "translit": [
-        "saadia gaon",
-        "saadya gaon",
-        "saadiah gaon",
-        "Se'adya Gaon"
-      ],
-      "en": [
-        "Saadia Gaon",
-        "rasag"
-      ],
-      "he": [
-        "סעדיה גאון"
-      ]
-    },
-    {
-      "canonical": "Yehuda hallevi",
-      "type": "sage",
-      "translit": [
-        "yehuda halevi",
-        "yehuda halevy",
-        "yehudah halevy",
-        "yehuda alevi",
-        "yehudah alevi",
-        "yudalevi",
-        "yehudalevi",
-        "Yehuda ha-Levi"
-      ],
-      "en": [
-        "Judah Halevi",
-        "rihal",
-        "judah halevi",
-        "judah alevi"
-      ],
-      "he": [
-        "יהודה הלוי"
-      ]
-    },
-    {
-      "canonical": "ʾIbn ʿEzraʾ",
-      "type": "sage",
-      "translit": [
-        "ibn ezra",
-        "even ezra",
-        "Ibn 'Ezra"
-      ],
-      "en": [
-        "Ibn Ezra",
-        "abraham ibn ezra"
-      ],
-      "he": [
-        "אבן עזרא"
-      ]
-    },
-    {
-      "canonical": "ʾIbn Gaḇirol",
-      "type": "sage",
-      "translit": [
-        "ibn gabirol",
-        "Ibn Gabirol"
-      ],
-      "en": [
-        "avicebron",
-        "solomon ibn gabirol"
-      ],
-      "he": [
-        "אבן גבירול"
-      ]
-    },
-    {
-      "canonical": "ʾIbn Paquda",
-      "type": "sage",
-      "translit": [
-        "ibn paquda",
-        "ibn pakuda",
-        "Ibn Paquda"
-      ],
-      "en": [
-        "Bahya ibn Paquda",
-        "hovot halevavot"
-      ],
-      "he": [
-        "אבן פקודה"
-      ]
-    },
-    {
-      "canonical": "Yoseph Qaro",
-      "type": "sage",
-      "translit": [
-        "yosef karo",
-        "yosef caro",
-        "yoseph qaro",
-        "Yosef Qaro"
-      ],
-      "en": [
-        "Joseph Karo",
-        "joseph caro",
-        "maran",
-        "hakham yosef qaro",
-        "the bet yosef",
-        "joseph karo"
-      ],
-      "he": [
-        "יוסף קארו"
-      ]
-    },
-    {
-      "canonical": "David Nieto",
-      "type": "sage",
-      "translit": [
-        "david nieto",
-        "david nietto"
-      ],
-      "en": [
-        "David Nieto",
-        "haham nieto"
-      ],
-      "he": [
-        "דוד נייטו"
-      ]
-    },
-    {
-      "canonical": "Shabbetai Ṣeḇi",
-      "type": "figure",
-      "translit": [
-        "shabbetai zevi",
-        "sabbatai zevi",
-        "shabtai tzvi",
-        "sabbatai sevi",
-        "Shabbetai Sebi"
-      ],
-      "en": [
-        "Shabbetai Zevi"
-      ],
-      "he": [
-        "שבתי צבי"
-      ]
-    },
-    {
-      "canonical": "Moshe Rabbenu",
-      "type": "figure",
-      "translit": [
-        "moshe rabbeinu",
-        "moshe rabenu"
-      ],
-      "en": [
-        "Moses",
-        "moses our teacher"
-      ],
-      "he": [
-        "משה רבנו"
-      ]
-    },
-    {
-      "canonical": "ʾAharon",
-      "type": "figure",
-      "translit": [
-        "aharon",
-        "Aharon"
-      ],
-      "en": [
-        "Aaron",
-        "aron hakohen"
-      ],
-      "he": [
-        "אהרן"
-      ]
-    },
-    {
-      "canonical": "ʾAbraham ʾAḇinu",
-      "type": "figure",
-      "translit": [
-        "avraham avinu",
-        "abraham avinu",
-        "Abraham Abinu"
-      ],
-      "en": [
-        "Abraham",
-        "abraham our father"
-      ],
-      "he": [
-        "אברהם אבינו"
-      ]
-    },
-    {
-      "canonical": "Yiṣḥaq",
-      "type": "figure",
-      "translit": [
-        "yitzhak",
-        "yitzchak",
-        "yitzchok",
-        "Yishaq",
-        "ishaq"
-      ],
-      "en": [
-        "Isaac"
-      ],
-      "he": [
-        "יצחק"
-      ]
-    },
-    {
-      "canonical": "Yaʿaqoḇ",
-      "type": "figure",
-      "translit": [
-        "yaakov",
-        "yaacov",
-        "Yaaqob"
-      ],
-      "en": [
-        "Jacob",
-        "yankev"
-      ],
-      "he": [
-        "יעקב"
-      ]
-    },
-    {
-      "canonical": "Yoseph haṣṣaddiq",
-      "type": "figure",
-      "translit": [
-        "yosef hatzaddik",
-        "yosef hasadik",
-        "yosef hasaddik",
-        "Yosef ha-Saddiq"
-      ],
-      "en": [
-        "Joseph",
-        "yosef the righteous"
-      ],
-      "he": [
-        "יוסף"
+        "בורא"
       ]
     },
     {
@@ -1668,797 +343,78 @@
       ]
     },
     {
-      "canonical": "Shelomo hammelekh",
-      "type": "figure",
+      "canonical": "David Nieto",
+      "type": "sage",
       "translit": [
-        "shlomo hamelech",
-        "shelomo hamelekh",
-        "Shelomo ha-Melekh"
+        "david nieto",
+        "david nietto"
       ],
       "en": [
-        "King Solomon"
+        "David Nieto",
+        "haham nieto"
       ],
       "he": [
-        "שלמה המלך"
+        "דוד נייטו"
       ]
     },
     {
-      "canonical": "Qoraḥ",
-      "type": "figure",
-      "translit": [
-        "korach",
-        "koyrach",
-        "Qorah"
-      ],
-      "en": [
-        "Korah"
-      ],
-      "he": [
-        "קורח"
-      ]
-    },
-    {
-      "canonical": "Bene Qoraḥ",
-      "type": "figure",
-      "translit": [
-        "bnei korach",
-        "Bene Qorah"
-      ],
-      "en": [
-        "the sons of Korah",
-        "sons of korach",
-        "korahites"
-      ],
-      "he": [
-        "בני קרח"
-      ]
-    },
-    {
-      "canonical": "Haman harashaʿ",
-      "type": "figure",
-      "translit": [
-        "haman harasha",
-        "Haman ha-rasha'"
-      ],
-      "en": [
-        "Haman",
-        "horeman"
-      ],
-      "he": [
-        "המן הרשע"
-      ]
-    },
-    {
-      "canonical": "keruḇim",
+      "canonical": "Daʿat",
       "type": "concept",
       "translit": [
-        "keruvim",
-        "kruvim"
+        "da'at",
+        "daat"
       ],
       "en": [
-        "the cherubim",
-        "angels",
-        "cherubim",
-        "cherubs"
+        "knowledge"
       ],
       "he": [
-        "כרובים"
+        "דעת"
       ]
     },
     {
-      "canonical": "Berakhot",
-      "type": "tractate",
+      "canonical": "derash",
+      "type": "concept",
       "translit": [
-        "berachot",
-        "brachos",
-        "brochos"
+        "drash",
+        "derush"
       ],
       "en": [
-        "tractate Berakhot"
+        "homiletic reading"
       ],
       "he": [
-        "ברכות"
+        "דרש"
       ]
     },
     {
-      "canonical": "ʿEruḇin",
-      "type": "tractate",
+      "canonical": "derasha",
+      "type": "concept",
       "translit": [
-        "eruvin",
-        "eiruvin",
-        "erubin",
-        "'Erubin"
+        "drasha",
+        "drosho"
       ],
       "en": [
-        "tractate Eruvin"
+        "homily",
+        "sermon"
       ],
       "he": [
-        "עירובין"
+        "דרשה"
       ]
     },
     {
-      "canonical": "Pesaḥim",
-      "type": "tractate",
+      "canonical": "derashot",
       "translit": [
-        "pesachim",
-        "psochim",
-        "Pesahim"
+        "drashot",
+        "drashoth",
+        "derashoth"
       ],
       "en": [
-        "tractate Pesahim"
+        "homilies",
+        "sermons"
       ],
       "he": [
-        "פסחים"
-      ]
-    },
-    {
-      "canonical": "Yomaʾ",
-      "type": "tractate",
-      "translit": [
-        "yoma",
-        "yuma",
-        "Yoma"
+        "דרשות"
       ],
-      "en": [
-        "tractate Yoma"
-      ],
-      "he": [
-        "יומא"
-      ]
-    },
-    {
-      "canonical": "Sukka",
-      "type": "tractate",
-      "translit": [
-        "sukkah",
-        "succah",
-        "suka"
-      ],
-      "en": [
-        "tractate Sukka"
-      ],
-      "he": [
-        "סוכה"
-      ]
-    },
-    {
-      "canonical": "Beṣa",
-      "type": "tractate",
-      "translit": [
-        "beitza",
-        "beitzah",
-        "beisa",
-        "Besa"
-      ],
-      "en": [
-        "tractate Besa"
-      ],
-      "he": [
-        "ביצה"
-      ]
-    },
-    {
-      "canonical": "Rosh hashana",
-      "type": "holiday",
-      "translit": [
-        "rosh hashana",
-        "rosh hashanah",
-        "rosh hashono",
-        "Rosh ha-Shana"
-      ],
-      "en": [
-        "Rosh ha-Shana (holiday & tractate)",
-        "new year"
-      ],
-      "he": [
-        "ראש השנה"
-      ]
-    },
-    {
-      "canonical": "Taʿanit",
-      "type": "tractate",
-      "translit": [
-        "taanit",
-        "taanis",
-        "tanis",
-        "Ta'anit"
-      ],
-      "en": [
-        "tractate Taanit"
-      ],
-      "he": [
-        "תענית"
-      ]
-    },
-    {
-      "canonical": "Megilla",
-      "type": "tractate",
-      "translit": [
-        "megillah",
-        "megila",
-        "megilloh"
-      ],
-      "en": [
-        "tractate Megilla"
-      ],
-      "he": [
-        "מגילה"
-      ]
-    },
-    {
-      "canonical": "Ḥagiga",
-      "type": "tractate",
-      "translit": [
-        "chagigah",
-        "chagiga",
-        "hagigah",
-        "Hagiga"
-      ],
-      "en": [
-        "tractate Hagiga"
-      ],
-      "he": [
-        "חגיגה"
-      ]
-    },
-    {
-      "canonical": "Yeḇamot",
-      "type": "tractate",
-      "translit": [
-        "yevamot",
-        "yevamos",
-        "yebamos",
-        "Yebamot"
-      ],
-      "en": [
-        "tractate Yebamot"
-      ],
-      "he": [
-        "יבמות"
-      ]
-    },
-    {
-      "canonical": "Ketuḇot",
-      "type": "tractate",
-      "translit": [
-        "ketubot",
-        "kesubos",
-        "ksubos",
-        "Ketubot"
-      ],
-      "en": [
-        "tractate Ketubot"
-      ],
-      "he": [
-        "כתובות"
-      ]
-    },
-    {
-      "canonical": "Nedarim",
-      "type": "tractate",
-      "translit": [
-        "nedarim",
-        "nedorim"
-      ],
-      "en": [
-        "tractate Nedarim"
-      ],
-      "he": [
-        "נדרים"
-      ]
-    },
-    {
-      "canonical": "Giṭṭin",
-      "type": "tractate",
-      "translit": [
-        "gittin",
-        "gitin",
-        "Gittin"
-      ],
-      "en": [
-        "tractate Gittin"
-      ],
-      "he": [
-        "גיטין"
-      ]
-    },
-    {
-      "canonical": "Qiddushin",
-      "type": "tractate",
-      "translit": [
-        "kiddushin",
-        "kidushin"
-      ],
-      "en": [
-        "tractate Qiddushin"
-      ],
-      "he": [
-        "קידושין"
-      ]
-    },
-    {
-      "canonical": "Baḇaʾ Qammaʾ",
-      "type": "tractate",
-      "translit": [
-        "bava kamma",
-        "baba kama",
-        "bava kama",
-        "Baba Qamma"
-      ],
-      "en": [
-        "tractate Baba Qamma"
-      ],
-      "he": [
-        "בבא קמא"
-      ]
-    },
-    {
-      "canonical": "Baḇaʾ Meṣiʿaʾ",
-      "type": "tractate",
-      "translit": [
-        "bava metzia",
-        "baba metzia",
-        "bava metsia",
-        "Baba Mesi'a"
-      ],
-      "en": [
-        "tractate Baba Mesia"
-      ],
-      "he": [
-        "בבא מציעא"
-      ]
-    },
-    {
-      "canonical": "Baḇaʾ Batraʾ",
-      "type": "tractate",
-      "translit": [
-        "bava batra",
-        "baba basra",
-        "bava basra",
-        "Baba Batra"
-      ],
-      "en": [
-        "tractate Baba Batra"
-      ],
-      "he": [
-        "בבא בתרא"
-      ]
-    },
-    {
-      "canonical": "Sanhedrin",
-      "type": "tractate",
-      "translit": [
-        "sanhedrin",
-        "sanhedrін"
-      ],
-      "en": [
-        "tractate Sanhedrin"
-      ],
-      "he": [
-        "סנהדרין"
-      ]
-    },
-    {
-      "canonical": "ʿAḇoda Zara",
-      "type": "tractate",
-      "translit": [
-        "avoda zara",
-        "avodah zarah",
-        "aboda zara",
-        "aboda zarah",
-        "'Aboda Zara"
-      ],
-      "en": [
-        "tractate Aboda Zara",
-        "idolatry"
-      ],
-      "he": [
-        "עבודה זרה"
-      ]
-    },
-    {
-      "canonical": "ʾAḇot",
-      "type": "tractate",
-      "translit": [
-        "avot",
-        "avos",
-        "Abot"
-      ],
-      "en": [
-        "tractate Abot",
-        "ethics of the fathers",
-        "pirkei avot"
-      ],
-      "he": [
-        "אבות"
-      ]
-    },
-    {
-      "canonical": "Ḥullin",
-      "type": "tractate",
-      "translit": [
-        "chullin",
-        "chulin",
-        "hulin",
-        "Hullin"
-      ],
-      "en": [
-        "tractate Hullin"
-      ],
-      "he": [
-        "חולין"
-      ]
-    },
-    {
-      "canonical": "Nidda",
-      "type": "tractate",
-      "translit": [
-        "niddah",
-        "nida",
-        "niddoh"
-      ],
-      "en": [
-        "tractate Nidda"
-      ],
-      "he": [
-        "נדה"
-      ]
-    },
-    {
-      "canonical": "Bereʾshit",
-      "type": "parsha",
-      "translit": [
-        "bereishit",
-        "breishis",
-        "Bereshit"
-      ],
-      "en": [
-        "Genesis / parashat Bereshit",
-        "genesis",
-        "in the beginning"
-      ],
-      "he": [
-        "בראשית"
-      ]
-    },
-    {
-      "canonical": "Noaḥ",
-      "type": "parsha",
-      "translit": [
-        "noach",
-        "noyach",
-        "Noah"
-      ],
-      "en": [
-        "parashat Noah",
-        "noah"
-      ],
-      "he": [
-        "נח"
-      ]
-    },
-    {
-      "canonical": "Lekh Lekha",
-      "type": "parsha",
-      "translit": [
-        "lech lecha",
-        "lech lekha",
-        "lekh lekho"
-      ],
-      "en": [
-        "parashat Lekh Lekha"
-      ],
-      "he": [
-        "לך לך"
-      ]
-    },
-    {
-      "canonical": "Vayeraʾ",
-      "type": "parsha",
-      "translit": [
-        "vayeira",
-        "vayera",
-        "vayeiro",
-        "Vayera"
-      ],
-      "en": [
-        "parashat Vayera"
-      ],
-      "he": [
-        "וירא"
-      ]
-    },
-    {
-      "canonical": "Ḥayye śara",
-      "type": "parsha",
-      "translit": [
-        "chayei sarah",
-        "chayey sara",
-        "haye sarah",
-        "Hayye Sara"
-      ],
-      "en": [
-        "parashat Hayye Sara"
-      ],
-      "he": [
-        "חיי שרה"
-      ]
-    },
-    {
-      "canonical": "Toledot",
-      "type": "parsha",
-      "translit": [
-        "toldot",
-        "toldos",
-        "toledos"
-      ],
-      "en": [
-        "parashat Toledot"
-      ],
-      "he": [
-        "תולדות"
-      ]
-    },
-    {
-      "canonical": "Vayeṣeʾ",
-      "type": "parsha",
-      "translit": [
-        "vayetze",
-        "vayetzei",
-        "vayeitzei",
-        "Vayese"
-      ],
-      "en": [
-        "parashat Vayese"
-      ],
-      "he": [
-        "ויצא"
-      ]
-    },
-    {
-      "canonical": "Vayishlaḥ",
-      "type": "parsha",
-      "translit": [
-        "vayishlach",
-        "vayishloch",
-        "Vayishlah"
-      ],
-      "en": [
-        "parashat Vayishlah"
-      ],
-      "he": [
-        "וישלח"
-      ]
-    },
-    {
-      "canonical": "Vayesheḇ",
-      "type": "parsha",
-      "translit": [
-        "vayeshev",
-        "vayeishev",
-        "vayesheiv",
-        "Vayesheb"
-      ],
-      "en": [
-        "parashat Vayesheb"
-      ],
-      "he": [
-        "וישב"
-      ]
-    },
-    {
-      "canonical": "Miqqeṣ",
-      "type": "parsha",
-      "translit": [
-        "miketz",
-        "mikeitz",
-        "mikes",
-        "Miqqes"
-      ],
-      "en": [
-        "parashat Miqqes"
-      ],
-      "he": [
-        "מקץ"
-      ]
-    },
-    {
-      "canonical": "Vayiggash",
-      "type": "parsha",
-      "translit": [
-        "vayigash",
-        "vayigosh",
-        "Vayigash"
-      ],
-      "en": [
-        "parashat Vayigash"
-      ],
-      "he": [
-        "ויגש"
-      ]
-    },
-    {
-      "canonical": "Vayḥi",
-      "type": "parsha",
-      "translit": [
-        "vayechi",
-        "vaychi",
-        "Vayhi"
-      ],
-      "en": [
-        "parashat Vayhi"
-      ],
-      "he": [
-        "ויחי"
-      ]
-    },
-    {
-      "canonical": "Shemot",
-      "type": "parsha",
-      "translit": [
-        "shemot",
-        "shemos",
-        "shmos"
-      ],
-      "en": [
-        "Exodus / parashat Shemot",
-        "exodus"
-      ],
-      "he": [
-        "שמות"
-      ]
-    },
-    {
-      "canonical": "Yitro",
-      "type": "parsha",
-      "translit": [
-        "yitro",
-        "yisro"
-      ],
-      "en": [
-        "parashat Yitro",
-        "jethro"
-      ],
-      "he": [
-        "יתרו"
-      ]
-    },
-    {
-      "canonical": "Mishpaṭim",
-      "type": "parsha",
-      "translit": [
-        "mishpatim",
-        "mishpotim",
-        "Mishpatim"
-      ],
-      "en": [
-        "parashat Mishpatim"
-      ],
-      "he": [
-        "משפטים"
-      ]
-    },
-    {
-      "canonical": "Teruma",
-      "type": "parsha",
-      "translit": [
-        "terumah",
-        "terumo",
-        "teruma"
-      ],
-      "en": [
-        "parashat Teruma"
-      ],
-      "he": [
-        "תרומה"
-      ]
-    },
-    {
-      "canonical": "Ki Tissaʾ",
-      "type": "parsha",
-      "translit": [
-        "ki tisa",
-        "ki sisa",
-        "ki thisa",
-        "Ki Tissa"
-      ],
-      "en": [
-        "parashat Ki Tissa"
-      ],
-      "he": [
-        "כי תשא"
-      ]
-    },
-    {
-      "canonical": "Vayiqraʾ",
-      "type": "parsha",
-      "translit": [
-        "vayikra",
-        "vayikro",
-        "Vayiqra"
-      ],
-      "en": [
-        "Leviticus / parashat Vayiqra",
-        "leviticus"
-      ],
-      "he": [
-        "ויקרא"
-      ]
-    },
-    {
-      "canonical": "Qedoshim",
-      "type": "parsha",
-      "translit": [
-        "kedoshim",
-        "kdoshim",
-        "kedoyshim"
-      ],
-      "en": [
-        "parashat Qedoshim"
-      ],
-      "he": [
-        "קדושים"
-      ]
-    },
-    {
-      "canonical": "Bemidbar",
-      "type": "parsha",
-      "translit": [
-        "bamidbar",
-        "bemidbar",
-        "bamidbor"
-      ],
-      "en": [
-        "Numbers / parashat Bemidbar",
-        "numbers"
-      ],
-      "he": [
-        "במדבר"
-      ]
-    },
-    {
-      "canonical": "parashat Qoraḥ",
-      "type": "parsha",
-      "translit": [
-        "korach parsha",
-        "parashat korach",
-        "parashat Qorah"
-      ],
-      "en": [],
-      "he": [
-        "קרח"
-      ]
-    },
-    {
-      "canonical": "Balaq",
-      "type": "parsha",
-      "translit": [
-        "balak",
-        "bolok"
-      ],
-      "en": [
-        "parashat Balaq",
-        "balaam"
-      ],
-      "he": [
-        "בלק"
-      ]
-    },
-    {
-      "canonical": "Pineḥas",
-      "type": "parsha",
-      "translit": [
-        "pinchas",
-        "pinhas",
-        "Pinehas"
-      ],
-      "en": [
-        "parashat Pinehas",
-        "phineas"
-      ],
-      "he": [
-        "פינחס"
-      ]
+      "type": "concept"
     },
     {
       "canonical": "Deḇarim",
@@ -2477,630 +433,143 @@
       ]
     },
     {
-      "canonical": "Vaʾetḥannan",
-      "type": "parsha",
-      "translit": [
-        "vaetchanan",
-        "voeschanan",
-        "vaethanan",
-        "Va'ethannan"
-      ],
-      "en": [
-        "parashat Vaethannan"
-      ],
-      "he": [
-        "ואתחנן"
-      ]
-    },
-    {
-      "canonical": "Ki Teṣeʾ",
-      "type": "parsha",
-      "translit": [
-        "ki teitzei",
-        "ki tetze",
-        "ki seitzei",
-        "Ki Tese"
-      ],
-      "en": [
-        "parashat Ki Tese"
-      ],
-      "he": [
-        "כי תצא"
-      ]
-    },
-    {
-      "canonical": "Haʾazinu",
-      "type": "parsha",
-      "translit": [
-        "haazinu",
-        "haazínu",
-        "Ha'azinu"
-      ],
-      "en": [
-        "parashat Haazinu"
-      ],
-      "he": [
-        "האזינו"
-      ]
-    },
-    {
-      "canonical": "Pesaḥ",
-      "type": "holiday",
-      "translit": [
-        "pesach",
-        "pesakh",
-        "peysach",
-        "Pesah"
-      ],
-      "en": [
-        "Passover"
-      ],
-      "he": [
-        "פסח"
-      ]
-    },
-    {
-      "canonical": "Shaḇuʿot",
-      "type": "holiday",
-      "translit": [
-        "shavuot",
-        "shavuos",
-        "shvues",
-        "Shabu'ot"
-      ],
-      "en": [
-        "Shavuot",
-        "pentecost",
-        "feast of weeks"
-      ],
-      "he": [
-        "שבועות"
-      ]
-    },
-    {
-      "canonical": "Sukkot",
-      "type": "holiday",
-      "translit": [
-        "sukkot",
-        "sukkos"
-      ],
-      "en": [
-        "Sukkot",
-        "tabernacles",
-        "feast of booths",
-        "succos"
-      ],
-      "he": [
-        "סוכות"
-      ]
-    },
-    {
-      "canonical": "Yom Kippur",
-      "type": "holiday",
-      "translit": [
-        "yom kipper",
-        "yoym kipur"
-      ],
-      "en": [
-        "day of atonement"
-      ],
-      "he": [
-        "יום כיפור"
-      ]
-    },
-    {
-      "canonical": "Yom hakkippurim",
-      "type": "holiday",
-      "translit": [
-        "Yom ha-Kippurim"
-      ],
-      "en": [
-        "Yom Kippur",
-        "day of atonement"
-      ],
-      "he": [
-        "יום הכיפורים"
-      ]
-    },
-    {
-      "canonical": "Ḥanukka",
-      "type": "holiday",
-      "translit": [
-        "chanukah",
-        "chanuka",
-        "hanukkah",
-        "hanuka",
-        "Hanukka"
-      ],
-      "en": [
-        "festival of lights"
-      ],
-      "he": [
-        "חנוכה"
-      ]
-    },
-    {
-      "canonical": "Purim",
-      "type": "holiday",
-      "translit": [
-        "purim",
-        "pirim"
-      ],
-      "en": [
-        "Purim"
-      ],
-      "he": [
-        "פורים"
-      ]
-    },
-    {
-      "canonical": "Tishʿa beʾAḇ",
-      "type": "holiday",
-      "translit": [
-        "tisha bav",
-        "tisha b'av",
-        "tishe bov",
-        "Tish'a be-Ab"
-      ],
-      "en": [
-        "the Ninth of Ab",
-        "ninth of av"
-      ],
-      "he": [
-        "תשעה באב"
-      ]
-    },
-    {
-      "canonical": "Yom Ṭoḇ",
-      "type": "practice",
-      "translit": [
-        "yom tov",
-        "Yom Tob"
-      ],
-      "en": [
-        "a festival day",
-        "festival",
-        "yontif",
-        "yontef"
-      ],
-      "he": [
-        "יום טוב"
-      ]
-    },
-    {
-      "canonical": "Yamim Ṭoḇim",
-      "type": "practice",
-      "translit": [
-        "yom tovim",
-        "yamim tovim",
-        "yom tobim",
-        "Yamim Tobim"
-      ],
-      "en": [
-        "festival days",
-        "the festivals",
-        "yamim tovin",
-        "yamim tobin"
-      ],
-      "he": [
-        "ימים טובים"
-      ]
-    },
-    {
-      "canonical": "moʿed",
+      "canonical": "din",
       "type": "concept",
       "translit": [
-        "moed",
-        "moadei",
-        "mo'ed"
+        "din"
       ],
       "en": [
-        "appointed time",
-        "festival",
-        "moadim",
-        "moadim uzmanim"
+        "judgement",
+        "strict law",
+        "strict justice"
       ],
       "he": [
-        "מועד"
+        "דין"
       ]
     },
     {
-      "canonical": "Tehillim",
+      "canonical": "galut",
+      "type": "concept",
+      "translit": [
+        "galus",
+        "golus"
+      ],
+      "en": [
+        "exile",
+        "diaspora"
+      ],
+      "he": [
+        "גלות"
+      ]
+    },
+    {
+      "canonical": "Gemaraʾ",
       "type": "text",
       "translit": [
-        "tehillim",
-        "tehilim",
-        "tillim"
+        "gemarah",
+        "gemora",
+        "gemoro",
+        "gmara",
+        "Gemara"
       ],
       "en": [
-        "Psalms",
-        "book of psalms"
+        "the Gemara"
       ],
       "he": [
-        "תהילים"
+        "גמרא"
       ]
     },
     {
-      "canonical": "Mishle",
-      "type": "text",
-      "translit": [
-        "mishlei",
-        "mishley"
-      ],
-      "en": [
-        "Proverbs"
-      ],
-      "he": [
-        "משלי"
-      ]
-    },
-    {
-      "canonical": "Neḇiʾim",
-      "type": "text",
-      "translit": [
-        "neviim",
-        "nevi'im",
-        "neviyim",
-        "Nebi'im"
-      ],
-      "en": [
-        "the Prophets",
-        "prophets"
-      ],
-      "he": [
-        "נביאים"
-      ]
-    },
-    {
-      "canonical": "Ketuḇim",
-      "type": "text",
-      "translit": [
-        "ketuvim",
-        "kesuvim",
-        "Ketubim"
-      ],
-      "en": [
-        "the Writings",
-        "writings",
-        "hagiographa"
-      ],
-      "he": [
-        "כתובים"
-      ]
-    },
-    {
-      "canonical": "Tanakh",
-      "type": "text",
-      "translit": [
-        "tanach",
-        "tenach"
-      ],
-      "en": [
-        "the Hebrew Bible",
-        "Scripture",
-        "hebrew bible",
-        "the bible",
-        "bible",
-        "mikra",
-        "mikrah",
-        "miqra"
-      ],
-      "he": [
-        "תנ\"ך",
-        "מקרא"
-      ]
-    },
-    {
-      "canonical": "Ḥumash",
-      "type": "text",
-      "translit": [
-        "chumash",
-        "khumash",
-        "chumesh",
-        "Humash"
-      ],
-      "en": [
-        "the Pentateuch",
-        "pentateuch",
-        "the five books"
-      ],
-      "he": [
-        "חומש"
-      ]
-    },
-    {
-      "canonical": "Melakhim",
-      "type": "text",
-      "translit": [
-        "melachim",
-        "melochim"
-      ],
-      "en": [
-        "Kings",
-        "book of kings"
-      ],
-      "he": [
-        "מלכים"
-      ]
-    },
-    {
-      "canonical": "ʿAmos",
-      "type": "text",
-      "translit": [
-        "amos",
-        "Amos"
-      ],
-      "en": [
-        "sefer amos"
-      ],
-      "he": [
-        "עמוס"
-      ]
-    },
-    {
-      "canonical": "Yarḥei Kalla",
+      "canonical": "gezera shava",
       "type": "concept",
       "translit": [
-        "yahikallah",
-        "yahi kalla",
-        "yarhei kallah",
-        "yarchei kalla",
-        "yarchei kallah",
-        "yarhi kalla",
-        "yarhei kala",
-        "yerhei kalah",
-        "yerhei kala",
-        "yerchei kalah",
-        "yerchei kala",
-        "yerhei kallah",
-        "Yarhei Kalla"
+        "gezerah shavah",
+        "gzeira shava"
       ],
       "en": [
-        "kalla months",
-        "kalla assembly",
-        "the kalla"
+        "verbal analogy"
       ],
       "he": [
-        "ירחי כלה"
+        "גזרה שווה"
       ]
     },
     {
-      "canonical": "Rosh Kalla",
+      "canonical": "geʾula",
       "type": "concept",
       "translit": [
-        "rosh kalah",
-        "rosh kallah",
-        "rosh kala"
+        "geula",
+        "geulah",
+        "geuloh",
+        "ge'ula"
       ],
       "en": [
-        "head of the kalla",
-        "reish kalla",
-        "kalla-head",
-        "dean of the assembly"
+        "redemption"
       ],
       "he": [
-        "ראש כלה"
+        "גאולה"
       ]
     },
     {
-      "canonical": "ʾAluph",
+      "canonical": "Giṭṭin",
+      "type": "tractate",
+      "translit": [
+        "gittin",
+        "gitin",
+        "Gittin"
+      ],
+      "en": [
+        "tractate Gittin"
+      ],
+      "he": [
+        "גיטין"
+      ]
+    },
+    {
+      "canonical": "halakha",
       "type": "concept",
       "translit": [
-        "alluf",
-        "aluph",
-        "Aluf"
+        "halacha",
+        "halakhah",
+        "halocho"
       ],
       "en": [
-        "master (Geonic academic title)",
-        "academy chief"
+        "Jewish law",
+        "the law",
+        "halakhic",
+        "halachic"
       ],
       "he": [
-        "אלוף"
+        "הלכה"
       ]
     },
     {
-      "canonical": "Modim",
-      "type": "practice",
-      "translit": [
-        "modim"
-      ],
-      "en": [
-        "the Modim prayer",
-        "thanksgiving blessing"
-      ],
-      "he": [
-        "מודים"
-      ]
-    },
-    {
-      "canonical": "Ḥasid",
+      "canonical": "halakha leMoshe missinai",
       "type": "concept",
       "translit": [
-        "hasid",
-        "chasid",
-        "chossid",
-        "Hasid"
+        "halacha lemoshe misinai",
+        "halakha lemoshe mesinai",
+        "halakha le-Moshe mi-Sinai"
       ],
       "en": [
-        "a pious follower",
-        "Hasidic"
+        "law given to Moses at Sinai"
       ],
       "he": [
-        "חסיד"
+        "הלכה למשה מסיני"
       ]
     },
     {
-      "canonical": "Maʿaśe",
-      "type": "concept",
-      "translit": [
-        "maaseh",
-        "maase",
-        "Ma'aseh"
-      ],
-      "en": [
-        "a deed",
-        "a narrative/story"
-      ],
-      "he": [
-        "מעשה"
-      ]
-    },
-    {
-      "canonical": "Ḥazzan",
-      "type": "practice",
-      "translit": [
-        "hazan",
-        "chazan",
-        "chazzan",
-        "Hazzan"
-      ],
-      "en": [
-        "cantor",
-        "prayer leader"
-      ],
-      "he": [
-        "חזן"
-      ]
-    },
-    {
-      "canonical": "Qodesh",
-      "type": "concept",
-      "translit": [
-        "kodesh"
-      ],
-      "en": [
-        "holy",
-        "sacred"
-      ],
-      "he": [
-        "קודש"
-      ]
-    },
-    {
-      "canonical": "Qadosh",
-      "type": "concept",
-      "translit": [
-        "kadosh"
-      ],
-      "en": [
-        "holy",
-        "the Holy One (title)"
-      ],
-      "he": [
-        "קדוש"
-      ]
-    },
-    {
-      "canonical": "Qorban",
-      "type": "concept",
-      "translit": [
-        "korban",
-        "qurban"
-      ],
-      "en": [
-        "sacrifice",
-        "offering"
-      ],
-      "he": [
-        "קרבן"
-      ]
-    },
-    {
-      "canonical": "Mepharesh",
-      "type": "concept",
-      "translit": [
-        "mefalesh",
-        "Mefaresh"
-      ],
-      "en": [
-        "commentator",
-        "exegete",
-        "interpreter"
-      ],
-      "he": [
-        "מפרש"
-      ]
-    },
-    {
-      "canonical": "Palestine",
-      "type": "place",
-      "translit": [],
-      "en": [
-        "Palestinian",
-        "Palestinians"
-      ],
-      "he": [
-        "פלסטין"
-      ]
-    },
-    {
-      "canonical": "Yiśraʾel",
+      "canonical": "Haman harashaʿ",
       "type": "figure",
       "translit": [
-        "Yisrael"
+        "haman harasha",
+        "Haman ha-rasha'"
       ],
       "en": [
-        "Israel"
+        "Haman",
+        "horeman"
       ],
       "he": [
-        "ישראל"
-      ]
-    },
-    {
-      "canonical": "Moshe",
-      "type": "figure",
-      "translit": [],
-      "en": [
-        "Moses"
-      ],
-      "he": [
-        "משה"
-      ]
-    },
-    {
-      "canonical": "Yoseph",
-      "type": "figure",
-      "translit": [
-        "Yosef"
-      ],
-      "en": [
-        "Joseph"
-      ],
-      "he": [
-        "יוסף"
-      ]
-    },
-    {
-      "canonical": "Shelomo",
-      "type": "figure",
-      "translit": [
-        "shlomo"
-      ],
-      "en": [
-        "Solomon"
-      ],
-      "he": [
-        "שלמה"
-      ]
-    },
-    {
-      "canonical": "Mashiaḥ",
-      "type": "concept",
-      "translit": [
-        "mashiach",
-        "moshiach",
-        "mashiyach",
-        "moshiyach",
-        "moshiakh",
-        "Mashiah"
-      ],
-      "en": [
-        "Messiah",
-        "the anointed one",
-        "the anointed"
-      ],
-      "he": [
-        "משיח"
+        "המן הרשע"
       ]
     },
     {
@@ -3119,172 +588,6 @@
       ],
       "he": [
         "המשיח"
-      ]
-    },
-    {
-      "canonical": "Melekh",
-      "type": "concept",
-      "translit": [
-        "melech"
-      ],
-      "en": [
-        "king"
-      ],
-      "he": [
-        "מלך"
-      ]
-    },
-    {
-      "canonical": "ʾEḥad",
-      "type": "concept",
-      "translit": [
-        "echad",
-        "Ehad"
-      ],
-      "en": [
-        "one"
-      ],
-      "he": [
-        "אחד"
-      ]
-    },
-    {
-      "canonical": "Ḥokhma",
-      "type": "concept",
-      "translit": [
-        "chokhmah",
-        "chochmah",
-        "chochma",
-        "hochma",
-        "hokhmah",
-        "Hokhma"
-      ],
-      "en": [
-        "wisdom"
-      ],
-      "he": [
-        "חכמה"
-      ]
-    },
-    {
-      "canonical": "Shomron",
-      "type": "place",
-      "translit": [
-        "shomeron"
-      ],
-      "en": [
-        "Samaria"
-      ],
-      "he": [
-        "שומרון"
-      ]
-    },
-    {
-      "canonical": "Ḥazaqa",
-      "type": "concept",
-      "translit": [
-        "hazaka",
-        "chazaka",
-        "hazakah",
-        "chazakah",
-        "Hazaqa"
-      ],
-      "en": [
-        "legal presumption",
-        "established status"
-      ],
-      "he": [
-        "חזקה"
-      ]
-    },
-    {
-      "canonical": "Hashem",
-      "type": "concept",
-      "translit": [
-        "ha-shem",
-        "ha shem"
-      ],
-      "en": [
-        "the Name",
-        "God"
-      ],
-      "he": [
-        "השם"
-      ]
-    },
-    {
-      "canonical": "Shekhina",
-      "type": "concept",
-      "translit": [
-        "shechina",
-        "shekhinah",
-        "shechinah",
-        "schechina"
-      ],
-      "en": [
-        "the Divine Presence",
-        "the Shekhina"
-      ],
-      "he": [
-        "שכינה"
-      ]
-    },
-    {
-      "canonical": "Mishkan",
-      "type": "concept",
-      "translit": [
-        "mishkon"
-      ],
-      "en": [
-        "the Tabernacle"
-      ],
-      "he": [
-        "משכן"
-      ]
-    },
-    {
-      "canonical": "ʿolam",
-      "type": "concept",
-      "translit": [
-        "alam",
-        "olam"
-      ],
-      "en": [
-        "world",
-        "eternity"
-      ],
-      "he": [
-        "עולם"
-      ]
-    },
-    {
-      "canonical": "Teqiʿat Shophar",
-      "type": "practice",
-      "translit": [
-        "tekiah hachufar",
-        "kiach afar",
-        "Tekiat Shofar"
-      ],
-      "en": [
-        "shofar blowing",
-        "blowing of the shofar"
-      ],
-      "he": [
-        "תקיעת שופר"
-      ]
-    },
-    {
-      "canonical": "Sepher hammadda",
-      "type": "text",
-      "translit": [
-        "sefer hamata",
-        "Sefer ha-Madda"
-      ],
-      "en": [
-        "Book of Knowledge"
-      ],
-      "he": [
-        "ספר המדע"
       ]
     },
     {
@@ -3330,225 +633,218 @@
       ]
     },
     {
-      "canonical": "Raḇ",
-      "type": "figure",
-      "translit": [
-        "rav",
-        "rab"
-      ],
-      "en": [
-        "Rav"
-      ],
-      "he": [
-        "רב"
-      ]
-    },
-    {
-      "canonical": "ʾAdonai",
+      "canonical": "Hashem",
       "type": "concept",
       "translit": [
-        "adonai",
-        "adonay"
+        "ha-shem",
+        "ha shem"
       ],
       "en": [
-        "the Lord"
-      ],
-      "he": [
-        "אדני"
-      ]
-    },
-    {
-      "canonical": "ʾAdam",
-      "type": "figure",
-      "translit": [
-        "adam"
-      ],
-      "en": [
-        "Adam"
-      ],
-      "he": [
-        "אדם"
-      ]
-    },
-    {
-      "canonical": "ʾElohim",
-      "type": "concept",
-      "translit": [
-        "elohim"
-      ],
-      "en": [
+        "the Name",
         "God"
       ],
       "he": [
-        "אלהים"
+        "השם"
       ]
     },
     {
-      "canonical": "ʾamar",
+      "canonical": "Haʾazinu",
+      "type": "parsha",
+      "translit": [
+        "haazinu",
+        "haazínu",
+        "Ha'azinu"
+      ],
+      "en": [
+        "parashat Haazinu"
+      ],
+      "he": [
+        "האזינו"
+      ]
+    },
+    {
+      "canonical": "kaḇod",
       "type": "concept",
       "translit": [
-        "amar"
+        "kavod",
+        "koved",
+        "kabod"
       ],
       "en": [
-        "he said"
+        "glory",
+        "honour",
+        "honor"
       ],
       "he": [
-        "אמר"
+        "כבוד"
       ]
     },
     {
-      "canonical": "Yoḥanan",
-      "type": "sage",
-      "translit": [
-        "yohanan",
-        "yochanan"
-      ],
-      "en": [],
-      "he": [
-        "יוחנן"
-      ]
-    },
-    {
-      "canonical": "barukh",
+      "canonical": "keruḇim",
       "type": "concept",
       "translit": [
-        "baruch",
-        "barukh"
+        "keruvim",
+        "kruvim"
       ],
       "en": [
-        "blessed"
+        "the cherubim",
+        "angels",
+        "cherubim",
+        "cherubs"
       ],
       "he": [
-        "ברוך"
+        "כרובים"
       ]
     },
     {
-      "canonical": "Sepharadim",
-      "type": "place",
-      "translit": [
-        "sephardim",
-        "sefardim",
-        "sepharadim"
-      ],
-      "en": [
-        "Sephardim"
-      ],
-      "he": [
-        "ספרדים"
-      ]
-    },
-    {
-      "canonical": "Boreʾ",
-      "type": "concept",
-      "translit": [
-        "borei"
-      ],
-      "en": [
-        "Creator",
-        "bore"
-      ],
-      "he": [
-        "בורא"
-      ]
-    },
-    {
-      "canonical": "sepher",
+      "canonical": "Ketuḇim",
       "type": "text",
       "translit": [
-        "sefer"
+        "ketuvim",
+        "kesuvim",
+        "Ketubim"
       ],
       "en": [
-        "book"
+        "the Writings",
+        "writings",
+        "hagiographa"
       ],
       "he": [
-        "ספר"
+        "כתובים"
       ]
     },
     {
-      "canonical": "baʿal",
+      "canonical": "Ketuḇot",
+      "type": "tractate",
+      "translit": [
+        "ketubot",
+        "kesubos",
+        "ksubos",
+        "Ketubot"
+      ],
+      "en": [
+        "tractate Ketubot"
+      ],
+      "he": [
+        "כתובות"
+      ]
+    },
+    {
+      "canonical": "Ki Teṣeʾ",
+      "type": "parsha",
+      "translit": [
+        "ki teitzei",
+        "ki tetze",
+        "ki seitzei",
+        "Ki Tese"
+      ],
+      "en": [
+        "parashat Ki Tese"
+      ],
+      "he": [
+        "כי תצא"
+      ]
+    },
+    {
+      "canonical": "Ki Tissaʾ",
+      "type": "parsha",
+      "translit": [
+        "ki tisa",
+        "ki sisa",
+        "ki thisa",
+        "Ki Tissa"
+      ],
+      "en": [
+        "parashat Ki Tissa"
+      ],
+      "he": [
+        "כי תשא"
+      ]
+    },
+    {
+      "canonical": "Kuzari",
+      "type": "text",
+      "translit": [
+        "kuzari"
+      ],
+      "en": [
+        "the Kuzari"
+      ],
+      "he": [
+        "הכוזרי"
+      ]
+    },
+    {
+      "canonical": "Ladino",
       "type": "concept",
       "translit": [
-        "baal",
-        "ba'al"
+        "ladino"
       ],
       "en": [
-        "master"
+        "Ladino",
+        "judeo-spanish",
+        "judezmo",
+        "spanyol"
       ],
       "he": [
-        "בעל"
+        "לאדינו"
       ]
     },
     {
-      "canonical": "ʾereṣ",
-      "type": "place",
-      "translit": [
-        "erez",
-        "eres",
-        "eretz"
-      ],
-      "en": [
-        "land"
-      ],
-      "he": [
-        "ארץ"
-      ]
-    },
-    {
-      "canonical": "Śara",
+      "canonical": "Lamekh",
       "type": "figure",
       "translit": [
-        "sara",
-        "sarah"
+        "lamech"
       ],
       "en": [
-        "Sarah"
+        "Lamech"
       ],
       "he": [
-        "שרה"
+        "למך"
       ]
     },
     {
-      "canonical": "ʾEliyahu",
-      "type": "figure",
-      "translit": [
-        "eliyahu",
-        "eliahu"
-      ],
-      "en": [
-        "Elijah"
-      ],
-      "he": [
-        "אליהו"
-      ]
-    },
-    {
-      "canonical": "yeshiḇa",
+      "canonical": "lashon haqqodesh",
       "type": "concept",
       "translit": [
-        "yeshiva",
-        "yeshivah"
+        "lashon hakodesh",
+        "loshon hakoydesh",
+        "lashon ha-qodesh"
       ],
       "en": [
-        "academy"
+        "the Hebrew language",
+        "the holy tongue"
       ],
       "he": [
-        "ישיבה"
+        "לשון הקודש"
       ]
     },
     {
-      "canonical": "Bet Din",
-      "type": "concept",
+      "canonical": "Lekh Lekha",
+      "type": "parsha",
       "translit": [
-        "bedin",
-        "bet din",
-        "beth din",
-        "beit din"
+        "lech lecha",
+        "lech lekha",
+        "lekh lekho"
       ],
       "en": [
-        "court"
+        "parashat Lekh Lekha"
       ],
       "he": [
-        "בית דין"
+        "לך לך"
+      ]
+    },
+    {
+      "canonical": "leʾmor",
+      "type": "concept",
+      "translit": [
+        "lemor"
+      ],
+      "en": [
+        "to say"
+      ],
+      "he": [
+        "לאמר"
       ]
     },
     {
@@ -3567,58 +863,39 @@
       ]
     },
     {
-      "canonical": "ṭaʿana",
+      "canonical": "Mashiaḥ",
       "type": "concept",
       "translit": [
-        "ta'ana",
-        "taana",
-        "taanah"
+        "mashiach",
+        "moshiach",
+        "mashiyach",
+        "moshiyach",
+        "moshiakh",
+        "Mashiah"
       ],
       "en": [
-        "claim"
+        "Messiah",
+        "the anointed one",
+        "the anointed"
       ],
       "he": [
-        "טענה"
+        "משיח"
       ]
     },
     {
-      "canonical": "Naḥman",
-      "type": "sage",
-      "translit": [
-        "nahman",
-        "nachman"
-      ],
-      "en": [],
-      "he": [
-        "נחמן"
-      ]
-    },
-    {
-      "canonical": "ʾatta",
+      "canonical": "Maʿaśe",
       "type": "concept",
       "translit": [
-        "atah",
-        "ata"
+        "maaseh",
+        "maase",
+        "Ma'aseh"
       ],
       "en": [
-        "you"
+        "a deed",
+        "a narrative/story"
       ],
       "he": [
-        "אתה"
-      ]
-    },
-    {
-      "canonical": "Daʿat",
-      "type": "concept",
-      "translit": [
-        "da'at",
-        "daat"
-      ],
-      "en": [
-        "knowledge"
-      ],
-      "he": [
-        "דעת"
+        "מעשה"
       ]
     },
     {
@@ -3636,57 +913,740 @@
       ]
     },
     {
-      "canonical": "shamayim",
+      "canonical": "maḥloqet",
       "type": "concept",
       "translit": [
-        "shamaim",
-        "shamayim"
+        "machloket",
+        "machlokes",
+        "mahloket",
+        "mahloqet"
       ],
       "en": [
-        "heavens"
+        "dispute",
+        "controversy"
       ],
       "he": [
-        "שמים"
+        "מחלוקת"
       ]
     },
     {
-      "canonical": "Lamekh",
+      "canonical": "Megilla",
+      "type": "tractate",
+      "translit": [
+        "megillah",
+        "megila",
+        "megilloh"
+      ],
+      "en": [
+        "tractate Megilla"
+      ],
+      "he": [
+        "מגילה"
+      ]
+    },
+    {
+      "canonical": "Meiri",
+      "type": "sage",
+      "translit": [
+        "meiri",
+        "hameiri"
+      ],
+      "en": [
+        "the Meiri",
+        "menachem meiri"
+      ],
+      "he": [
+        "המאירי"
+      ]
+    },
+    {
+      "canonical": "Melakhim",
+      "type": "text",
+      "translit": [
+        "melachim",
+        "melochim"
+      ],
+      "en": [
+        "Kings",
+        "book of kings"
+      ],
+      "he": [
+        "מלכים"
+      ]
+    },
+    {
+      "canonical": "Melekh",
+      "type": "concept",
+      "translit": [
+        "melech"
+      ],
+      "en": [
+        "king"
+      ],
+      "he": [
+        "מלך"
+      ]
+    },
+    {
+      "canonical": "Mepharesh",
+      "type": "concept",
+      "translit": [
+        "mefalesh",
+        "Mefaresh"
+      ],
+      "en": [
+        "commentator",
+        "exegete",
+        "interpreter"
+      ],
+      "he": [
+        "מפרש"
+      ]
+    },
+    {
+      "canonical": "mesora",
+      "type": "concept",
+      "translit": [
+        "masora",
+        "masorah",
+        "mesorah",
+        "massora"
+      ],
+      "en": [
+        "the received tradition",
+        "transmission",
+        "the tradition"
+      ],
+      "he": [
+        "מסורה"
+      ]
+    },
+    {
+      "canonical": "midrash",
+      "type": "text",
+      "translit": [
+        "medrash"
+      ],
+      "en": [
+        "exegetical teaching",
+        "homily",
+        "midrashic"
+      ],
+      "he": [
+        "מדרש"
+      ]
+    },
+    {
+      "canonical": "midrashim",
+      "translit": [
+        "medrashim"
+      ],
+      "en": [
+        "exegetical teachings"
+      ],
+      "he": [
+        "מדרשים"
+      ],
+      "type": "text"
+    },
+    {
+      "canonical": "mila",
+      "type": "practice",
+      "translit": [
+        "milah"
+      ],
+      "en": [
+        "circumcision"
+      ],
+      "he": [
+        "מילה"
+      ]
+    },
+    {
+      "canonical": "miqdash",
+      "type": "place",
+      "translit": [
+        "mikdash",
+        "mikdosh",
+        "miqdosh"
+      ],
+      "en": [
+        "the Sanctuary",
+        "the Temple",
+        "sanctuary",
+        "temple",
+        "the mikdash"
+      ],
+      "he": [
+        "מקדש"
+      ]
+    },
+    {
+      "canonical": "Miqqeṣ",
+      "type": "parsha",
+      "translit": [
+        "miketz",
+        "mikeitz",
+        "mikes",
+        "Miqqes"
+      ],
+      "en": [
+        "parashat Miqqes"
+      ],
+      "he": [
+        "מקץ"
+      ]
+    },
+    {
+      "canonical": "Mishkan",
+      "type": "concept",
+      "translit": [
+        "mishkon"
+      ],
+      "en": [
+        "the Tabernacle"
+      ],
+      "he": [
+        "משכן"
+      ]
+    },
+    {
+      "canonical": "Mishle",
+      "type": "text",
+      "translit": [
+        "mishlei",
+        "mishley"
+      ],
+      "en": [
+        "Proverbs"
+      ],
+      "he": [
+        "משלי"
+      ]
+    },
+    {
+      "canonical": "Mishna",
+      "type": "text",
+      "translit": [
+        "mishnah"
+      ],
+      "en": [
+        "the Mishnah",
+        "mishnaic"
+      ],
+      "he": [
+        "משנה"
+      ]
+    },
+    {
+      "canonical": "mishnayot",
+      "translit": [
+        "mishnayos",
+        "mishnaiot",
+        "mishnayoth"
+      ],
+      "en": [],
+      "he": [
+        "משניות"
+      ],
+      "type": "text"
+    },
+    {
+      "canonical": "Mishne Tora",
+      "type": "text",
+      "translit": [
+        "mishneh torah",
+        "mishne torah"
+      ],
+      "en": [
+        "Maimonides' code",
+        "the code",
+        "yad hachazaka"
+      ],
+      "he": [
+        "משנה תורה"
+      ]
+    },
+    {
+      "canonical": "Mishpaṭim",
+      "type": "parsha",
+      "translit": [
+        "mishpatim",
+        "mishpotim",
+        "Mishpatim"
+      ],
+      "en": [
+        "parashat Mishpatim"
+      ],
+      "he": [
+        "משפטים"
+      ]
+    },
+    {
+      "canonical": "mishum",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "because"
+      ],
+      "he": [
+        "משום"
+      ]
+    },
+    {
+      "canonical": "miṣva",
+      "type": "practice",
+      "translit": [
+        "mitzva",
+        "mitzvah",
+        "mitsva",
+        "misva"
+      ],
+      "en": [
+        "commandment",
+        "precept"
+      ],
+      "he": [
+        "מצוה"
+      ]
+    },
+    {
+      "canonical": "miṣvot",
+      "translit": [
+        "mitzvot",
+        "mitzvos",
+        "mitzvoth",
+        "misvot",
+        "mizvot",
+        "mitsvot"
+      ],
+      "en": [
+        "commandments",
+        "precepts"
+      ],
+      "he": [
+        "מצוות"
+      ],
+      "type": "practice"
+    },
+    {
+      "canonical": "Modim",
+      "type": "practice",
+      "translit": [
+        "modim"
+      ],
+      "en": [
+        "the Modim prayer",
+        "thanksgiving blessing"
+      ],
+      "he": [
+        "מודים"
+      ]
+    },
+    {
+      "canonical": "Moreh Neḇukhim",
+      "type": "text",
+      "translit": [
+        "moreh nevuchim",
+        "moreh nebuchim",
+        "Moreh Nebukhim"
+      ],
+      "en": [
+        "the Guide of the Perplexed",
+        "guide of the perplexed",
+        "the guide",
+        "guide for the perplexed"
+      ],
+      "he": [
+        "מורה נבוכים"
+      ]
+    },
+    {
+      "canonical": "Moshe",
+      "type": "figure",
+      "translit": [],
+      "en": [
+        "Moses"
+      ],
+      "he": [
+        "משה"
+      ]
+    },
+    {
+      "canonical": "Moshe Rabbenu",
       "type": "figure",
       "translit": [
-        "lamech"
+        "moshe rabbeinu",
+        "moshe rabenu"
       ],
       "en": [
-        "Lamech"
+        "Moses",
+        "moses our teacher"
       ],
       "he": [
-        "למך"
+        "משה רבנו"
       ]
     },
     {
-      "canonical": "Ḥayyim",
+      "canonical": "moʿed",
       "type": "concept",
       "translit": [
-        "hayim",
-        "chayim"
+        "moed",
+        "moadei",
+        "mo'ed"
       ],
       "en": [
-        "life"
+        "appointed time",
+        "festival",
+        "moadim",
+        "moadim uzmanim"
       ],
       "he": [
-        "חיים"
+        "מועד"
       ]
     },
     {
-      "canonical": "leʾmor",
-      "type": "concept",
+      "canonical": "Naḥman",
+      "type": "sage",
       "translit": [
-        "lemor"
+        "nahman",
+        "nachman"
+      ],
+      "en": [],
+      "he": [
+        "נחמן"
+      ]
+    },
+    {
+      "canonical": "Nedarim",
+      "type": "tractate",
+      "translit": [
+        "nedarim",
+        "nedorim"
       ],
       "en": [
-        "to say"
+        "tractate Nedarim"
       ],
       "he": [
-        "לאמר"
+        "נדרים"
+      ]
+    },
+    {
+      "canonical": "nephesh",
+      "type": "concept",
+      "translit": [
+        "nefesh"
+      ],
+      "en": [
+        "soul",
+        "self",
+        "life-force"
+      ],
+      "he": [
+        "נפש"
+      ]
+    },
+    {
+      "canonical": "nes",
+      "type": "concept",
+      "translit": [
+        "ness"
+      ],
+      "en": [
+        "miracle"
+      ],
+      "he": [
+        "נס"
+      ]
+    },
+    {
+      "canonical": "neshama",
+      "type": "concept",
+      "translit": [
+        "neshamah",
+        "neshomo"
+      ],
+      "en": [
+        "soul"
+      ],
+      "he": [
+        "נשמה"
+      ]
+    },
+    {
+      "canonical": "Neḇiʾim",
+      "type": "text",
+      "translit": [
+        "neviim",
+        "nevi'im",
+        "neviyim",
+        "Nebi'im"
+      ],
+      "en": [
+        "the Prophets",
+        "prophets"
+      ],
+      "he": [
+        "נביאים"
+      ]
+    },
+    {
+      "canonical": "Nidda",
+      "type": "tractate",
+      "translit": [
+        "niddah",
+        "nida",
+        "niddoh"
+      ],
+      "en": [
+        "tractate Nidda"
+      ],
+      "he": [
+        "נדה"
+      ]
+    },
+    {
+      "canonical": "Noaḥ",
+      "type": "parsha",
+      "translit": [
+        "noach",
+        "noyach",
+        "Noah"
+      ],
+      "en": [
+        "parashat Noah",
+        "noah"
+      ],
+      "he": [
+        "נח"
+      ]
+    },
+    {
+      "canonical": "Palestine",
+      "type": "place",
+      "translit": [],
+      "en": [
+        "Palestinian",
+        "Palestinians"
+      ],
+      "he": [
+        "פלסטין"
+      ]
+    },
+    {
+      "canonical": "panim",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "face"
+      ],
+      "he": [
+        "פנים"
+      ]
+    },
+    {
+      "canonical": "parasha",
+      "type": "concept",
+      "translit": [
+        "parsha",
+        "parshah",
+        "parashah"
+      ],
+      "en": [
+        "weekly Torah portion",
+        "weekly portion",
+        "sedra",
+        "sidra"
+      ],
+      "he": [
+        "פרשה"
+      ]
+    },
+    {
+      "canonical": "parashat Qoraḥ",
+      "type": "parsha",
+      "translit": [
+        "korach parsha",
+        "parashat korach",
+        "parashat Qorah"
+      ],
+      "en": [],
+      "he": [
+        "קרח"
+      ]
+    },
+    {
+      "canonical": "pasuq",
+      "type": "concept",
+      "translit": [
+        "pasuk",
+        "posuk",
+        "possuk"
+      ],
+      "en": [
+        "scriptural verse",
+        "verse"
+      ],
+      "he": [
+        "פסוק"
+      ]
+    },
+    {
+      "canonical": "Pesaḥ",
+      "type": "holiday",
+      "translit": [
+        "pesach",
+        "pesakh",
+        "peysach",
+        "Pesah"
+      ],
+      "en": [
+        "Passover"
+      ],
+      "he": [
+        "פסח"
+      ]
+    },
+    {
+      "canonical": "Pesaḥim",
+      "type": "tractate",
+      "translit": [
+        "pesachim",
+        "psochim",
+        "Pesahim"
+      ],
+      "en": [
+        "tractate Pesahim"
+      ],
+      "he": [
+        "פסחים"
+      ]
+    },
+    {
+      "canonical": "peshaṭ",
+      "type": "concept",
+      "translit": [
+        "pshat",
+        "peshát",
+        "peshat"
+      ],
+      "en": [
+        "plain meaning"
+      ],
+      "he": [
+        "פשט"
+      ]
+    },
+    {
+      "canonical": "petiḥa",
+      "type": "concept",
+      "translit": [
+        "petihah",
+        "peticha",
+        "pesicha",
+        "petiha"
+      ],
+      "en": [
+        "proem",
+        "opening"
+      ],
+      "he": [
+        "פתיחה"
+      ]
+    },
+    {
+      "canonical": "Pineḥas",
+      "type": "parsha",
+      "translit": [
+        "pinchas",
+        "pinhas",
+        "Pinehas"
+      ],
+      "en": [
+        "parashat Pinehas",
+        "phineas"
+      ],
+      "he": [
+        "פינחס"
+      ]
+    },
+    {
+      "canonical": "Purim",
+      "type": "holiday",
+      "translit": [
+        "purim",
+        "pirim"
+      ],
+      "en": [
+        "Purim"
+      ],
+      "he": [
+        "פורים"
+      ]
+    },
+    {
+      "canonical": "qabbala",
+      "type": "concept",
+      "translit": [
+        "kabbala",
+        "kabbalah",
+        "cabala",
+        "qabbalah"
+      ],
+      "en": [
+        "Jewish mysticism",
+        "mysticism",
+        "kabbalistic"
+      ],
+      "he": [
+        "קבלה"
+      ]
+    },
+    {
+      "canonical": "Qadosh",
+      "type": "concept",
+      "translit": [
+        "kadosh"
+      ],
+      "en": [
+        "holy",
+        "the Holy One (title)"
+      ],
+      "he": [
+        "קדוש"
+      ]
+    },
+    {
+      "canonical": "qahal",
+      "type": "concept",
+      "translit": [
+        "kahal",
+        "kohol"
+      ],
+      "en": [
+        "the community",
+        "congregation",
+        "community"
+      ],
+      "he": [
+        "קהל"
+      ]
+    },
+    {
+      "canonical": "qal vaḥomer",
+      "type": "concept",
+      "translit": [
+        "kal vachomer",
+        "kal vahomer",
+        "kol vochoymer",
+        "qal va-homer"
+      ],
+      "en": [
+        "a fortiori argument",
+        "a fortiori"
+      ],
+      "he": [
+        "קל וחומר"
       ]
     },
     {
@@ -3703,74 +1663,403 @@
       ]
     },
     {
-      "canonical": "mila",
-      "type": "practice",
+      "canonical": "Qedoshim",
+      "type": "parsha",
       "translit": [
-        "milah"
+        "kedoshim",
+        "kdoshim",
+        "kedoyshim"
       ],
       "en": [
-        "circumcision"
+        "parashat Qedoshim"
       ],
       "he": [
-        "מילה"
+        "קדושים"
       ]
     },
     {
-      "canonical": "ʾElohekha",
+      "canonical": "Qiddushin",
+      "type": "tractate",
+      "translit": [
+        "kiddushin",
+        "kidushin"
+      ],
+      "en": [
+        "tractate Qiddushin"
+      ],
+      "he": [
+        "קידושין"
+      ]
+    },
+    {
+      "canonical": "Qodesh",
       "type": "concept",
       "translit": [
-        "elohecha",
-        "elohekha"
+        "kodesh"
       ],
       "en": [
-        "your God"
+        "holy",
+        "sacred"
       ],
       "he": [
-        "אלהיך"
+        "קודש"
       ]
     },
     {
-      "canonical": "ṣaddiq",
-      "type": "concept",
-      "translit": [
-        "tzaddik",
-        "tsaddik",
-        "saddik"
-      ],
-      "en": [
-        "righteous"
-      ],
-      "he": [
-        "צדיק"
-      ]
-    },
-    {
-      "canonical": "Yirmiya",
+      "canonical": "Qoraḥ",
       "type": "figure",
       "translit": [
-        "yermiyah",
-        "yirmiyahu",
-        "jeremiah"
+        "korach",
+        "koyrach",
+        "Qorah"
       ],
       "en": [
-        "Jeremiah"
+        "Korah"
       ],
       "he": [
-        "ירמיה"
+        "קורח"
       ]
     },
     {
-      "canonical": "Tannaʾ",
-      "type": "sage",
+      "canonical": "Qorban",
+      "type": "concept",
       "translit": [
-        "tanah",
-        "tana"
+        "korban",
+        "qurban"
       ],
       "en": [
-        "Tanna"
+        "sacrifice",
+        "offering"
       ],
       "he": [
-        "תנא"
+        "קרבן"
+      ]
+    },
+    {
+      "canonical": "Rabbenu Tam",
+      "type": "sage",
+      "translit": [
+        "rabbeinu tam",
+        "rabenu tam"
+      ],
+      "en": [
+        "Rabbenu Tam",
+        "jacob ben meir"
+      ],
+      "he": [
+        "רבנו תם"
+      ]
+    },
+    {
+      "canonical": "Rambam",
+      "type": "sage",
+      "translit": [
+        "rambam"
+      ],
+      "en": [
+        "Maimonides",
+        "moses maimonides",
+        "the rambam"
+      ],
+      "he": [
+        "רמב\"ם"
+      ]
+    },
+    {
+      "canonical": "Ramban",
+      "type": "sage",
+      "translit": [
+        "ramban"
+      ],
+      "en": [
+        "Nahmanides",
+        "nachmanides"
+      ],
+      "he": [
+        "רמב\"ן"
+      ]
+    },
+    {
+      "canonical": "Rashi",
+      "type": "sage",
+      "translit": [
+        "rashi",
+        "rashy"
+      ],
+      "en": [
+        "Rashi"
+      ],
+      "he": [
+        "רש\"י"
+      ]
+    },
+    {
+      "canonical": "Raḇ",
+      "type": "figure",
+      "translit": [
+        "rav",
+        "rab"
+      ],
+      "en": [
+        "Rav"
+      ],
+      "he": [
+        "רב"
+      ]
+    },
+    {
+      "canonical": "Raḇ ʾAshi",
+      "type": "sage",
+      "translit": [
+        "rav ashi",
+        "rav ashe",
+        "Rav Ashi"
+      ],
+      "en": [],
+      "he": [
+        "רב אשי"
+      ]
+    },
+    {
+      "canonical": "Raḇaʾ",
+      "type": "sage",
+      "translit": [
+        "rava",
+        "raba",
+        "Rava"
+      ],
+      "en": [],
+      "he": [
+        "רבא"
+      ]
+    },
+    {
+      "canonical": "remez",
+      "type": "concept",
+      "translit": [
+        "remez",
+        "remes"
+      ],
+      "en": [
+        "allusion"
+      ],
+      "he": [
+        "רמז"
+      ]
+    },
+    {
+      "canonical": "Resh Laqish",
+      "type": "sage",
+      "translit": [
+        "resh lakish",
+        "reish lakish"
+      ],
+      "en": [
+        "Resh Laqish",
+        "shimon ben lakish"
+      ],
+      "he": [
+        "ריש לקיש"
+      ]
+    },
+    {
+      "canonical": "Ribbi",
+      "type": "concept",
+      "translit": [
+        "rebbe",
+        "reb",
+        "ribi"
+      ],
+      "en": [
+        "Rabbi",
+        "master"
+      ],
+      "he": [
+        "ריבי",
+        "רבי"
+      ]
+    },
+    {
+      "canonical": "Ribbi Yoḥanan",
+      "type": "sage",
+      "translit": [
+        "rebbe yochonon",
+        "Ribbi Yohanan"
+      ],
+      "en": [
+        "Rabbi Yohanan"
+      ],
+      "he": [
+        "רבי יוחנן"
+      ]
+    },
+    {
+      "canonical": "Ribbi ʿAqiḇa",
+      "type": "sage",
+      "translit": [
+        "rebbe akiva",
+        "Ribbi 'Aqiba"
+      ],
+      "en": [
+        "Rabbi Akiva"
+      ],
+      "he": [
+        "רבי עקיבא"
+      ]
+    },
+    {
+      "canonical": "Rif",
+      "type": "sage",
+      "translit": [
+        "rif"
+      ],
+      "en": [
+        "Alfasi",
+        "isaac alfasi"
+      ],
+      "he": [
+        "רי\"ף"
+      ]
+    },
+    {
+      "canonical": "Rosh",
+      "type": "sage",
+      "translit": [],
+      "en": [
+        "Asher ben Yehiel",
+        "asheri",
+        "rabbenu asher"
+      ],
+      "he": [
+        "רא\"ש"
+      ]
+    },
+    {
+      "canonical": "Rosh hashana",
+      "type": "holiday",
+      "translit": [
+        "rosh hashana",
+        "rosh hashanah",
+        "rosh hashono",
+        "Rosh ha-Shana"
+      ],
+      "en": [
+        "Rosh ha-Shana (holiday & tractate)",
+        "new year"
+      ],
+      "he": [
+        "ראש השנה"
+      ]
+    },
+    {
+      "canonical": "Rosh Kalla",
+      "type": "concept",
+      "translit": [
+        "rosh kalah",
+        "rosh kallah",
+        "rosh kala"
+      ],
+      "en": [
+        "head of the kalla",
+        "reish kalla",
+        "kalla-head",
+        "dean of the assembly"
+      ],
+      "he": [
+        "ראש כלה"
+      ]
+    },
+    {
+      "canonical": "Sanhedrin",
+      "type": "tractate",
+      "translit": [
+        "sanhedrin",
+        "sanhedrін"
+      ],
+      "en": [
+        "tractate Sanhedrin"
+      ],
+      "he": [
+        "סנהדרין"
+      ]
+    },
+    {
+      "canonical": "Sepharad",
+      "type": "place",
+      "translit": [
+        "sepharad",
+        "Sefarad",
+        "sephard"
+      ],
+      "en": [
+        "Spain",
+        "Iberia",
+        "espana",
+        "al-andalus",
+        "andalus"
+      ],
+      "he": [
+        "ספרד"
+      ]
+    },
+    {
+      "canonical": "Sepharadi",
+      "type": "concept",
+      "translit": [
+        "sephardi",
+        "sfardi",
+        "sfaradi"
+      ],
+      "en": [
+        "Sephardic",
+        "spanish jewish",
+        "sephardic",
+        "sfardic"
+      ],
+      "he": [
+        "ספרדי"
+      ]
+    },
+    {
+      "canonical": "Sepharadim",
+      "type": "place",
+      "translit": [
+        "sephardim",
+        "sefardim",
+        "sepharadim"
+      ],
+      "en": [
+        "Sephardim"
+      ],
+      "he": [
+        "ספרדים"
+      ]
+    },
+    {
+      "canonical": "sepher",
+      "type": "text",
+      "translit": [
+        "sefer"
+      ],
+      "en": [
+        "book"
+      ],
+      "he": [
+        "ספר"
+      ]
+    },
+    {
+      "canonical": "Sepher hammadda",
+      "type": "text",
+      "translit": [
+        "sefer hamata",
+        "Sefer ha-Madda"
+      ],
+      "en": [
+        "Book of Knowledge"
+      ],
+      "he": [
+        "ספר המדע"
       ]
     },
     {
@@ -3789,14 +2078,328 @@
       ]
     },
     {
-      "canonical": "yamin",
-      "type": "concept",
-      "translit": [],
+      "canonical": "Seʿadya Gaʾon",
+      "type": "sage",
+      "translit": [
+        "saadia gaon",
+        "saadya gaon",
+        "saadiah gaon",
+        "Se'adya Gaon"
+      ],
       "en": [
-        "right side"
+        "Saadia Gaon",
+        "rasag"
       ],
       "he": [
-        "ימין"
+        "סעדיה גאון"
+      ]
+    },
+    {
+      "canonical": "seḇaraʾ",
+      "type": "concept",
+      "translit": [
+        "svara",
+        "sevora",
+        "sebara",
+        "sevara"
+      ],
+      "en": [
+        "reasoning",
+        "logic"
+      ],
+      "he": [
+        "סברה"
+      ]
+    },
+    {
+      "canonical": "Shabbat",
+      "type": "practice",
+      "translit": [
+        "shabbos",
+        "shabbes",
+        "shabat"
+      ],
+      "en": [
+        "the Sabbath",
+        "sabbath"
+      ],
+      "he": [
+        "שבת"
+      ]
+    },
+    {
+      "canonical": "Shabbetai Ṣeḇi",
+      "type": "figure",
+      "translit": [
+        "shabbetai zevi",
+        "sabbatai zevi",
+        "shabtai tzvi",
+        "sabbatai sevi",
+        "Shabbetai Sebi"
+      ],
+      "en": [
+        "Shabbetai Zevi"
+      ],
+      "he": [
+        "שבתי צבי"
+      ]
+    },
+    {
+      "canonical": "shamayim",
+      "type": "concept",
+      "translit": [
+        "shamaim",
+        "shamayim"
+      ],
+      "en": [
+        "heavens"
+      ],
+      "he": [
+        "שמים"
+      ]
+    },
+    {
+      "canonical": "Shaḇuʿot",
+      "type": "holiday",
+      "translit": [
+        "shavuot",
+        "shavuos",
+        "shvues",
+        "Shabu'ot"
+      ],
+      "en": [
+        "Shavuot",
+        "pentecost",
+        "feast of weeks"
+      ],
+      "he": [
+        "שבועות"
+      ]
+    },
+    {
+      "canonical": "Shekhina",
+      "type": "concept",
+      "translit": [
+        "shechina",
+        "shekhinah",
+        "shechinah",
+        "schechina"
+      ],
+      "en": [
+        "the Divine Presence",
+        "the Shekhina"
+      ],
+      "he": [
+        "שכינה"
+      ]
+    },
+    {
+      "canonical": "Shelomo",
+      "type": "figure",
+      "translit": [
+        "shlomo"
+      ],
+      "en": [
+        "Solomon"
+      ],
+      "he": [
+        "שלמה"
+      ]
+    },
+    {
+      "canonical": "Shelomo hammelekh",
+      "type": "figure",
+      "translit": [
+        "shlomo hamelech",
+        "shelomo hamelekh",
+        "Shelomo ha-Melekh"
+      ],
+      "en": [
+        "King Solomon"
+      ],
+      "he": [
+        "שלמה המלך"
+      ]
+    },
+    {
+      "canonical": "Shemaʿ",
+      "type": "practice",
+      "translit": [
+        "Shema'",
+        "shema"
+      ],
+      "en": [
+        "the Shema",
+        "shema yisrael"
+      ],
+      "he": [
+        "שמע"
+      ]
+    },
+    {
+      "canonical": "Shemot",
+      "type": "parsha",
+      "translit": [
+        "shemot",
+        "shemos",
+        "shmos"
+      ],
+      "en": [
+        "Exodus / parashat Shemot",
+        "exodus"
+      ],
+      "he": [
+        "שמות"
+      ]
+    },
+    {
+      "canonical": "Shemuʾel",
+      "type": "sage",
+      "translit": [
+        "shmuel",
+        "shmiel",
+        "Shemuel"
+      ],
+      "en": [
+        "samuel"
+      ],
+      "he": [
+        "שמואל"
+      ]
+    },
+    {
+      "canonical": "Shomron",
+      "type": "place",
+      "translit": [
+        "shomeron"
+      ],
+      "en": [
+        "Samaria"
+      ],
+      "he": [
+        "שומרון"
+      ]
+    },
+    {
+      "canonical": "Shulḥan ʿArukh",
+      "type": "text",
+      "translit": [
+        "shulchan aruch",
+        "shulchan arukh",
+        "shulhan aruch",
+        "Shulhan 'Arukh"
+      ],
+      "en": [
+        "the Shulhan Arukh",
+        "the set table"
+      ],
+      "he": [
+        "שולחן ערוך"
+      ]
+    },
+    {
+      "canonical": "Siphraʾ",
+      "type": "text",
+      "translit": [
+        "sifra",
+        "Sifra"
+      ],
+      "en": [
+        "the Sifra",
+        "torat kohanim"
+      ],
+      "he": [
+        "ספרא"
+      ]
+    },
+    {
+      "canonical": "Siphre",
+      "type": "text",
+      "translit": [
+        "sifre",
+        "sifrei",
+        "Sifre"
+      ],
+      "en": [
+        "the Sifre"
+      ],
+      "he": [
+        "ספרי"
+      ]
+    },
+    {
+      "canonical": "sod",
+      "type": "concept",
+      "translit": [
+        "sod"
+      ],
+      "en": [
+        "esoteric meaning"
+      ],
+      "he": [
+        "סוד"
+      ]
+    },
+    {
+      "canonical": "sugyaʾ",
+      "type": "concept",
+      "translit": [
+        "sugia",
+        "sugiya",
+        "sugya"
+      ],
+      "en": [
+        "talmudic passage"
+      ],
+      "he": [
+        "סוגיה"
+      ]
+    },
+    {
+      "canonical": "sugyot",
+      "translit": [
+        "sugiot",
+        "sugyoth",
+        "sugiyot"
+      ],
+      "en": [
+        "talmudic passages"
+      ],
+      "he": [
+        "סוגיות"
+      ],
+      "type": "concept"
+    },
+    {
+      "canonical": "Sukka",
+      "type": "tractate",
+      "translit": [
+        "sukkah",
+        "succah",
+        "suka"
+      ],
+      "en": [
+        "tractate Sukka"
+      ],
+      "he": [
+        "סוכה"
+      ]
+    },
+    {
+      "canonical": "Sukkot",
+      "type": "holiday",
+      "translit": [
+        "sukkot",
+        "sukkos"
+      ],
+      "en": [
+        "Sukkot",
+        "tabernacles",
+        "feast of booths",
+        "succos"
+      ],
+      "he": [
+        "סוכות"
       ]
     },
     {
@@ -3811,14 +2414,744 @@
       ]
     },
     {
-      "canonical": "panim",
+      "canonical": "Talmud",
+      "type": "text",
+      "translit": [
+        "talmud"
+      ],
+      "en": [
+        "the Talmud",
+        "talmudic",
+        "shas"
+      ],
+      "he": [
+        "תלמוד"
+      ]
+    },
+    {
+      "canonical": "Tanakh",
+      "type": "text",
+      "translit": [
+        "tanach",
+        "tenach"
+      ],
+      "en": [
+        "the Hebrew Bible",
+        "Scripture",
+        "hebrew bible",
+        "the bible",
+        "bible",
+        "mikra",
+        "mikrah",
+        "miqra"
+      ],
+      "he": [
+        "תנ\"ך",
+        "מקרא"
+      ]
+    },
+    {
+      "canonical": "Tannaʾ",
+      "type": "sage",
+      "translit": [
+        "tanah",
+        "tana"
+      ],
+      "en": [
+        "Tanna"
+      ],
+      "he": [
+        "תנא"
+      ]
+    },
+    {
+      "canonical": "tanur",
       "type": "concept",
       "translit": [],
       "en": [
-        "face"
+        "oven"
       ],
       "he": [
-        "פנים"
+        "תנור"
+      ]
+    },
+    {
+      "canonical": "targum",
+      "type": "text",
+      "translit": [
+        "targum"
+      ],
+      "en": [
+        "Aramaic translation"
+      ],
+      "he": [
+        "תרגום"
+      ]
+    },
+    {
+      "canonical": "Taʿanit",
+      "type": "tractate",
+      "translit": [
+        "taanit",
+        "taanis",
+        "tanis",
+        "Ta'anit"
+      ],
+      "en": [
+        "tractate Taanit"
+      ],
+      "he": [
+        "תענית"
+      ]
+    },
+    {
+      "canonical": "Tehillim",
+      "type": "text",
+      "translit": [
+        "tehillim",
+        "tehilim",
+        "tillim"
+      ],
+      "en": [
+        "Psalms",
+        "book of psalms"
+      ],
+      "he": [
+        "תהילים"
+      ]
+    },
+    {
+      "canonical": "tephilla",
+      "type": "practice",
+      "translit": [
+        "tefillah",
+        "tefila",
+        "tfilla",
+        "tefiloh",
+        "tefilla"
+      ],
+      "en": [
+        "prayer"
+      ],
+      "he": [
+        "תפילה"
+      ]
+    },
+    {
+      "canonical": "Teqiʿat Shophar",
+      "type": "practice",
+      "translit": [
+        "tekiah hachufar",
+        "kiach afar",
+        "Tekiat Shofar"
+      ],
+      "en": [
+        "shofar blowing",
+        "blowing of the shofar"
+      ],
+      "he": [
+        "תקיעת שופר"
+      ]
+    },
+    {
+      "canonical": "Teruma",
+      "type": "parsha",
+      "translit": [
+        "terumah",
+        "terumo",
+        "teruma"
+      ],
+      "en": [
+        "parashat Teruma"
+      ],
+      "he": [
+        "תרומה"
+      ]
+    },
+    {
+      "canonical": "teshuḇa",
+      "type": "concept",
+      "translit": [
+        "teshuva",
+        "teshuvah",
+        "tshuva",
+        "tshuvo",
+        "teshuba"
+      ],
+      "en": [
+        "repentance",
+        "return"
+      ],
+      "he": [
+        "תשובה"
+      ]
+    },
+    {
+      "canonical": "Tishʿa beʾAḇ",
+      "type": "holiday",
+      "translit": [
+        "tisha bav",
+        "tisha b'av",
+        "tishe bov",
+        "Tish'a be-Ab"
+      ],
+      "en": [
+        "the Ninth of Ab",
+        "ninth of av"
+      ],
+      "he": [
+        "תשעה באב"
+      ]
+    },
+    {
+      "canonical": "Toledot",
+      "type": "parsha",
+      "translit": [
+        "toldot",
+        "toldos",
+        "toledos"
+      ],
+      "en": [
+        "parashat Toledot"
+      ],
+      "he": [
+        "תולדות"
+      ]
+    },
+    {
+      "canonical": "Tora",
+      "type": "text",
+      "translit": [
+        "torah",
+        "toirah",
+        "toyre",
+        "taurah"
+      ],
+      "en": [
+        "the Torah",
+        "Pentateuch",
+        "the Law",
+        "law"
+      ],
+      "he": [
+        "תורה"
+      ]
+    },
+    {
+      "canonical": "Tora shebbeʿal pe",
+      "type": "concept",
+      "translit": [
+        "torah shebeal peh",
+        "torah shebaal peh",
+        "torah shebal pe",
+        "Tora she-be-'al pe"
+      ],
+      "en": [
+        "the Oral Torah",
+        "the Oral Law",
+        "oral torah",
+        "oral law"
+      ],
+      "he": [
+        "תורה שבעל פה"
+      ]
+    },
+    {
+      "canonical": "Tora shebbikhtab",
+      "type": "concept",
+      "translit": [
+        "torah shebichtav",
+        "torah shebiksav",
+        "Tora she-bi-khtab"
+      ],
+      "en": [
+        "the Written Torah",
+        "written torah",
+        "written law"
+      ],
+      "he": [
+        "תורה שבכתב"
+      ]
+    },
+    {
+      "canonical": "Tosaphot",
+      "type": "text",
+      "translit": [
+        "tosafot",
+        "tosfot",
+        "tosafos",
+        "tosfos",
+        "Tosafot"
+      ],
+      "en": [
+        "the Tosafot",
+        "the tosafists"
+      ],
+      "he": [
+        "תוספות"
+      ]
+    },
+    {
+      "canonical": "Tosephtaʾ",
+      "type": "text",
+      "translit": [
+        "tosefta",
+        "tosephta",
+        "Tosefta"
+      ],
+      "en": [
+        "the Tosefta"
+      ],
+      "he": [
+        "תוספתא"
+      ]
+    },
+    {
+      "canonical": "Vayeraʾ",
+      "type": "parsha",
+      "translit": [
+        "vayeira",
+        "vayera",
+        "vayeiro",
+        "Vayera"
+      ],
+      "en": [
+        "parashat Vayera"
+      ],
+      "he": [
+        "וירא"
+      ]
+    },
+    {
+      "canonical": "Vayesheḇ",
+      "type": "parsha",
+      "translit": [
+        "vayeshev",
+        "vayeishev",
+        "vayesheiv",
+        "Vayesheb"
+      ],
+      "en": [
+        "parashat Vayesheb"
+      ],
+      "he": [
+        "וישב"
+      ]
+    },
+    {
+      "canonical": "Vayeṣeʾ",
+      "type": "parsha",
+      "translit": [
+        "vayetze",
+        "vayetzei",
+        "vayeitzei",
+        "Vayese"
+      ],
+      "en": [
+        "parashat Vayese"
+      ],
+      "he": [
+        "ויצא"
+      ]
+    },
+    {
+      "canonical": "Vayiggash",
+      "type": "parsha",
+      "translit": [
+        "vayigash",
+        "vayigosh",
+        "Vayigash"
+      ],
+      "en": [
+        "parashat Vayigash"
+      ],
+      "he": [
+        "ויגש"
+      ]
+    },
+    {
+      "canonical": "Vayiqraʾ",
+      "type": "parsha",
+      "translit": [
+        "vayikra",
+        "vayikro",
+        "Vayiqra"
+      ],
+      "en": [
+        "Leviticus / parashat Vayiqra",
+        "leviticus"
+      ],
+      "he": [
+        "ויקרא"
+      ]
+    },
+    {
+      "canonical": "Vayishlaḥ",
+      "type": "parsha",
+      "translit": [
+        "vayishlach",
+        "vayishloch",
+        "Vayishlah"
+      ],
+      "en": [
+        "parashat Vayishlah"
+      ],
+      "he": [
+        "וישלח"
+      ]
+    },
+    {
+      "canonical": "Vayḥi",
+      "type": "parsha",
+      "translit": [
+        "vayechi",
+        "vaychi",
+        "Vayhi"
+      ],
+      "en": [
+        "parashat Vayhi"
+      ],
+      "he": [
+        "ויחי"
+      ]
+    },
+    {
+      "canonical": "Vaʾetḥannan",
+      "type": "parsha",
+      "translit": [
+        "vaetchanan",
+        "voeschanan",
+        "vaethanan",
+        "Va'ethannan"
+      ],
+      "en": [
+        "parashat Vaethannan"
+      ],
+      "he": [
+        "ואתחנן"
+      ]
+    },
+    {
+      "canonical": "Yamim Ṭoḇim",
+      "type": "practice",
+      "translit": [
+        "yom tovim",
+        "yamim tovim",
+        "yom tobim",
+        "Yamim Tobim"
+      ],
+      "en": [
+        "festival days",
+        "the festivals",
+        "yamim tovin",
+        "yamim tobin"
+      ],
+      "he": [
+        "ימים טובים"
+      ]
+    },
+    {
+      "canonical": "yamin",
+      "type": "concept",
+      "translit": [],
+      "en": [
+        "right side"
+      ],
+      "he": [
+        "ימין"
+      ]
+    },
+    {
+      "canonical": "Yarḥei Kalla",
+      "type": "concept",
+      "translit": [
+        "yahikallah",
+        "yahi kalla",
+        "yarhei kallah",
+        "yarchei kalla",
+        "yarchei kallah",
+        "yarhi kalla",
+        "yarhei kala",
+        "yerhei kalah",
+        "yerhei kala",
+        "yerchei kalah",
+        "yerchei kala",
+        "yerhei kallah",
+        "Yarhei Kalla"
+      ],
+      "en": [
+        "kalla months",
+        "kalla assembly",
+        "the kalla"
+      ],
+      "he": [
+        "ירחי כלה"
+      ]
+    },
+    {
+      "canonical": "Yaʿaqoḇ",
+      "type": "figure",
+      "translit": [
+        "yaakov",
+        "yaacov",
+        "Yaaqob"
+      ],
+      "en": [
+        "Jacob",
+        "yankev"
+      ],
+      "he": [
+        "יעקב"
+      ]
+    },
+    {
+      "canonical": "Yehuda hallevi",
+      "type": "sage",
+      "translit": [
+        "yehuda halevi",
+        "yehuda halevy",
+        "yehudah halevy",
+        "yehuda alevi",
+        "yehudah alevi",
+        "yudalevi",
+        "yehudalevi",
+        "Yehuda ha-Levi"
+      ],
+      "en": [
+        "Judah Halevi",
+        "rihal",
+        "judah halevi",
+        "judah alevi"
+      ],
+      "he": [
+        "יהודה הלוי"
+      ]
+    },
+    {
+      "canonical": "Yerushalayim",
+      "type": "place",
+      "translit": [
+        "yerushalaim",
+        "yerusholayim"
+      ],
+      "en": [
+        "Jerusalem"
+      ],
+      "he": [
+        "ירושלים"
+      ]
+    },
+    {
+      "canonical": "yeshiḇa",
+      "type": "concept",
+      "translit": [
+        "yeshiva",
+        "yeshivah"
+      ],
+      "en": [
+        "academy"
+      ],
+      "he": [
+        "ישיבה"
+      ]
+    },
+    {
+      "canonical": "Yeḇamot",
+      "type": "tractate",
+      "translit": [
+        "yevamot",
+        "yevamos",
+        "yebamos",
+        "Yebamot"
+      ],
+      "en": [
+        "tractate Yebamot"
+      ],
+      "he": [
+        "יבמות"
+      ]
+    },
+    {
+      "canonical": "Yirmiya",
+      "type": "figure",
+      "translit": [
+        "yermiyah",
+        "yirmiyahu",
+        "jeremiah"
+      ],
+      "en": [
+        "Jeremiah"
+      ],
+      "he": [
+        "ירמיה"
+      ]
+    },
+    {
+      "canonical": "Yitro",
+      "type": "parsha",
+      "translit": [
+        "yitro",
+        "yisro"
+      ],
+      "en": [
+        "parashat Yitro",
+        "jethro"
+      ],
+      "he": [
+        "יתרו"
+      ]
+    },
+    {
+      "canonical": "Yiśraʾel",
+      "type": "figure",
+      "translit": [
+        "Yisrael"
+      ],
+      "en": [
+        "Israel"
+      ],
+      "he": [
+        "ישראל"
+      ]
+    },
+    {
+      "canonical": "Yiṣḥaq",
+      "type": "figure",
+      "translit": [
+        "yitzhak",
+        "yitzchak",
+        "yitzchok",
+        "Yishaq",
+        "ishaq"
+      ],
+      "en": [
+        "Isaac"
+      ],
+      "he": [
+        "יצחק"
+      ]
+    },
+    {
+      "canonical": "Yom hakkippurim",
+      "type": "holiday",
+      "translit": [
+        "Yom ha-Kippurim"
+      ],
+      "en": [
+        "Yom Kippur",
+        "day of atonement"
+      ],
+      "he": [
+        "יום הכיפורים"
+      ]
+    },
+    {
+      "canonical": "Yom Kippur",
+      "type": "holiday",
+      "translit": [
+        "yom kipper",
+        "yoym kipur"
+      ],
+      "en": [
+        "day of atonement"
+      ],
+      "he": [
+        "יום כיפור"
+      ]
+    },
+    {
+      "canonical": "Yom Ṭoḇ",
+      "type": "practice",
+      "translit": [
+        "yom tov",
+        "Yom Tob"
+      ],
+      "en": [
+        "a festival day",
+        "festival",
+        "yontif",
+        "yontef"
+      ],
+      "he": [
+        "יום טוב"
+      ]
+    },
+    {
+      "canonical": "Yomaʾ",
+      "type": "tractate",
+      "translit": [
+        "yoma",
+        "yuma",
+        "Yoma"
+      ],
+      "en": [
+        "tractate Yoma"
+      ],
+      "he": [
+        "יומא"
+      ]
+    },
+    {
+      "canonical": "Yoseph",
+      "type": "figure",
+      "translit": [
+        "Yosef"
+      ],
+      "en": [
+        "Joseph"
+      ],
+      "he": [
+        "יוסף"
+      ]
+    },
+    {
+      "canonical": "Yoseph haṣṣaddiq",
+      "type": "figure",
+      "translit": [
+        "yosef hatzaddik",
+        "yosef hasadik",
+        "yosef hasaddik",
+        "Yosef ha-Saddiq"
+      ],
+      "en": [
+        "Joseph",
+        "yosef the righteous"
+      ],
+      "he": [
+        "יוסף"
+      ]
+    },
+    {
+      "canonical": "Yoseph Qaro",
+      "type": "sage",
+      "translit": [
+        "yosef karo",
+        "yosef caro",
+        "yoseph qaro",
+        "Yosef Qaro"
+      ],
+      "en": [
+        "Joseph Karo",
+        "joseph caro",
+        "maran",
+        "hakham yosef qaro",
+        "the bet yosef",
+        "joseph karo"
+      ],
+      "he": [
+        "יוסף קארו"
+      ]
+    },
+    {
+      "canonical": "Yoḥanan",
+      "type": "sage",
+      "translit": [
+        "yohanan",
+        "yochanan"
+      ],
+      "en": [],
+      "he": [
+        "יוחנן"
       ]
     },
     {
@@ -3833,25 +3166,166 @@
       ]
     },
     {
-      "canonical": "mishum",
-      "type": "concept",
-      "translit": [],
+      "canonical": "Zohar",
+      "type": "text",
+      "translit": [
+        "sohar"
+      ],
       "en": [
-        "because"
+        "the Zohar",
+        "zoharic"
       ],
       "he": [
-        "משום"
+        "זוהר"
       ]
     },
     {
-      "canonical": "tanur",
-      "type": "concept",
-      "translit": [],
+      "canonical": "Śara",
+      "type": "figure",
+      "translit": [
+        "sara",
+        "sarah"
+      ],
       "en": [
-        "oven"
+        "Sarah"
       ],
       "he": [
-        "תנור"
+        "שרה"
+      ]
+    },
+    {
+      "canonical": "śekhel",
+      "type": "concept",
+      "translit": [
+        "sechel",
+        "seichel",
+        "sekhel"
+      ],
+      "en": [
+        "intellect",
+        "reason"
+      ],
+      "he": [
+        "שכל"
+      ]
+    },
+    {
+      "canonical": "ʾAbbaye",
+      "type": "sage",
+      "translit": [
+        "abaye",
+        "abbay",
+        "abbaye",
+        "Abbaye"
+      ],
+      "en": [],
+      "he": [
+        "אביי"
+      ]
+    },
+    {
+      "canonical": "ʾAbraham ʾAḇinu",
+      "type": "figure",
+      "translit": [
+        "avraham avinu",
+        "abraham avinu",
+        "Abraham Abinu"
+      ],
+      "en": [
+        "Abraham",
+        "abraham our father"
+      ],
+      "he": [
+        "אברהם אבינו"
+      ]
+    },
+    {
+      "canonical": "ʾAdam",
+      "type": "figure",
+      "translit": [
+        "adam"
+      ],
+      "en": [
+        "Adam"
+      ],
+      "he": [
+        "אדם"
+      ]
+    },
+    {
+      "canonical": "ʾAdonai",
+      "type": "concept",
+      "translit": [
+        "adonai",
+        "adonay"
+      ],
+      "en": [
+        "the Lord"
+      ],
+      "he": [
+        "אדני"
+      ]
+    },
+    {
+      "canonical": "ʾaggada",
+      "type": "concept",
+      "translit": [
+        "aggadah",
+        "agada",
+        "aggada"
+      ],
+      "en": [
+        "homily",
+        "narrative teaching",
+        "haggada",
+        "aggadic"
+      ],
+      "he": [
+        "אגדה"
+      ]
+    },
+    {
+      "canonical": "ʾAharon",
+      "type": "figure",
+      "translit": [
+        "aharon",
+        "Aharon"
+      ],
+      "en": [
+        "Aaron",
+        "aron hakohen"
+      ],
+      "he": [
+        "אהרן"
+      ]
+    },
+    {
+      "canonical": "ʾAluph",
+      "type": "concept",
+      "translit": [
+        "alluf",
+        "aluph",
+        "Aluf"
+      ],
+      "en": [
+        "master (Geonic academic title)",
+        "academy chief"
+      ],
+      "he": [
+        "אלוף"
+      ]
+    },
+    {
+      "canonical": "ʾamar",
+      "type": "concept",
+      "translit": [
+        "amar"
+      ],
+      "en": [
+        "he said"
+      ],
+      "he": [
+        "אמר"
       ]
     },
     {
@@ -3869,6 +3343,233 @@
       ]
     },
     {
+      "canonical": "ʾAshkenaz",
+      "type": "place",
+      "translit": [
+        "Ashkenaz"
+      ],
+      "en": [
+        "Franco-German Jewry",
+        "german jewish",
+        "germany",
+        "ashkenazic",
+        "ashkenazi"
+      ],
+      "he": [
+        "אשכנז"
+      ]
+    },
+    {
+      "canonical": "ʾAshkenazim",
+      "translit": [
+        "ashkenazim"
+      ],
+      "en": [
+        "german jews",
+        "franco-german jewry"
+      ],
+      "he": [
+        "אשכנזים"
+      ],
+      "type": "place"
+    },
+    {
+      "canonical": "ʾasmakhtaʾ",
+      "type": "concept",
+      "translit": [
+        "asmachta",
+        "asmakhtah",
+        "asmakhta"
+      ],
+      "en": [
+        "scriptural support"
+      ],
+      "he": [
+        "אסמכתא"
+      ]
+    },
+    {
+      "canonical": "ʾatta",
+      "type": "concept",
+      "translit": [
+        "atah",
+        "ata"
+      ],
+      "en": [
+        "you"
+      ],
+      "he": [
+        "אתה"
+      ]
+    },
+    {
+      "canonical": "ʾAḇot",
+      "type": "tractate",
+      "translit": [
+        "avot",
+        "avos",
+        "Abot"
+      ],
+      "en": [
+        "tractate Abot",
+        "ethics of the fathers",
+        "pirkei avot"
+      ],
+      "he": [
+        "אבות"
+      ]
+    },
+    {
+      "canonical": "ʾEliyahu",
+      "type": "figure",
+      "translit": [
+        "eliyahu",
+        "eliahu"
+      ],
+      "en": [
+        "Elijah"
+      ],
+      "he": [
+        "אליהו"
+      ]
+    },
+    {
+      "canonical": "ʾElohekha",
+      "type": "concept",
+      "translit": [
+        "elohecha",
+        "elohekha"
+      ],
+      "en": [
+        "your God"
+      ],
+      "he": [
+        "אלהיך"
+      ]
+    },
+    {
+      "canonical": "ʾElohim",
+      "type": "concept",
+      "translit": [
+        "elohim"
+      ],
+      "en": [
+        "God"
+      ],
+      "he": [
+        "אלהים"
+      ]
+    },
+    {
+      "canonical": "ʾemuna",
+      "type": "concept",
+      "translit": [
+        "emunah",
+        "emuno",
+        "emuna"
+      ],
+      "en": [
+        "faith",
+        "belief"
+      ],
+      "he": [
+        "אמונה"
+      ]
+    },
+    {
+      "canonical": "ʾereṣ",
+      "type": "place",
+      "translit": [
+        "erez",
+        "eres",
+        "eretz"
+      ],
+      "en": [
+        "land"
+      ],
+      "he": [
+        "ארץ"
+      ]
+    },
+    {
+      "canonical": "ʾEreṣ Yiśraʾel",
+      "type": "place",
+      "translit": [
+        "eretz yisrael",
+        "eretz yisroel",
+        "erets yisrael",
+        "Eres Yisrael"
+      ],
+      "en": [
+        "the Land of Israel",
+        "land of israel"
+      ],
+      "he": [
+        "ארץ ישראל"
+      ]
+    },
+    {
+      "canonical": "ʾEḥad",
+      "type": "concept",
+      "translit": [
+        "echad",
+        "Ehad"
+      ],
+      "en": [
+        "one"
+      ],
+      "he": [
+        "אחד"
+      ]
+    },
+    {
+      "canonical": "ʾIbn Gaḇirol",
+      "type": "sage",
+      "translit": [
+        "ibn gabirol",
+        "Ibn Gabirol"
+      ],
+      "en": [
+        "avicebron",
+        "solomon ibn gabirol"
+      ],
+      "he": [
+        "אבן גבירול"
+      ]
+    },
+    {
+      "canonical": "ʾIbn Paquda",
+      "type": "sage",
+      "translit": [
+        "ibn paquda",
+        "ibn pakuda",
+        "Ibn Paquda"
+      ],
+      "en": [
+        "Bahya ibn Paquda",
+        "hovot halevavot"
+      ],
+      "he": [
+        "אבן פקודה"
+      ]
+    },
+    {
+      "canonical": "ʾIbn ʿEzraʾ",
+      "type": "sage",
+      "translit": [
+        "ibn ezra",
+        "even ezra",
+        "Ibn 'Ezra"
+      ],
+      "en": [
+        "Ibn Ezra",
+        "abraham ibn ezra"
+      ],
+      "he": [
+        "אבן עזרא"
+      ]
+    },
+    {
       "canonical": "ʾishsha",
       "type": "concept",
       "translit": [
@@ -3881,6 +3582,387 @@
       ],
       "he": [
         "אשה"
+      ]
+    },
+    {
+      "canonical": "ʾohel moʿed",
+      "type": "place",
+      "translit": [
+        "oil moed",
+        "oil mo'ed",
+        "ohel mo'ed"
+      ],
+      "en": [
+        "tent of meeting"
+      ],
+      "he": [
+        "אהל מועד"
+      ]
+    },
+    {
+      "canonical": "ʾOnqelos",
+      "type": "text",
+      "translit": [
+        "unkelus",
+        "unkelos",
+        "Onqelos"
+      ],
+      "en": [
+        "Onkelos"
+      ],
+      "he": [
+        "אונקלוס"
+      ]
+    },
+    {
+      "canonical": "ʿAm Yiśraʾel",
+      "type": "concept",
+      "translit": [
+        "am yisrael",
+        "am yisroel",
+        "klal yisrael",
+        "'Am Yisrael"
+      ],
+      "en": [
+        "the people of Israel",
+        "the jewish people",
+        "jewry"
+      ],
+      "he": [
+        "עם ישראל"
+      ]
+    },
+    {
+      "canonical": "ʿAmida",
+      "type": "practice",
+      "translit": [
+        "amida",
+        "amidah",
+        "'Amida"
+      ],
+      "en": [
+        "the Amida",
+        "the standing prayer",
+        "shemoneh esreh"
+      ],
+      "he": [
+        "עמידה"
+      ]
+    },
+    {
+      "canonical": "ʿAmos",
+      "type": "text",
+      "translit": [
+        "amos",
+        "Amos"
+      ],
+      "en": [
+        "sefer amos"
+      ],
+      "he": [
+        "עמוס"
+      ]
+    },
+    {
+      "canonical": "ʿAḇoda Zara",
+      "type": "tractate",
+      "translit": [
+        "avoda zara",
+        "avodah zarah",
+        "aboda zara",
+        "aboda zarah",
+        "'Aboda Zara"
+      ],
+      "en": [
+        "tractate Aboda Zara",
+        "idolatry"
+      ],
+      "he": [
+        "עבודה זרה"
+      ]
+    },
+    {
+      "canonical": "ʿEruḇin",
+      "type": "tractate",
+      "translit": [
+        "eruvin",
+        "eiruvin",
+        "erubin",
+        "'Erubin"
+      ],
+      "en": [
+        "tractate Eruvin"
+      ],
+      "he": [
+        "עירובין"
+      ]
+    },
+    {
+      "canonical": "ʿolam",
+      "type": "concept",
+      "translit": [
+        "alam",
+        "olam"
+      ],
+      "en": [
+        "world",
+        "eternity"
+      ],
+      "he": [
+        "עולם"
+      ]
+    },
+    {
+      "canonical": "Ḥagiga",
+      "type": "tractate",
+      "translit": [
+        "chagigah",
+        "chagiga",
+        "hagigah",
+        "Hagiga"
+      ],
+      "en": [
+        "tractate Hagiga"
+      ],
+      "he": [
+        "חגיגה"
+      ]
+    },
+    {
+      "canonical": "Ḥakham",
+      "type": "concept",
+      "translit": [
+        "chacham",
+        "chochom",
+        "hakham",
+        "hacham",
+        "Hakham",
+        "hakam"
+      ],
+      "en": [
+        "sage",
+        "Sephardic rabbi"
+      ],
+      "he": [
+        "חכם"
+      ]
+    },
+    {
+      "canonical": "Ḥakhamim",
+      "type": "concept",
+      "translit": [
+        "chachamim",
+        "chachomim",
+        "hakhamim",
+        "hachamim",
+        "hakamim",
+        "hakamin",
+        "chachamin",
+        "hakhamin",
+        "Hakhamim"
+      ],
+      "en": [
+        "the Sages",
+        "sages"
+      ],
+      "he": [
+        "חכמים"
+      ]
+    },
+    {
+      "canonical": "Ḥanukka",
+      "type": "holiday",
+      "translit": [
+        "chanukah",
+        "chanuka",
+        "hanukkah",
+        "hanuka",
+        "Hanukka"
+      ],
+      "en": [
+        "festival of lights"
+      ],
+      "he": [
+        "חנוכה"
+      ]
+    },
+    {
+      "canonical": "Ḥasid",
+      "type": "concept",
+      "translit": [
+        "hasid",
+        "chasid",
+        "chossid",
+        "Hasid"
+      ],
+      "en": [
+        "a pious follower",
+        "Hasidic"
+      ],
+      "he": [
+        "חסיד"
+      ]
+    },
+    {
+      "canonical": "Ḥayye śara",
+      "type": "parsha",
+      "translit": [
+        "chayei sarah",
+        "chayey sara",
+        "haye sarah",
+        "Hayye Sara"
+      ],
+      "en": [
+        "parashat Hayye Sara"
+      ],
+      "he": [
+        "חיי שרה"
+      ]
+    },
+    {
+      "canonical": "Ḥayyim",
+      "type": "concept",
+      "translit": [
+        "hayim",
+        "chayim"
+      ],
+      "en": [
+        "life"
+      ],
+      "he": [
+        "חיים"
+      ]
+    },
+    {
+      "canonical": "Ḥazaqa",
+      "type": "concept",
+      "translit": [
+        "hazaka",
+        "chazaka",
+        "hazakah",
+        "chazakah",
+        "Hazaqa"
+      ],
+      "en": [
+        "legal presumption",
+        "established status"
+      ],
+      "he": [
+        "חזקה"
+      ]
+    },
+    {
+      "canonical": "Ḥazzan",
+      "type": "practice",
+      "translit": [
+        "hazan",
+        "chazan",
+        "chazzan",
+        "Hazzan"
+      ],
+      "en": [
+        "cantor",
+        "prayer leader"
+      ],
+      "he": [
+        "חזן"
+      ]
+    },
+    {
+      "canonical": "ḥesed",
+      "type": "concept",
+      "translit": [
+        "chesed",
+        "chessed",
+        "hesed"
+      ],
+      "en": [
+        "loving-kindness"
+      ],
+      "he": [
+        "חסד"
+      ]
+    },
+    {
+      "canonical": "Ḥokhma",
+      "type": "concept",
+      "translit": [
+        "chokhmah",
+        "chochmah",
+        "chochma",
+        "hochma",
+        "hokhmah",
+        "Hokhma"
+      ],
+      "en": [
+        "wisdom"
+      ],
+      "he": [
+        "חכמה"
+      ]
+    },
+    {
+      "canonical": "Ḥullin",
+      "type": "tractate",
+      "translit": [
+        "chullin",
+        "chulin",
+        "hulin",
+        "Hullin"
+      ],
+      "en": [
+        "tractate Hullin"
+      ],
+      "he": [
+        "חולין"
+      ]
+    },
+    {
+      "canonical": "Ḥumash",
+      "type": "text",
+      "translit": [
+        "chumash",
+        "khumash",
+        "chumesh",
+        "Humash"
+      ],
+      "en": [
+        "the Pentateuch",
+        "pentateuch",
+        "the five books"
+      ],
+      "he": [
+        "חומש"
+      ]
+    },
+    {
+      "canonical": "ṣaddiq",
+      "type": "concept",
+      "translit": [
+        "tzaddik",
+        "tsaddik",
+        "saddik"
+      ],
+      "en": [
+        "righteous"
+      ],
+      "he": [
+        "צדיק"
+      ]
+    },
+    {
+      "canonical": "ṭaʿana",
+      "type": "concept",
+      "translit": [
+        "ta'ana",
+        "taana",
+        "taanah"
+      ],
+      "en": [
+        "claim"
+      ],
+      "he": [
+        "טענה"
       ]
     }
   ]
