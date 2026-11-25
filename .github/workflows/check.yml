@@ -31,7 +31,7 @@ jobs:
 
       - uses: oven-sh/setup-bun@v2
 
-      - uses: actions/setup-python@v5 # tools/lint_vtt.py, stdlib only
+      - uses: actions/setup-python@v7 # tools/lint_vtt.py, stdlib only
         with:
           python-version: "3.12"
 
