@@ -1,67 +1,78 @@
-# faurchive-transcripts
+# José Faur Transcription Project
 
-The corrected transcript corpus behind **[faurchive.com](https://faurchive.com)** —
-full-text search over Torah audio lectures (shiurim) by Hakham José Faur.
+Transcripts of the recorded lectures (shiurim) of **Ḥakham José Faur** — Talmud,
+Tora, Jewish law and thought, from 1977 to 2013 — with the catalog, glossary and
+citations that make them usable, and the tooling that keeps them consistent.
 
-Kept separate from the pipeline code (`faurchive_data`) and the app
-(`faurchive-backend`, `faurchive-frontend`). It holds only the text that gets
-indexed, plus the metadata needed to read it, so a correction is a small,
-reviewable diff.
+The corpus is maintained in the open so that people who knew his teaching, study
+it, or simply listen carefully can correct it, extend it, and build their own
+research on it. It is also the text behind **[faurchive.com](https://faurchive.com)**,
+a full-text search over the lectures with the audio alongside.
 
-## Layout
+|  |  |
+| --- | --- |
+| Lectures catalogued | 240 |
+| Transcribed | 233 |
+| Glossary headwords | 255 |
+
+## What is here
+
+| Path | What it is | Who writes it |
+| --- | --- | --- |
+| `transcripts/<Collection>/<Subject>/<name>.vtt` | The corrected transcripts, one WebVTT file per lecture — [format](docs/FORMAT.md) | everyone, by pull request |
+| `catalog.json` | One row per recording: id, title, collection, subject, date, duration — [catalog](docs/CATALOG.md) | everyone (descriptive fields); maintainer (new rows) |
+| `terms.json` | The glossary: his spelling of every recurring Hebrew term, and the variants that fold into it — [glossary](docs/GLOSSARY.md) | everyone, by pull request |
+| `citations.json` | Lines where he quotes or names a source — [citations](docs/CITATIONS.md) | everyone, by pull request |
+| `verified.json` | Cues a person has checked against the audio — [quality](docs/QUALITY.md) | maintainer |
+| `quality.json` | Transcripts the machine grader flagged — [quality](docs/QUALITY.md) | maintainer |
+| `raw/` | Each transcript as speech recognition first wrote it, before any correction — [raw](docs/RAW.md) | maintainer, never overwritten |
+| `duplicates/` | Transcripts of second copies of a recording, kept but not indexed — [README](duplicates/README.md) | maintainer |
+| `research/` | Projects built on the corpus — [README](research/README.md) | everyone, by pull request |
+| `tools/` | The checker, the VTT parser, the glossary code, the ASR grader | everyone, by pull request |
+| `docs/` | How everything above is shaped, and the transliteration scheme | everyone, by pull request |
+
+## Getting started
+
+You need [Bun](https://bun.sh) (and `python3`, for the optional ASR grade).
+
+```sh
+bun install
+bun run check                        # validate the whole corpus
+bun run check --changed origin/staging   # …and what your branch changes
+bun test                             # the tooling's own tests
+```
+
+Then read **[CONTRIBUTING.md](CONTRIBUTING.md)**. The short version: branch from
+`staging`, change text inside cues but never their timing or ids, keep the
+[house transliteration](docs/TRANSLITERATION.md) unless the audio says otherwise,
+open a pull request against `staging`.
+
+## How the corpus moves
 
 ```
-transcripts/<Category>/<Subject>/<slug>.vtt   the corrected transcripts (WebVTT)
-catalog.json                                  one entry per recording (id, title,
-                                              collection, sub, date, year,
-                                              durationSec, sourcePath, transcribed)
-terms.json                                    Sephardic/Faur headword + translit /
-                                              English / Hebrew variants — the term
-                                              dictionary the corrections follow
+your branch ──PR──▶ staging ──promote──▶ main ──▶ faurchive.com
 ```
 
-`transcripts/` mirrors the source-audio category tree. Each `.vtt` is the output
-of the pipeline's correction pass (`correct.ts`): transliteration folded to the
-`terms.json` headwords, known mishearings fixed, timestamps preserved. Raw ASR
-output is **not** here — it stays in the pipeline repo.
+- **`staging`** takes every contribution. Pull requests target it.
+- **`main`** is what is published. Only the maintainer moves it, by
+  fast-forwarding it to `staging` once the regression checks pass; each
+  publication is tagged `live-YYYYMMDD-HHMM`.
 
-## Branches
+How faurchive.com uses the corpus: its pipeline reads `main`, splits each
+transcript into passages, joins them to `catalog.json`, expands `terms.json` into
+search synonyms, and serves the audio from its own archive. None of that lives
+here — this repository is the text and the rules for the text.
 
-- **`staging`** — where pipeline output (`batch.ts`) and applied corrections
-  land. The dev Meili indexes off this; **do not deploy from it.**
-- **`main`** — promoted state; `deploy.sh` builds the index shipped to
-  kinnereth from here. Promote with `git checkout main && git merge --ff-only
-  staging` (or a PR). Tagged `live-YYYY-MM-DD` on each deploy for rollback.
+## Governance
 
-Detail: the pipeline repo's `data/pipeline/deploy/TRANSCRIPTS-BRANCHING.md`.
+One maintainer reviews and merges everything — see [GOVERNANCE.md](GOVERNANCE.md).
+Contributions are welcome; consistency is not negotiable.
 
-## Corrections
+## Licence
 
-The "suggest a correction" control on faurchive.com posts to the backend, which
-files an issue here labelled **`correction`** — one per submission:
+- **Code** (`tools/`, configuration): [MIT](LICENSE).
+- **Transcripts and data** (everything else): [LICENSE-CONTENT](LICENSE-CONTENT).
+  It covers the transcription, correction and cataloguing work in this
+  repository, not the lectures themselves.
 
-- **line** — text as transcribed, proposed text, optional timestamp override.
-- **metadata** — proposed `catalog.json` fields.
-
-To apply one:
-
-1. Line → edit the matching cue text in `transcripts/<...>/<slug>.vtt` (leave the
-   `-->` timestamp line alone unless the issue gives an override). Keep the house
-   transliteration: `q` not `k`, `Tora` not `Torah`, `Ribbi` not `Rabbi`,
-   `Shelomo` not `Shlomo`, hyphenated `ha-` (`Bet ha-Midrash`, `Shir ha-Shirim`).
-2. Metadata → edit the entry in `catalog.json`.
-3. Commit to `staging` referencing the issue (`Fixes #NN`).
-4. Re-index, from the pipeline repo:
-   `bun run index-vtt.ts <the .vtt> --source <Category/Subject/slug>`
-   then `bun run explore.ts` to refresh `explore.json` / `catalog.json`.
-5. It reaches faurchive.com when `staging` is promoted to `main` and deployed.
-
-Mishearings that recur across many lectures belong in the pipeline's
-`correct.ts` / `terms.json`, not patched file-by-file here.
-
-## Regenerating
-
-`transcripts/` is what the pipeline's `batch.ts --index` writes here directly
-(one commit per run, on `staging`). A full rebuild is
-`cd data/pipeline && bun run index-all.ts` (from the audio corpus). This repo is
-the source of truth for *hand-applied* corrections on top of that.
+To cite the corpus, see [CITATION.cff](CITATION.cff).

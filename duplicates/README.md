@@ -5,22 +5,22 @@ already in `transcripts/`. **Kept, not deleted** — they are real transcription
 work, and a second ASR pass over the same audio is sometimes better in places
 than the one that got promoted.
 
-Nothing here is indexed, and nothing here needs a `catalog.json` row. The
-pipeline only ever walks `transcripts/` (`TRANSCRIPTS_DIR` in
-`data/pipeline/paths.ts`), so files in this directory are invisible to
-`index-all.ts`, `explore.ts` and `vtt.test.ts` by construction — there is no
-exclusion list to keep in step.
+Nothing here is indexed, and nothing here needs a `catalog.json` row. Every tool
+— `bun run check`, and the faurchive pipeline — only ever walks `transcripts/`,
+so files in this directory are invisible to them by construction; there is no
+exclusion list to keep in step. Only the maintainer moves files in here.
 
 ## Naming
 
-`<own-name>.DUP-of-<the-id-it-duplicates>.vtt`
+`<own-name>.DUP-of-<the-id-it-duplicates>.vtt` — `bun run check` warns when a
+name doesn't follow it, or names an id the catalog doesn't have.
 
-which mirrors what `data/unsorted/` already does for the source audio, so the
-two halves of a duplicate are findable from either side:
+The maintainer's audio archive uses the same convention for the source
+recording, so the two halves of a duplicate are findable from either side:
 
 ```
-data/unsorted/maimonides-the-guide-april-4-2000.DUP-of-the-anthropology-of-maimonides-4-4-00.mp3
-duplicates/   maimonides-the-guide-april-4-2000.DUP-of-the-anthropology-of-maimonides-4-4-00.vtt
+<audio archive>/unsorted/maimonides-the-guide-april-4-2000.DUP-of-the-anthropology-of-maimonides-4-4-00.mp3
+duplicates/              maimonides-the-guide-april-4-2000.DUP-of-the-anthropology-of-maimonides-4-4-00.vtt
 ```
 
 ## Why this directory exists
@@ -33,9 +33,9 @@ production with no collection, year or title, excluded from both facets, absent
 from the Directory, and a breadcrumb falling back to *filesystem* taxonomy
 instead of the curated one. Nobody saw the warning in a 200-file batch.
 
-A catalog miss is fatal now (`--allow-orphan` overrides it deliberately), which
-means a transcript either has a catalog row or it does not live in
-`transcripts/`. This is where the second kind goes.
+A catalog miss is an error now — in `bun run check` and in the faurchive
+indexer — which means a transcript either has a catalog row or it does not
+live in `transcripts/`. This is where the second kind goes.
 
 Evidence for the one here, against `the-anthropology-of-maimonides-4-4-00`:
 92.9% shared word mass, 54.4% 5-gram overlap, both ~88 minutes — the same

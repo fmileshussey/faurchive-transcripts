@@ -1,0 +1,38 @@
+Transcripts and data — Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International (CC BY-NC-SA 4.0)
+
+Copyright (c) 2026 Finnegan Miles-Hussey and contributors
+
+WHAT THIS COVERS
+
+Everything in this repository that is not software: the transcripts
+(transcripts/, raw/, duplicates/), catalog.json, terms.json, citations.json,
+quality.json, verified.json, the documentation (docs/ and the Markdown files at
+the root), and research/ unless a project's README states otherwise.
+
+It covers the work done here — transcription, correction, cataloguing,
+glossary and citation work. It does NOT grant any right in the lectures
+themselves or in the audio recordings, which are not ours to grant.
+
+THE LICENCE
+
+You are free to share (copy and redistribute in any medium or format) and to
+adapt (remix, transform and build upon) this material, under these terms:
+
+  Attribution    — credit "the José Faur Transcription Project and its
+                   contributors", link to the repository, indicate the version
+                   or commit you used, and say if you made changes.
+  NonCommercial  — you may not use the material for commercial purposes.
+  ShareAlike     — if you adapt it, you must distribute your contributions
+                   under this same licence.
+
+No additional restrictions — you may not apply legal terms or technological
+measures that legally restrict others from doing anything the licence permits.
+
+Full legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+CONTRIBUTIONS
+
+By opening a pull request you agree that your contribution is licensed under
+the licence that applies to the files it changes: this one for content, the MIT
+licence (LICENSE) for software.
