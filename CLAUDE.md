@@ -7,7 +7,7 @@ improvising the procedure:
 
 | Skill | For |
 | --- | --- |
-| `/apply-correction <issue #…>` | apply reader suggestions filed from faurchive.com (line, metadata, reference) |
+| `/apply-correction <issue #…>` | apply reader suggestions filed as `correction` issues (line, metadata, reference) |
 | `/add-transcript <catalog id>` | place a new transcript, flip its catalog row, check it |
 | `/add-citation <lecture id> <time or cue>` | record a quotation in `citations.json` |
 | `/review-contribution <PR #>` | maintainer: review a pull request against the corpus rules |

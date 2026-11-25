@@ -48,9 +48,9 @@ I'm happy to be here with you.
   every published link point at them. If the timing itself is wrong, say so in
   the PR; the maintainer can label it `retime`.
 - **Don't add, remove, split or merge cues.** Correct the words within them.
-- **Listen before you write.** On faurchive.com every line has a link to that
-  moment in the recording. A correction you could not hear is a guess, and the
-  template asks you whether you listened.
+- **Listen before you write.** Every cue's timing tells you where it is in the
+  recording; if you don't have the audio, ask for it in an issue. A correction
+  you could not hear is a guess, and the template asks you whether you listened.
 - **If you can't make a word out, write `[inaudible]`** rather than guessing. It
   is the only bracketed marker the corpus uses, and a later listener can fill it.
 - Spell Hebrew the [house way](docs/TRANSLITERATION.md) (`Tora`, `Ribbi`,
@@ -61,8 +61,8 @@ I'm happy to be here with you.
 - A mishearing that recurs across many lectures is a glossary change, not fifty
   hand edits — see 4.
 
-Readers of faurchive.com can also suggest corrections from the site; those
-arrive here as issues labelled `correction`, and the maintainer applies them.
+Reader suggestions also arrive here as issues labelled `correction`; the
+maintainer applies them.
 
 ### 2. Metadata
 
@@ -162,5 +162,5 @@ block the merge; warnings don't.**
 ## After your pull request is merged
 
 It lands on `staging`. The maintainer numbers any new cues, applies glossary
-changes across the corpus, and promotes `staging` to `main`, which faurchive.com
-publishes from. Your name stays in the history.
+changes across the corpus, and promotes `staging` to `main`, which is the
+published state. Your name stays in the history.

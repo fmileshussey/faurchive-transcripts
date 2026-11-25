@@ -1,6 +1,6 @@
 name: promote-guard
 
-# `main` is what faurchive.com publishes, and it only ever moves to `staging`.
+# `main` is the published state, and it only ever moves to `staging`.
 # A PR into main from anywhere else is a mistake — usually a contributor who
 # meant to target staging. Fail it with a message that says so.
 on:

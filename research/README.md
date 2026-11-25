@@ -32,6 +32,6 @@ Open a "Research proposal" issue before starting, so the scope can be agreed.
 - **No:** large binaries or copies of the transcripts. Refer to the corpus; don't
   duplicate it. Keep a project under a few megabytes.
 
-Nothing in `research/` is indexed by faurchive.com. It is reviewed for scope,
+Nothing in `research/` is part of the corpus proper. It is reviewed for scope,
 provenance and the README above, not line by line, and it is published under the
 same content licence as the rest of the corpus unless the README says otherwise.

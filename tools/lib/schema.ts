@@ -5,8 +5,8 @@
  */
 import { z } from "zod";
 
-/** Plain ASCII, permanent once published — see docs/CATALOG.md. Same rule as
- *  the faurchive backend's LectureId, which writes ids into GitHub issues. */
+/** Plain ASCII, permanent once published — see docs/CATALOG.md. Ids are
+ *  written into links and filed issues that can't be edited afterwards. */
 export const LectureId = z.string().regex(/^[A-Za-z0-9_-]+$/).max(128);
 /** `cue` + 7 digits, one series across the whole corpus — docs/FORMAT.md */
 export const CueId = z.string().regex(/^cue\d{7}$/);

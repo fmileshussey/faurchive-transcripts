@@ -1,8 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Correct a line you heard wrong on faurchive.com
-    url: https://faurchive.com
-    about: Use the ✎ beside any transcript line — it files the issue here for you, with the exact time and text.
   - name: A question, an idea, or coordinating research
     url: https://github.com/fmileshussey/jose-faur-transcription-project/discussions
     about: Discussions are for anything that isn't a concrete change.

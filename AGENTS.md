@@ -7,8 +7,7 @@ rules, at more length, are in [CONTRIBUTING.md](CONTRIBUTING.md).
 
 The transcript corpus of Ḥakham José Faur's lectures: WebVTT transcripts, a
 lecture catalog, a transliteration glossary, citations, and the tooling that
-validates them. It is the text behind faurchive.com, and it is a record of what
-a teacher said. **Faithfulness to the audio outranks everything else**, including
+validates them. It is a record of what a teacher said. **Faithfulness to the audio outranks everything else**, including
 house style, tidiness and your own sense of what he meant.
 
 ```

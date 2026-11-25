@@ -3,7 +3,7 @@
 # admin `gh` login. Each step is its own subcommand so nothing happens by
 # accident; run them in this order:
 #
-#   tools/setup-github.sh rename        faurchive-transcripts -> jose-faur-transcription-project
+#   tools/setup-github.sh rename        this repository -> jose-faur-transcription-project
 #   tools/setup-github.sh labels        create/update the labels the workflows and templates use
 #   tools/setup-github.sh protect       branch protection on staging and main
 #   tools/setup-github.sh discussions   turn on Discussions (research coordination)
@@ -13,35 +13,34 @@
 set -euo pipefail
 
 OWNER=fmileshussey
-OLD=faurchive-transcripts
 NEW=jose-faur-transcription-project
 REPO="$OWNER/$NEW"
 
 step=${1:-}
 case "$step" in
   rename)
-    if gh repo view "$OWNER/$NEW" >/dev/null 2>&1; then
-      echo "already renamed: $OWNER/$NEW"
+    if gh repo view "$REPO" >/dev/null 2>&1; then
+      echo "already renamed: $REPO"
     else
-      gh repo rename "$NEW" -R "$OWNER/$OLD" --yes
+      # the repository this clone's remote points at, whatever it is called now
+      CURRENT=$(gh repo view --json nameWithOwner -q .nameWithOwner)
+      gh repo rename "$NEW" -R "$CURRENT" --yes
     fi
     gh repo edit "$REPO" \
-      --description "Transcripts of the lectures of Ḥakham José Faur — corrected, catalogued, open to contributions." \
-      --homepage "https://faurchive.com"
+      --description "Transcripts of the lectures of Ḥakham José Faur — corrected, catalogued, open to contributions."
     echo
-    echo "Now update every place that names the old slug:"
-    echo "  - git remote set-url origin git@github.com:$REPO.git   (in each worktree's repo — once)"
-    echo "  - backend GITHUB_REPO=$REPO   (backend/.env, and the box's systemd unit env)"
-    echo "  - merge the data/ branch that updates pipeline.ts and redact-pr.ts"
+    echo "Now update every place outside this repository that names the old slug:"
+    echo "  - git remote set-url origin git@github.com:$REPO.git   (in each clone/worktree — once)"
+    echo "  - any service or script that files issues or pushes here"
     ;;
 
   labels)
-    # name|colour|description — `correction` already exists (the backend files it)
+    # name|colour|description — `correction` already exists (reader suggestions are filed with it)
     while IFS='|' read -r name color desc; do
       [ -z "$name" ] && continue
       gh label create "$name" -R "$REPO" --color "$color" --description "$desc" --force
     done <<'EOF'
-correction|d93f0b|Reader suggestion filed from faurchive.com
+correction|d93f0b|Reader suggestion, filed automatically
 metadata|1d76db|catalog.json
 citation|5319e7|citations.json
 new-transcript|0e8a16|A new transcript, or a claim on one

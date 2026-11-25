@@ -6,7 +6,7 @@ work, and a second ASR pass over the same audio is sometimes better in places
 than the one that got promoted.
 
 Nothing here is indexed, and nothing here needs a `catalog.json` row. Every tool
-— `bun run check`, and the faurchive pipeline — only ever walks `transcripts/`,
+— `bun run check`, and the maintainer's pipeline — only ever walks `transcripts/`,
 so files in this directory are invisible to them by construction; there is no
 exclusion list to keep in step. Only the maintainer moves files in here.
 
@@ -33,7 +33,7 @@ production with no collection, year or title, excluded from both facets, absent
 from the Directory, and a breadcrumb falling back to *filesystem* taxonomy
 instead of the curated one. Nobody saw the warning in a 200-file batch.
 
-A catalog miss is an error now — in `bun run check` and in the faurchive
+A catalog miss is an error now — in `bun run check` and in the maintainer's
 indexer — which means a transcript either has a catalog row or it does not
 live in `transcripts/`. This is where the second kind goes.
 

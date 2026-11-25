@@ -32,9 +32,8 @@ not. It is the authority for every lecture's descriptive metadata. Shape:
 
 ## Ids are permanent
 
-An id is written into links that cannot be edited afterwards — shared
-`faurchive.com/lecture/<id>` URLs, bookmarks, and every correction issue filed
-from the site. Changing one dead-ends all of them. So an id is derived once, from
+An id is written into links that cannot be edited afterwards — shared lecture
+URLs, bookmarks, and every correction issue already filed. Changing one dead-ends all of them. So an id is derived once, from
 the recording's file name, folded to ASCII, and never recomputed: a title can be
 corrected forever, the id stays. (That is also why an id and its transcript's
 file name sometimes differ slightly — `berakhot-34b--5-29-94.vtt` is the

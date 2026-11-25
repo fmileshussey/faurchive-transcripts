@@ -34,9 +34,8 @@ Never run the PR's code with secrets in the environment. Note whether CI agrees.
 
 ## 3. Read what the checker can't
 
-- **Corrections:** for a sample (all, if under ~15), open the lecture at that
-  moment — `https://faurchive.com/lecture/<id>?at=<id>:<seconds>` — and list the
-  spots the maintainer should listen to. Flag any edit that *rewrites* rather than
+- **Corrections:** for a sample (all, if under ~15), list each changed cue's
+  lecture id and start time — the spots the maintainer should listen to. Flag any edit that *rewrites* rather than
   *corrects*: smoothed grammar, inserted words he didn't say, a modernised
   spelling against the glossary.
 - **Spelling:** every `style/translit` warning — is it the audio, or a habit?

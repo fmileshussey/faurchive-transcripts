@@ -10,15 +10,14 @@
  *
  *   normalize()        transliteration normaliser — used on both indexed text
  *                      and the query so near-variants collide even
- *                      off-dictionary. (faurchive's backend has a dead copy in
- *                      backend/src/normalize.ts; nothing imports it.)
+ *                      off-dictionary.
  *   termHelpers(terms) synonymsMap / canonicalize / replacements bound to one
  *                      glossary, so nothing here reads a file at import time
  *   termsProblems()    the glossary's invariants, as a list of problems —
  *                      shared by `bun run check` and tools/terms.test.ts
  *
- * The faurchive pipeline's data/pipeline/terms.ts loads the glossary from the
- * staging worktree and re-exports these, bound to it.
+ * Downstream tools import these and bind them to a glossary of their choosing
+ * with loadTerms() + termHelpers().
  */
 import { readFileSync } from "fs";
 

@@ -1,12 +1,12 @@
 ---
 name: apply-correction
-description: Apply reader suggestions filed from faurchive.com as `correction` issues — line corrections to a transcript, metadata corrections to catalog.json, suggested references to citations.json — one commit per issue on staging.
+description: Apply reader suggestions filed as `correction` issues — line corrections to a transcript, metadata corrections to catalog.json, suggested references to citations.json — one commit per issue on staging.
 argument-hint: "<issue #> [<issue #> …]  |  (empty = list open `correction` issues)"
 allowed-tools: Bash(gh issue *), Bash(git *), Bash(bun run *), Bash(grep *), Read, Edit, Grep, Glob
 ---
 
-Apply reader suggestions that faurchive.com's backend filed in this repository
-(`POST /api/v1/suggestion`). Read AGENTS.md first; its hard rules apply.
+Apply reader suggestions filed automatically in this repository as issues
+labelled `correction`. Read AGENTS.md first; its hard rules apply.
 
 ## Input
 
@@ -37,7 +37,7 @@ reconcile — or stop and report if they conflict.
 - **Body** opens with `**Lecture:** \`<lectureId>\``, possibly followed by
   `> ⚠️ lectureId not found in the current index` (then check the catalog; if the
   id truly doesn't exist, stop and report). It ends with a hidden
-  `<!-- faurchive-group:… -->` marker and an "Anonymous reader submission" line
+  `<!-- …-group:… -->` grouping marker and an "Anonymous reader submission" line
   — ignore both.
 - **Each suggestion** (in the body, and as each comment) starts with a heading:
   - `### line correction · <ISO time>`
@@ -111,7 +111,7 @@ Add to **`citations.json`** under the lecture id:
    - `citation: <lectureId> — <ref> (Fixes #N)` — a reference only
 4. `gh issue comment <N> --body "Applied on \`staging\` in <sha>."` Leave the issue
    open unless told to close it.
-5. **Maintainer's machine only:** if the faurchive pipeline sits beside this
+5. **Maintainer's machine only:** if the maintainer's pipeline sits beside this
    repo (`../data/pipeline`), re-index the changed transcript from there:
    `bun run index-vtt.ts <abs path to .vtt> --source <Collection/Subject/name>`,
    then `bun run explore.ts`. If Meilisearch is down or the pipeline isn't there,

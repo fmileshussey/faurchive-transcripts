@@ -6,8 +6,7 @@ citations that make them usable, and the tooling that keeps them consistent.
 
 The corpus is maintained in the open so that people who knew his teaching, study
 it, or simply listen carefully can correct it, extend it, and build their own
-research on it. It is also the text behind **[faurchive.com](https://faurchive.com)**,
-a full-text search over the lectures with the audio alongside.
+research on it.
 
 |  |  |
 | --- | --- |
@@ -50,7 +49,7 @@ open a pull request against `staging`.
 ## How the corpus moves
 
 ```
-your branch ──PR──▶ staging ──promote──▶ main ──▶ faurchive.com
+your branch ──PR──▶ staging ──promote──▶ main
 ```
 
 - **`staging`** takes every contribution. Pull requests target it.
@@ -58,10 +57,8 @@ your branch ──PR──▶ staging ──promote──▶ main ──▶ faur
   fast-forwarding it to `staging` once the regression checks pass; each
   publication is tagged `live-YYYYMMDD-HHMM`.
 
-How faurchive.com uses the corpus: its pipeline reads `main`, splits each
-transcript into passages, joins them to `catalog.json`, expands `terms.json` into
-search synonyms, and serves the audio from its own archive. None of that lives
-here — this repository is the text and the rules for the text.
+This repository is the text and the rules for the text. Anything built on it —
+search, indexing, audio — reads `main` and lives elsewhere.
 
 ## Governance
 

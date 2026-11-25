@@ -29,7 +29,7 @@ Transcripts the grader did not pass, keyed by path under `transcripts/` without
 { "Gemara/Megillah/masekhet-megilla-10b-11-15-94": "flag" }
 ```
 
-- **flag** — degraded but usable; faurchive.com shows a notice.
+- **flag** — degraded but usable; readers should be shown a notice.
 - **fail** — the best attempt still failed; published anyway, with a stronger
   notice, because a flawed transcript a reader is warned about is better than
   none.

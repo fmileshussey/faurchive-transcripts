@@ -1,7 +1,7 @@
 /**
  * Shared WebVTT parse/serialize — the one place cue text crosses the
- * plain-text boundary. This repo is its home: the faurchive pipeline
- * (`data/pipeline/vtt.ts`) re-exports it, so there is one parser, not two.
+ * plain-text boundary. This repo is its home: downstream tools re-export it,
+ * so there is one parser, not two.
  * The format it reads is specified in docs/FORMAT.md.
  *
  * History: Brittle Cues migration, phase 2 — replaced six
