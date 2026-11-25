@@ -1,0 +1,26 @@
+name: promote-guard
+
+# `main` is what faurchive.com publishes, and it only ever moves to `staging`.
+# A PR into main from anywhere else is a mistake — usually a contributor who
+# meant to target staging. Fail it with a message that says so.
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, edited]
+
+permissions: {}
+
+jobs:
+  from-staging:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Only staging may be promoted to main
+        env:
+          HEAD_REPO: ${{ github.event.pull_request.head.repo.full_name }}
+          HEAD_REF: ${{ github.head_ref }}
+          THIS_REPO: ${{ github.repository }}
+        run: |
+          if [ "$HEAD_REPO" != "$THIS_REPO" ] || [ "$HEAD_REF" != "staging" ]; then
+            echo "::error::Pull requests go to 'staging', not 'main'. Edit this PR and change its base branch to staging (see CONTRIBUTING.md)."
+            exit 1
+          fi

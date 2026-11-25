@@ -1,0 +1,38 @@
+name: New transcript
+description: Claim a catalogued lecture to transcribe, or tell us about a recording that isn't catalogued.
+title: "[new transcript] "
+labels: [new-transcript]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lectures still to transcribe are the rows in `catalog.json` with `"transcribed": false`.
+        Claiming one here stops two people doing the same work. The maintainer will reply with access to the audio.
+  - type: input
+    id: lecture
+    attributes:
+      label: Catalog id
+      description: The `id` from catalog.json — or leave empty if the recording isn't catalogued.
+      placeholder: berakhot-35b
+  - type: textarea
+    id: recording
+    attributes:
+      label: About the recording
+      description: For an uncatalogued recording — where it comes from, its length, date and subject if known, and whether you have the rights to share it.
+  - type: dropdown
+    id: how
+    attributes:
+      label: How will you produce it?
+      options:
+        - By hand, listening
+        - Speech recognition, then corrected by listening
+        - Speech recognition only (needs listening before merge)
+    validations:
+      required: true
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Format
+      options:
+        - label: I've read docs/FORMAT.md — one line per cue, no cue ids, `[inaudible]` for what I can't hear
+          required: true

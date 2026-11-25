@@ -1,0 +1,26 @@
+name: Research proposal
+description: Propose a project to live under research/.
+title: "[research] "
+labels: [research]
+body:
+  - type: markdown
+    attributes:
+      value: See research/README.md for what a project folder must carry and what belongs there.
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What are you trying to find out or make?
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Method and outputs
+      description: How, and what files the project would add (kinds and rough size).
+    validations:
+      required: true
+  - type: input
+    id: who
+    attributes:
+      label: Author(s) and how to credit them
