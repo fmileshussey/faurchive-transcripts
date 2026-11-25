@@ -89,8 +89,8 @@ Glossary changes are applied across the corpus by the maintainer after merge.
 ### 5. A new transcript
 
 Most of the lectures still to be transcribed **aren't catalogued yet** — the
-corpus began from the recordings on YUTorah, and archives such as Yafe Beito
-hold many more. Open a "New transcript" issue first, naming the recording, so
+corpus began from the recordings on YUTorah, and other archives and private
+collections hold many more. Open a "New transcript" issue first, naming the recording, so
 two people don't take the same one. Then:
 
 **a. If the lecture isn't in `catalog.json`, catalogue it** — add a row that says
@@ -98,19 +98,19 @@ where the recording comes from, with whatever you know:
 
 ```json
 {
-  "id": "yb-1192-hanukka",
+  "id": "tc-1192-hanukka",
   "title": "Ḥanukkā",
   "collection": "Festivals",
   "sub": "Ḥanukkā",
   "date": "1980-12-01",
   "year": 1980,
   "durationSec": 5628,
-  "sourcePath": "Moadim UZmanim/Hanukka/yb-1192-hanukka.mp3",
+  "sourcePath": "Moadim UZmanim/Hanukka/tc-1192-hanukka.mp3",
   "transcribed": true,
   "source": {
-    "archive": "Yafe Beito",
+    "archive": "Tape collection",
     "ref": "1192",
-    "url": "https://yafebeito.s3.amazonaws.com/classes/1192.mp3"
+    "url": "https://example.org/recordings/1192.mp3"
   }
 }
 ```
@@ -121,7 +121,7 @@ where the recording comes from, with whatever you know:
   have. One recording can only be catalogued once: the checker refuses a second
   row with the same `archive` and `ref`.
 - **`id`** is the file name, and is permanent. Name it
-  `<archive>-<their number>-<a few words>` in lowercase ASCII — `yb-1192-hanukka`.
+  `<archive>-<their number>-<a few words>` in lowercase ASCII — `tc-1192-hanukka`.
 - **`sourcePath`** places it in the tree: pick the existing collection and subject
   folder that fits (`Gemara/Berachot/`, `Personalities/Rambam/`, …) — or a new
   subject folder — and end it with your id and the audio's extension. The

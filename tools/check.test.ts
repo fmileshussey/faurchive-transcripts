@@ -189,7 +189,7 @@ describe("the diff", () => {
   const external = (id: string, extra: Record<string, unknown> = {}) => ({
     id, title: "Hanukka", collection: "Festivals", sub: "Hanukka", date: "1980-12-01", year: 1980,
     durationSec: null, sourcePath: `Moadim/Hanukka/${id}.mp3`, transcribed: true,
-    source: { archive: "Yafe Beito", ref: "1192", url: "https://example.org/classes/1192.mp3" },
+    source: { archive: "Tape collection", ref: "1192", url: "https://example.org/recordings/1192.mp3" },
     ...extra,
   });
   const addRow = (r: string, row: object) =>
@@ -201,42 +201,42 @@ describe("the diff", () => {
 
   test("a new external recording with its transcript passes", async () => {
     const r = corpus();
-    addRow(r, external("yb-1192-hanukka"));
-    addVtt(r, "transcripts/Moadim/Hanukka/yb-1192-hanukka.vtt");
+    addRow(r, external("tc-1192-hanukka"));
+    addVtt(r, "transcripts/Moadim/Hanukka/tc-1192-hanukka.vtt");
     expect(errs(await run(r, "base"))).toEqual([]);
   });
 
   test("a new external recording can be catalogued before anyone transcribes it", async () => {
     const r = corpus();
-    addRow(r, external("yb-1192-hanukka", { transcribed: false }));
+    addRow(r, external("tc-1192-hanukka", { transcribed: false }));
     expect(errs(await run(r, "base"))).toEqual([]);
   });
 
   test("a new row without source is refused", async () => {
     const r = corpus();
-    const { source, ...row } = external("yb-1192-hanukka");
+    const { source, ...row } = external("tc-1192-hanukka");
     addRow(r, row);
-    addVtt(r, "transcripts/Moadim/Hanukka/yb-1192-hanukka.vtt");
+    addVtt(r, "transcripts/Moadim/Hanukka/tc-1192-hanukka.vtt");
     expect(errs(await run(r, "base"))).toContain("diff/catalog-new");
   });
 
   test("an external row's id must be its file name", async () => {
     const r = corpus();
-    addRow(r, { ...external("yb-1192-hanukka"), id: "hanukka-1980" });
-    addVtt(r, "transcripts/Moadim/Hanukka/yb-1192-hanukka.vtt");
+    addRow(r, { ...external("tc-1192-hanukka"), id: "hanukka-1980" });
+    addVtt(r, "transcripts/Moadim/Hanukka/tc-1192-hanukka.vtt");
     expect(errs(await run(r, "base"))).toContain("catalog/external-id");
   });
 
   test("one external recording can't be catalogued twice", async () => {
     const r = corpus();
-    addRow(r, external("yb-1192-hanukka", { transcribed: false }));
-    addRow(r, external("yb-1192-hanukka-copy", { transcribed: false }));
+    addRow(r, external("tc-1192-hanukka", { transcribed: false }));
+    addRow(r, external("tc-1192-hanukka-copy", { transcribed: false }));
     expect(errs(await run(r, "base"))).toContain("catalog/source-duplicate");
   });
 
   test("an external row's source can't be removed later, but its duration can change", async () => {
     const r = corpus();
-    addRow(r, external("yb-1192-hanukka", { transcribed: false }));
+    addRow(r, external("tc-1192-hanukka", { transcribed: false }));
     const git = (...a: string[]) => Bun.spawnSync(["git", "-c", "user.email=t@example.com", "-c", "user.name=t", ...a], { cwd: r });
     git("commit", "-qam", "catalogue it");
     git("branch", "-f", "base");
@@ -252,7 +252,7 @@ describe("the diff", () => {
     const git = (...a: string[]) => Bun.spawnSync(["git", "-c", "user.email=t@example.com", "-c", "user.name=t", ...a], { cwd: r });
     git("commit", "-qam", "date it");
     git("branch", "-f", "base");
-    addRow(r, external("yb-1192-hanukka", { transcribed: false }));
+    addRow(r, external("tc-1192-hanukka", { transcribed: false }));
     const fs = await run(r, "base");
     expect(errs(fs)).toEqual([]);
     expect(fs.some((f) => f.rule === "diff/catalog-maybe-duplicate")).toBe(true);

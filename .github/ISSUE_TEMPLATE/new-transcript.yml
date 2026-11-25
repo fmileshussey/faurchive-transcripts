@@ -1,5 +1,5 @@
 name: New transcript
-description: Claim a lecture to transcribe — one already catalogued, or a recording held elsewhere (Yafe Beito, a tape, another site).
+description: Claim a lecture to transcribe — one already catalogued, or a recording held elsewhere (another archive, a private tape, another site).
 title: "[new transcript] "
 labels: [new-transcript]
 body:
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Otherwise, where the recording is
       description: The archive and its number for it, and a link if there is one.
-      placeholder: Yafe Beito 1192 — https://yafebeito.s3.amazonaws.com/classes/1192.mp3
+      placeholder: Tape collection 1192 — https://example.org/recordings/1192.mp3
   - type: textarea
     id: about
     attributes:

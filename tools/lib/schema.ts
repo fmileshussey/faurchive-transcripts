@@ -19,7 +19,7 @@ const IsoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
  */
 export const Source = z
   .object({
-    /** the collection it is held in, e.g. "Yafe Beito", "YUTorah" */
+    /** the collection it is held in, e.g. "YUTorah", or a private tape collection */
     archive: z.string().min(1).optional(),
     /** that collection's own identifier — a tape number, a shiur id */
     ref: z.string().min(1).optional(),

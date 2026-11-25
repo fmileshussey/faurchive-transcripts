@@ -9,8 +9,8 @@ A row is one of two kinds:
 - **an archive recording** — one the maintainer holds the audio for. Most of
   the first 240 came from YUTorah. The maintainer's pipeline adds these rows
   and measures them;
-- **an external recording** — one held somewhere else (Yafe Beito, a private
-  tape, another site), catalogued by a contributor. It carries a **`source`**
+- **an external recording** — one held somewhere else (another archive, a
+  private tape, another site), catalogued by a contributor. It carries a **`source`**
   saying where it comes from. Most of what is still to be transcribed is this
   kind.
 
@@ -30,19 +30,19 @@ A row is one of two kinds:
 
 ```json
 {
-  "id": "yb-1192-hanukka",
+  "id": "tc-1192-hanukka",
   "title": "Ḥanukkā",
   "collection": "Festivals",
   "sub": "Ḥanukkā",
   "date": "1980-12-01",
   "year": 1980,
   "durationSec": 5628,
-  "sourcePath": "Moadim UZmanim/Hanukka/yb-1192-hanukka.mp3",
+  "sourcePath": "Moadim UZmanim/Hanukka/tc-1192-hanukka.mp3",
   "transcribed": false,
   "source": {
-    "archive": "Yafe Beito",
+    "archive": "Tape collection",
     "ref": "1192",
-    "url": "https://yafebeito.s3.amazonaws.com/classes/1192.mp3"
+    "url": "https://example.org/recordings/1192.mp3"
   }
 }
 ```
@@ -73,7 +73,7 @@ be corrected forever, the id stays.
   `berakhot-34b-5-29-94`.
 - **External recordings:** the id *is* the file name, chosen by whoever
   catalogues it: `<archive>-<their number>-<a few words>`, e.g.
-  `yb-1192-hanukka`. The checker enforces that the two match.
+  `tc-1192-hanukka`. The checker enforces that the two match.
 
 ## How a transcript finds its row
 
