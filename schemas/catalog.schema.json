@@ -44,8 +44,15 @@
         ]
       },
       "durationSec": {
-        "type": "number",
-        "minimum": 0
+        "anyOf": [
+          {
+            "type": "number",
+            "minimum": 0
+          },
+          {
+            "type": "null"
+          }
+        ]
       },
       "sourcePath": {
         "type": "string",
@@ -53,6 +60,32 @@
       },
       "transcribed": {
         "type": "boolean"
+      },
+      "source": {
+        "type": "object",
+        "properties": {
+          "archive": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ref": {
+            "type": "string",
+            "minLength": 1
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "recordedBy": {
+            "type": "string",
+            "minLength": 1
+          },
+          "notes": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
       }
     },
     "required": [

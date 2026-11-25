@@ -19,7 +19,7 @@ research on it.
 | Path | What it is | Who writes it |
 | --- | --- | --- |
 | `transcripts/<Collection>/<Subject>/<name>.vtt` | The corrected transcripts, one WebVTT file per lecture — [format](docs/FORMAT.md) | everyone, by pull request |
-| `catalog.json` | One row per recording: id, title, collection, subject, date, duration — [catalog](docs/CATALOG.md) | everyone (descriptive fields); maintainer (new rows) |
+| `catalog.json` | One row per recording: id, title, collection, subject, date, duration — [catalog](docs/CATALOG.md) | everyone — new rows for recordings held elsewhere, and every descriptive field |
 | `terms.json` | The glossary: his spelling of every recurring Hebrew term, and the variants that fold into it — [glossary](docs/GLOSSARY.md) | everyone, by pull request |
 | `citations.json` | Lines where he quotes or names a source — [citations](docs/CITATIONS.md) | everyone, by pull request |
 | `verified.json` | Cues a person has checked against the audio — [quality](docs/QUALITY.md) | maintainer |

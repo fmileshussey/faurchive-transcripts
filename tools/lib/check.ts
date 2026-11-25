@@ -113,6 +113,23 @@ export async function runChecks(opts: Options): Promise<Finding[]> {
     if (byVtt.has(v)) add("error", "catalog/duplicate-source", "catalog.json", `sourcePath "${e.sourcePath}" appears twice`);
     byVtt.set(v, e);
   }
+  // Externally held recordings: identity is kept simple — the id is the file
+  // name — and one recording can't be catalogued twice.
+  const byRef = new Map<string, string>();
+  for (const e of catalog) {
+    if (!e.source) continue;
+    const stem = basename(e.sourcePath).replace(/\.[^.]+$/, "");
+    if (stem !== e.id)
+      add("error", "catalog/external-id", "catalog.json", `"${e.id}": for a recording with "source", the id must equal the file name in sourcePath ("${stem}")`);
+    if (!Object.keys(e.source).length)
+      add("warn", "catalog/source-empty", "catalog.json", `"${e.id}": "source" is empty — anything you know about where the recording comes from helps`);
+    if (e.source.archive && e.source.ref) {
+      const key = `${e.source.archive.toLowerCase()}|${e.source.ref}`;
+      const other = byRef.get(key);
+      if (other) add("error", "catalog/source-duplicate", "catalog.json", `"${e.id}" and "${other}" are both ${e.source.archive} ${e.source.ref}`);
+      byRef.set(key, e.id);
+    }
+  }
 
   // ---- transcripts ----------------------------------------------------------
   const tdir = join(root, "transcripts");
@@ -316,16 +333,30 @@ function catalogDiff(
   let old: any[];
   try { old = JSON.parse(before.out); } catch { return; }
   const oldIds = new Set(old.map((e) => e.id));
-  for (const id of now.keys())
-    if (!oldIds.has(id))
-      add("error", "diff/catalog-new", "catalog.json", `"${id}" is a new row: rows come from the maintainer's audio archive — open a "New transcript" issue for a recording that isn't catalogued`);
+  // A contributor can catalogue a recording the maintainer doesn't hold, by
+  // describing where it comes from. Without `source`, a row claims to be in
+  // the maintainer's audio archive — and the pipeline would drop it on its
+  // next catalog run, finding no audio behind it.
+  for (const [id, n] of now)
+    if (!oldIds.has(id) && !n.source)
+      add("error", "diff/catalog-new", "catalog.json", `"${id}" is a new row without "source": say where the recording comes from — whatever you know (archive, ref, url, recordedBy, notes) — docs/CATALOG.md`);
   for (const e of old) {
     const n = now.get(e.id);
     if (!n) add("error", "diff/catalog-id", "catalog.json", `id "${e.id}" was removed or renamed: published ids are permanent (docs/CATALOG.md)`);
     else if (n.sourcePath !== e.sourcePath)
-      add("error", "diff/catalog-source", "catalog.json", `"${e.id}": sourcePath is set by the maintainer's audio archive and doesn't change in a PR`);
-    else if (n.durationSec !== e.durationSec)
-      add("error", "diff/catalog-duration", "catalog.json", `"${e.id}": durationSec is measured from the audio and doesn't change in a PR`);
+      add("error", "diff/catalog-source", "catalog.json", `"${e.id}": sourcePath is the transcript's place in the tree and doesn't change in a PR`);
+    else if (e.source && !n.source)
+      add("error", "diff/catalog-source-removed", "catalog.json", `"${e.id}": "source" can be corrected but not removed — it is what keeps an externally held recording in the catalog`);
+    else if (!e.source && n.durationSec !== e.durationSec)
+      add("error", "diff/catalog-duration", "catalog.json", `"${e.id}": durationSec is measured from the maintainer's audio and doesn't change in a PR`);
+  }
+  // likely the same lecture catalogued twice: same subject, same known date
+  const seen = new Map<string, string>();
+  for (const e of old) if (e.date) seen.set(`${e.sub}|${e.date}`, e.id);
+  for (const [id, n] of now) {
+    if (oldIds.has(id) || !n.date) continue;
+    const other = seen.get(`${n.sub}|${n.date}`);
+    if (other) add("warn", "diff/catalog-maybe-duplicate", "catalog.json", `"${id}" has the same subject and date as "${other}" — is it the same lecture? If so, add a "source" to "${other}" instead`);
   }
 }
 

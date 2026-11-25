@@ -68,8 +68,9 @@ maintainer applies them.
 
 Fix a title, collection, subject, date or year in `catalog.json`. Titles follow
 the letter-for-letter scheme in [docs/TRANSLITERATION.md](docs/TRANSLITERATION.md)
-(register 1). Never change an `id`, a `sourcePath` or a `durationSec` — those
-come from the audio archive and are permanent ([docs/CATALOG.md](docs/CATALOG.md)).
+(register 1). Never change an `id` or a `sourcePath` — they are permanent — and
+don't change the `durationSec` of a row without a `source`: that was measured from
+the maintainer's audio ([docs/CATALOG.md](docs/CATALOG.md)).
 
 ### 3. Citations
 
@@ -87,8 +88,57 @@ Glossary changes are applied across the corpus by the maintainer after merge.
 
 ### 5. A new transcript
 
-Only for a lecture that is already in `catalog.json` with `"transcribed": false`
-(open a "New transcript" issue to claim it, and to get the audio). Then:
+Most of the lectures still to be transcribed **aren't catalogued yet** — the
+corpus began from the recordings on YUTorah, and archives such as Yafe Beito
+hold many more. Open a "New transcript" issue first, naming the recording, so
+two people don't take the same one. Then:
+
+**a. If the lecture isn't in `catalog.json`, catalogue it** — add a row that says
+where the recording comes from, with whatever you know:
+
+```json
+{
+  "id": "yb-1192-hanukka",
+  "title": "Ḥanukkā",
+  "collection": "Festivals",
+  "sub": "Ḥanukkā",
+  "date": "1980-12-01",
+  "year": 1980,
+  "durationSec": 5628,
+  "sourcePath": "Moadim UZmanim/Hanukka/yb-1192-hanukka.mp3",
+  "transcribed": true,
+  "source": {
+    "archive": "Yafe Beito",
+    "ref": "1192",
+    "url": "https://yafebeito.s3.amazonaws.com/classes/1192.mp3"
+  }
+}
+```
+
+- **`source`** is what makes this a contribution rather than a recording the
+  maintainer holds. Every field in it is optional — `archive`, `ref` (that
+  archive's own number for it), `url`, `recordedBy`, `notes` — but give what you
+  have. One recording can only be catalogued once: the checker refuses a second
+  row with the same `archive` and `ref`.
+- **`id`** is the file name, and is permanent. Name it
+  `<archive>-<their number>-<a few words>` in lowercase ASCII — `yb-1192-hanukka`.
+- **`sourcePath`** places it in the tree: pick the existing collection and subject
+  folder that fits (`Gemara/Berachot/`, `Personalities/Rambam/`, …) — or a new
+  subject folder — and end it with your id and the audio's extension. The
+  transcript goes at the same path with `.vtt`.
+- **`durationSec`** is the recording's length, or `null` if you don't know it.
+- **`date`** / **`year`**: `null` when unknown. Put how you dated it, or any doubt,
+  in `source.notes`.
+- Before adding a row, search the catalog for the same lecture under another
+  name — the checker warns when a new row shares a subject and date with an
+  existing one. If it's the same lecture, add a `source` to the existing row
+  instead of a new row.
+
+You can also catalogue a recording without transcribing it (`"transcribed":
+false`), so someone else can pick it up.
+
+**b. Then the transcript itself** — for your new row, or for an existing row with
+`"transcribed": false`:
 
 - put it at `transcripts/<path>.vtt`, where `<path>` is the row's `sourcePath`
   with the extension swapped for `.vtt`;
@@ -97,9 +147,6 @@ Only for a lecture that is already in `catalog.json` with `"transcribed": false`
   pull requests can never claim the same id;
 - follow [docs/FORMAT.md](docs/FORMAT.md): one line of text per cue, a blank
   line between cues, timings that never run backwards.
-
-A recording that isn't catalogued at all — open an issue; new catalog rows come
-from the audio archive.
 
 ### 6. Research
 
@@ -141,6 +188,8 @@ block the merge; warnings don't.**
 - `[inaudible]` is the only bracketed marker.
 - Cue ids are `cue` + 7 digits and unique across the whole corpus.
 - Every transcript has a catalog row, and `transcribed` agrees with what exists.
+- A row with a `source` has an id equal to its file name, and no two rows name
+  the same `archive` + `ref`.
 - Everything `verified.json`, `citations.json` and `quality.json` point at exists.
 - The five JSON files match their schemas (`schemas/`), and the glossary holds
   its invariants (no variant deletes a word, no form claimed by two terms).
@@ -153,8 +202,10 @@ block the merge; warnings don't.**
   label lifts the timing rules).
 - No cue ids in a new transcript.
 - No changes to `raw/`, `verified.json` or `quality.json`.
-- No transcript removed or renamed; no catalog id, `sourcePath` or `durationSec`
-  changed; no new catalog rows.
+- No transcript removed or renamed; no catalog id or `sourcePath` changed; no
+  `durationSec` changed on a row without a `source`; no `source` removed.
+- A new catalog row must have a `source`. *Warning:* it shares a subject and date
+  with an existing row (a possible duplicate).
 - *Warning:* a word in text you wrote has a different house spelling.
 - *Warning:* the speech-recognition grader thinks a new or changed transcript
   has failed (a loop, a flood of one word, truncation).

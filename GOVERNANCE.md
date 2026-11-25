@@ -26,7 +26,8 @@ for the standard to drift between reviewers.
 | --- | --- |
 | text inside a cue | a cue's timing, its id, adding or removing cues |
 | a new transcript of a catalogued lecture (without cue ids) | numbering cues, moving or renaming a transcript |
-| descriptive catalog fields: title, collection, sub, date, year | new catalog rows, `id`, `sourcePath`, `durationSec` |
+| descriptive catalog fields: title, collection, sub, date, year | `id` and `sourcePath` once published |
+| new catalog rows for recordings held elsewhere (with a `source`), and their `durationSec` | rows for the maintainer's own audio archive, and their `durationSec` |
 | `terms.json` entries | applying a glossary change across the corpus |
 | `citations.json` entries | `verified.json` (cues checked against the audio) |
 | `research/`, `docs/`, `tools/` | `quality.json`, `raw/`, `duplicates/` |

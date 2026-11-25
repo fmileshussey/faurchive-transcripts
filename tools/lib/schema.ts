@@ -12,6 +12,26 @@ export const LectureId = z.string().regex(/^[A-Za-z0-9_-]+$/).max(128);
 export const CueId = z.string().regex(/^cue\d{7}$/);
 const IsoDate = z.string().regex(/^\d{4}-\d{2}-\d{2}$/);
 
+/**
+ * Where an externally held recording comes from — whatever the contributor
+ * knows, all of it optional. Its presence is what marks a row as a recording
+ * outside the maintainer's audio archive (docs/CATALOG.md).
+ */
+export const Source = z
+  .object({
+    /** the collection it is held in, e.g. "Yafe Beito", "YUTorah" */
+    archive: z.string().min(1).optional(),
+    /** that collection's own identifier — a tape number, a shiur id */
+    ref: z.string().min(1).optional(),
+    /** where the audio can be heard or fetched */
+    url: z.string().url().optional(),
+    /** who recorded it, or who held the tape */
+    recordedBy: z.string().min(1).optional(),
+    /** anything else: how the date was worked out, the tape's condition, … */
+    notes: z.string().min(1).optional(),
+  })
+  .strict();
+
 export const CatalogEntry = z
   .object({
     id: LectureId,
@@ -20,11 +40,14 @@ export const CatalogEntry = z
     sub: z.string(),
     date: IsoDate.nullable(),
     year: z.number().int().min(1900).max(2100).nullable(),
-    durationSec: z.number().nonnegative(),
-    /** where the recording sits in the audio archive; with the extension
+    /** length of the recording; null when nobody knows it */
+    durationSec: z.number().nonnegative().nullable(),
+    /** the recording's path, relative to its archive; with the extension
      *  swapped for .vtt it is the transcript's path under transcripts/ */
     sourcePath: z.string().regex(/^[^/].*\.[A-Za-z0-9]+$/),
     transcribed: z.boolean(),
+    /** present only for a recording outside the maintainer's audio archive */
+    source: Source.optional(),
   })
   .strict();
 export const Catalog = z.array(CatalogEntry);
