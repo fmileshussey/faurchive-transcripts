@@ -44,7 +44,11 @@ silence them.
 3. **Never write a cue id.** New transcripts carry none; the maintainer numbers
    cues after merge. Never invent or renumber one.
 4. **Never edit** `raw/`, `duplicates/`, `verified.json`, `quality.json`, or a
-   catalog row's `id`, `sourcePath` or `durationSec`. Never add a catalog row.
+   catalog row's `id` or `sourcePath`, or the `durationSec` of a row without a
+   `source`. A **new** catalog row is allowed only for a recording held outside
+   the maintainer's archive: it must carry a `source` (docs/CATALOG.md), its id
+   must equal its file name, and you must first search the catalog for the same
+   lecture under another title — if it's there, add a `source` to that row instead.
 5. **Never commit to `main`.** Branch from `staging`; PRs target `staging`.
 6. **Don't guess.** If you cannot tell what was said, write `[inaudible]` — the
    only bracketed marker allowed. If a correction can't be matched to a cue with

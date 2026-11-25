@@ -1,24 +1,30 @@
 name: New transcript
-description: Claim a catalogued lecture to transcribe, or tell us about a recording that isn't catalogued.
+description: Claim a lecture to transcribe — one already catalogued, or a recording held elsewhere (another archive, a private tape, another site).
 title: "[new transcript] "
 labels: [new-transcript]
 body:
   - type: markdown
     attributes:
       value: |
-        Lectures still to transcribe are the rows in `catalog.json` with `"transcribed": false`.
-        Claiming one here stops two people doing the same work. The maintainer will reply with access to the audio.
+        Claiming a lecture here stops two people doing the same work.
+        Catalogued lectures still to transcribe are the rows in `catalog.json` with `"transcribed": false`.
+        A recording that isn't catalogued yet you catalogue yourself, in the same pull request as the transcript — see CONTRIBUTING.md §5.
   - type: input
     id: lecture
     attributes:
-      label: Catalog id
-      description: The `id` from catalog.json — or leave empty if the recording isn't catalogued.
-      placeholder: berakhot-35b
-  - type: textarea
-    id: recording
+      label: Catalog id, if it's already catalogued
+      placeholder: aboda-zara-7-11-10
+  - type: input
+    id: source
     attributes:
-      label: About the recording
-      description: For an uncatalogued recording — where it comes from, its length, date and subject if known, and whether you have the rights to share it.
+      label: Otherwise, where the recording is
+      description: The archive and its number for it, and a link if there is one.
+      placeholder: Tape collection 1192 — https://example.org/recordings/1192.mp3
+  - type: textarea
+    id: about
+    attributes:
+      label: Anything else you know
+      description: Title, date (and how you know it), subject, length, who recorded it.
   - type: dropdown
     id: how
     attributes:
@@ -35,4 +41,6 @@ body:
       label: Format
       options:
         - label: I've read docs/FORMAT.md — one line per cue, no cue ids, `[inaudible]` for what I can't hear
+          required: true
+        - label: I searched the catalog for this lecture under other titles
           required: true
