@@ -1,5 +1,7 @@
-# The .vtt transcripts and the two .json metadata files ARE the payload — keep them.
+# Everything tracked here is the payload: transcripts/, raw/, duplicates/,
+# research/, the five root .json files, and the tooling that checks them.
 # This ignores only local cruft.
 .DS_Store
 *.swp
 *~
+node_modules/

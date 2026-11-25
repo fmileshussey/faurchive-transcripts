@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "_note": {
+      "type": "string"
+    },
+    "terms": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "canonical": {
+            "type": "string",
+            "minLength": 1
+          },
+          "type": {
+            "type": "string",
+            "enum": [
+              "concept",
+              "text",
+              "parsha",
+              "sage",
+              "tractate",
+              "figure",
+              "practice",
+              "place",
+              "holiday",
+              "people"
+            ]
+          },
+          "translit": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "en": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "he": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "canonical",
+          "type",
+          "translit",
+          "en",
+          "he"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "terms"
+  ],
+  "additionalProperties": false,
+  "title": "terms.json"
+}

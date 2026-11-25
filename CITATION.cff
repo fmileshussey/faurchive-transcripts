@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  If you use these transcripts or data in your work, please cite them as below,
+  and name the commit or live-* tag you worked from.
+type: dataset
+title: "José Faur Transcription Project"
+abstract: >-
+  Corrected transcripts of the recorded lectures of Ḥakham José Faur
+  (1977–2013), with a lecture catalog, a transliteration glossary and source
+  citations.
+authors:
+  - name: "The José Faur Transcription Project contributors"
+repository-code: "https://github.com/fmileshussey/jose-faur-transcription-project"
+license: CC-BY-NC-SA-4.0
+keywords:
+  - José Faur
+  - Talmud
+  - Sephardic
+  - transcripts
+  - Jewish thought

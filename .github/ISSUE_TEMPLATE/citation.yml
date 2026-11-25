@@ -1,0 +1,30 @@
+name: Citation
+description: A line where he quotes or names a source you recognise.
+title: "[citation] "
+labels: [citation]
+body:
+  - type: input
+    id: lecture
+    attributes:
+      label: Lecture id and time
+      placeholder: bereshit-march-1989 @ 0:12:40
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Kind
+      options: [Miqra (Tanakh), Mishna, Gemara, Other, Not sure]
+    validations:
+      required: true
+  - type: input
+    id: ref
+    attributes:
+      label: Reference
+      placeholder: Bĕrēʾshith 1:1
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: What he does with it (optional)

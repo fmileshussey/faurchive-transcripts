@@ -1,0 +1,11 @@
+{
+  "json.schemas": [
+    { "fileMatch": ["/catalog.json"], "url": "./schemas/catalog.schema.json" },
+    { "fileMatch": ["/terms.json"], "url": "./schemas/terms.schema.json" },
+    { "fileMatch": ["/citations.json"], "url": "./schemas/citations.schema.json" },
+    { "fileMatch": ["/quality.json"], "url": "./schemas/quality.schema.json" },
+    { "fileMatch": ["/verified.json"], "url": "./schemas/verified.schema.json" }
+  ],
+  "files.eol": "\n",
+  "files.insertFinalNewline": true
+}

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "propertyNames": {
+    "type": "string",
+    "maxLength": 128,
+    "pattern": "^[A-Za-z0-9_-]+$"
+  },
+  "additionalProperties": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "cueId": {
+          "type": "string",
+          "pattern": "^cue\\d{7}$"
+        },
+        "kind": {
+          "type": "string",
+          "enum": [
+            "miqra",
+            "mishna",
+            "gemara",
+            "other"
+          ]
+        },
+        "ref": {
+          "type": "string",
+          "minLength": 1
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "cueId",
+        "kind",
+        "ref"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "title": "citations.json"
+}
